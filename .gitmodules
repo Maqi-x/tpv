@@ -1,0 +1,6 @@
+[submodule "external/nob"]
+	path = external/nob
+	url = https://github.com/tsoding/nob.h.git
+[submodule "external/incbin"]
+	path = external/incbin
+	url = https://github.com/graphitemaster/incbin.git
