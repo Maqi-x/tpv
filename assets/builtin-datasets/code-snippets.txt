@@ -1,0 +1,5605 @@
+print("Hello!")
+int x = 1, y = 2;
+while (x < 5) { x++; }
+std::vector<std::string> words = {};
+public void start() { console.log("Program started"); }
+let total = arr.reduce((sum, num) => sum + num, 0);
+axios.get('https://api.example.com/data')
+puts "Process complete!"
+z = 100
+array = [1, 2, 3]
+def multiply(a, b) return a * b end
+begin puts "Loading..." rescue => e puts "Error: #{e.message}" end
+lambda { |a, b| a + b }
+class Dog; def bark; "Woof!"; end; end
+for i in 1..10 do puts "Step #{i}" end
+Console.WriteLine("Initialization...");
+int a = 10, b = 5, result;
+result = a * b;
+var customer = new { Name = "Alice", Age = 28 };
+fmt.Println("Starting application!")
+var n int = 42
+numbers := []int{10, 20, 30}
+type Product struct { Name string; Price float64 }
+defer fmt.Println("Cleanup")
+if err == nil { fmt.Println("Everything's good") }
+func main() { fmt.Println("Main entry point") }
+print("Hello, Universe!")
+var x = "Hello, World!"
+val items = mutableListOf(1, 2, 3, 4)
+fun divide(a: Int, b: Int): Int = a / b
+val job = GlobalScope.launch { println("Async job started!") }
+data class Employee(val name: String, val id: Int)
+if (a > b) { println("a is greater") }
+console.log("Start execution!")
+let name: string = "John Doe"
+const numbersArray: number[] = [1, 2, 3, 4]
+function add(a: number, b: number): number { return a + b; }
+interface Person { name: string; age: number; }
+try { let z = 0 / 0; } catch (e) { console.error("Oops, division by zero!", e); }
+echo "Starting process..."
+$a = 50;
+$people = ["Alice", "Bob", "Charlie"];
+function greet($name) { return "Hello, $name"; }
+$user = ['username' => 'admin', 'password' => '1234'];
+print "Task completed!\n";
+$a = 200;
+my @data = (5, 10, 15, 20);
+sub add { my ($a, $b) = @_; return $a + $b; }
+eval { $a = 200 / 0; } or print "Error: Can't divide by zero\n";
+my %user = (name => 'Eve', role => 'Admin');
+println!("Process finished!");
+let a = 1, b = 100;
+let vec = vec![2, 4, 6];
+struct Movie { title: String, year: u32 }
+if a != b { println!("Values are not equal"); }
+Result::Ok("Operation successful")
+echo "End of program!"
+i=1
+arr=(1 2 3 4 5 6)
+for j in {1..15}; do echo "Iteration $j"; done
+if [ $i -gt 0 ]; then echo "i is positive"; fi
+cat /var/log/syslog
+function displayMessage() { echo "Message: $1"; }
+puts "Starting calculations..."
+let num = 42;
+const data = { key1: "value1", key2: "value2" };
+function subtract(x, y) { return x - y; }
+val result = add(3, 4);
+interface Car { model: string; year: number; price: number; }
+echo "Operation in progress..."
+$a = 12;
+$numbers = [10, 20, 30];
+function subtract($a, $b) { return $a - $b; }
+$person = ['name' => 'Tom', 'age' => 33];
+print "Calculation finished\n";
+$x = 1000;
+my @list = (2, 4, 6, 8);
+sub divide { my ($x, $y) = @_; return $x / $y; }
+eval { $x = 10 / 2; } or print "Error: Division failed\n";
+my %product = (name => 'Smartphone', price => 800);
+println!("Task completed!");
+let a = 1, b = 5;
+let arr = vec![10, 20, 30];
+struct Laptop { brand: String, model: String }
+if a == b { println!("a and b are equal") }
+Result::Err("Something went wrong")
+echo "Program ending..."
+n=50
+arr=(10 20 30 40)
+for i in {1..20}; do echo "Running iteration $i"; done
+if [ $n -le 50 ]; then echo "n is 50 or less"; fi
+cat /etc/hostname
+function debug() { echo "Debug: $1"; }
+console.log("Executing task...");
+int p = 3, q = 7;
+while (p < q) { p++; }
+std::vector<int> scores = {90, 80, 85};
+public void processRequest() { console.log("Processing request..."); }
+let totalSum = arr.map(num => num * 2).reduce((acc, val) => acc + val, 0);
+fetch('https://api.example.com/otherdata')
+puts "Execution complete!"
+x = 12
+numbersArray = [4, 8, 12]
+def subtract(x, y) return x - y end
+begin puts "Loading data..." rescue => e puts "Error encountered: #{e.message}" end
+lambda { |a, b| a / b }
+class Cat; def meow; "Meow!"; end; end
+for i in 1..3 do puts "Step #{i}" end
+Console.WriteLine("Initialization successful");
+int i = 5, j = 10, res;
+res = i * j;
+try { res = i + j; } catch (Exception e) { Console.WriteLine("An error occurred: " + e.Message); }
+Task.Run(() => { var result = ProcessData(); Console.WriteLine(result); });
+var user = new { Name = "John", Role = "Admin" };
+fmt.Println("Starting program execution!");
+var num1 int = 5
+values := []int{100, 200, 300}
+type Address struct { Street string; City string }
+defer fmt.Println("Ending program")
+if err != nil { fmt.Println("An error occurred") }
+func start() { fmt.Println("Program started") }
+print("Process initiated!")
+var greeting = "Hello, there!"
+val students = arrayListOf(1, 2, 3, 4)
+fun multiply(a: Int, b: Int): Int = a * b
+val task = GlobalScope.launch { println("Processing started!") }
+data class Book(val title: String, val author: String)
+if (i < j) { println("i is less than j") }
+console.log("Initialization complete!")
+let value: string = "Initialized"
+const arrValues: number[] = [5, 10, 15]
+function divide(a: number, b: number): number { return a / b; }
+const fetchAPI = async () => { let result = await fetch("https://api.example.com"); console.log(result); };
+interface Vehicle { make: string; model: string; year: number; }
+try { let result = 0 / 0; } catch (e) { console.error("Division failed:", e); }
+echo "System starting..."
+$score = 75;
+$users = ["Alice", "Bob", "Charlie"];
+function process($data) { return "Processed: $data"; }
+try { $result = 50 / 0; } catch (Exception $e) { echo "Error: " . $e->getMessage(); }
+$userDetails = ['name' => 'Sophia', 'age' => 29];
+print "Data processed successfully!\n";
+$a = 500;
+my @list = (2, 4, 6, 8);
+sub multiply { my ($x, $y) = @_; return $x * $y; }
+eval { $a = 500 / 2; } or print "Error in multiplication\n";
+my %order = (item => 'Shoes', price => 120);
+println!("Processing completed!");
+let a = 4, b = 8;
+let collection = vec![1, 2, 3];
+struct Phone { brand: String, model: String }
+if a == b { println!("a equals b") }
+Result::Ok("Task completed")
+match get_status() { Ok(val) => println!("Status: {}", val), Err(e) => println!("Failed: {}", e), }
+echo "Task execution completed!"
+m=10
+arr=(5 10 15 20)
+for i in {1..5}; do echo "Running $i"; done
+if [ $m -gt 5 ]; then echo "m is greater than 5"; fi
+cat /home/user/data.txt
+function info() { echo "Info: $1"; }
+print("Hello, world!")
+int x = 0, y = 0;
+do_something();
+static_cast<std::string>(v)
+typedef struct Array { int* elems; int num_elems; } Array;
+public static void main(String[] args);
+return new Promise(resolve => resolve(42))
+for (let i = 0; i < 10; i++) { console.log(i); }
+std::vector<int> vec = {1, 2, 3};
+const result = await fetch(url);
+if (condition) { return true; }
+#include <iostream>
+class MyClass { private: int value; public: MyClass(int v) : value(v) {} };
+String[] args = new String[10];
+printf("Value: %d\n", x);
+lambda x: x * 2
+std::cout << "Hello" << std::endl;
+document.getElementById("myDiv");
+while (ptr != nullptr) { ptr = ptr->next; }
+try { riskyOperation(); } catch (Exception e) { }
+HashMap<String, Integer> map = new HashMap<>();
+function* generator() { yield 1; yield 2; }
+std::unique_ptr<int> ptr = std::make_unique<int>(42);
+var query = from x in list where x > 5 select x;
+[[nodiscard]] int calculate();
+constexpr int MAX_SIZE = 100;
+async def fetch_data(): return await response.json()
+std::thread t(worker_function);
+List<int> numbers = [1, 2, 3];
+panic("unexpected error")
+<img src="image.jpg" alt="description">
+SELECT * FROM users WHERE active = true;
+std::sort(vec.begin(), vec.end());
+this.setState({ count: this.state.count + 1 });
+std::optional<int> result = findValue();
+for item in collection: process(item)
+let { name, age } = person;
+virtual void draw() const override;
+std::lock_guard<std::mutex> lock(mtx);
+<?php echo $variable; ?>
+router.get('/api', (req, res) => { res.json(data); });
+std::variant<int, std::string> value = "hello";
+[NSArray arrayWithObjects:@"a", @"b", nil];
+std::regex pattern("[0-9]+");
+const Button = () => <button>Click</button>;
+std::chrono::steady_clock::now();
+throw new Error("Something went wrong");
+std::filesystem::path p = "/usr/bin";
+guard let unwrapped = optional else { return }
+std::atomic<int> counter = 0;
+<div className="container">{children}</div>
+std::span<int> view(arr, size);
+match value { Some(v) => v, None => 0 }
+std::ranges::sort(container);
+using namespace std;
+std::format("Hello, {}!", name);
+impl Display for MyStruct { fn fmt(&self, f: &mut Formatter) -> Result { } }
+std::jthread worker([](){ /* task */ });
+[[maybe_unused]] int unused_var;
+std::expected<int, std::string> result = parse(input);
+console.error(`Error: ${error.message}`);
+std::views::filter(vec, [](int x){ return x > 0; });
+constexpr auto add = [](auto a, auto b) { return a + b; };
+std::source_location current = std::source_location::current();
+std::print("The answer is {}.", 42);
+std::generator<int> range(int start, int stop) { for (int i = start; i < stop; ++i) co_yield i; }
+consteval int square(int x) { return x * x; }
+std::shared_ptr<MyClass> obj = std::make_shared<MyClass>();
+[&capture](){ return captured_value; }
+template<typename T> T max(T a, T b) { return a > b ? a : b; }
+#pragma once
+docker build -t myapp .
+git commit -m "Initial commit"
+std::map<std::string, int> frequency;
+const int* const ptr = &value;
+[[deprecated("Use new_function instead")]]
+void old_function() {}
+std::array<int, 10> arr;
+std::tuple<int, std::string, double> data = {1, "hello", 3.14};
+std::any value = std::string("storage");
+std::visit([](auto&& arg) { std::cout << arg; }, variant);
+std::filesystem::create_directory("path");
+std::string_view view = "Hello world";
+std::byte buffer[1024];
+std::format_to(std::back_inserter(str), "{}", value);
+std::chrono::system_clock::time_point now = std::chrono::system_clock::now();
+std::bitset<8> bits(0b10101010);
+std::ratio<1, 1000> millisecond;
+std::random_device rd;
+std::uniform_int_distribution<int> dist(1, 6);
+std::bernoulli_distribution coin_flip(0.5);
+std::poisson_distribution<int> poisson(4.0);
+std::normal_distribution<double> normal(0.0, 1.0);
+std::seed_seq seed{1,2,3,4,5};
+std::independent_bits_engine<std::mt19937, 64, uint64_t> engine;
+std::shuffle(vec.begin(), vec.end(), generator);
+std::sample(source.begin(), source.end(), std::back_inserter(dest), 5, generator);
+std::next_permutation(vec.begin(), vec.end());
+std::prev_permutation(vec.begin(), vec.end());
+std::is_sorted_until(vec.begin(), vec.end());
+std::nth_element(vec.begin(), vec.begin() + n, vec.end());
+std::inplace_merge(first.begin(), first.end(), second.begin());
+std::set_union(a.begin(), a.end(), b.begin(), b.end(), std::back_inserter(result));
+std::set_intersection(a.begin(), a.end(), b.begin(), b.end(), std::back_inserter(result));
+std::set_difference(a.begin(), a.end(), b.begin(), b.end(), std::back_inserter(result));
+std::set_symmetric_difference(a.begin(), a.end(), b.begin(), b.end(), std::back_inserter(result));
+std::includes(container.begin(), container.end(), subset.begin(), subset.end());
+std::clamp(value, min, max);
+std::reduce(vec.begin(), vec.end(), 0);
+std::transform_reduce(vec.begin(), vec.end(), 0, std::plus<>{}, [](auto x){ return x * x; });
+std::inclusive_scan(vec.begin(), vec.end(), std::back_inserter(result));
+std::exclusive_scan(vec.begin(), vec.end(), std::back_inserter(result), 0);
+std::gcd(a, b);
+std::lcm(a, b);
+std::midpoint(a, b);
+std::lerp(a, b, t);
+std::assume_aligned<64>(ptr);
+std::start_lifetime_as<T>(storage);
+std::construct_at(ptr, args...);
+std::destroy_at(ptr);
+std::uninitialized_copy(source.begin(), source.end(), dest.begin());
+std::uninitialized_fill(dest.begin(), dest.end(), value);
+std::uninitialized_move(source.begin(), source.end(), dest.begin());
+std::uninitialized_default_construct(range.begin(), range.end());
+std::uninitialized_value_construct(range.begin(), range.end());
+std::is_constant_evaluated()
+std::to_chars(buffer, buffer + size, value);
+std::from_chars(buffer, buffer + size, result);
+std::format(std::locale("de_DE"), "{:L}", 1234.56);
+std::chrono::zoned_time current_time(std::chrono::current_zone(), std::chrono::system_clock::now());
+std::chrono::year_month_day today = std::chrono::floor<std::chrono::days>(std::chrono::system_clock::now());
+std::chrono::hh_mm_ss time_of_day(std::chrono::duration_cast<std::chrono::milliseconds>(now.time_since_epoch()));
+std::osyncstream sync_out(std::cout);
+std::stacktrace trace = std::stacktrace::current();
+std::basic_osyncstream sync_cout(std::cout);
+std::jthread::request_stop();
+std::stop_source source;
+std::stop_callback callback(source.get_token(), []{ std::cout << "Stopping\n"; });
+std::latch completion_latch(10);
+std::barrier sync_point(5);
+std::counting_semaphore<10> semaphore(0);
+std::binary_semaphore binary_sem(1);
+std::flex_barrier flexible(5, []{ return 5; });
+std::experimental::scope_exit cleanup([]{ cleanup_code(); });
+std::experimental::scope_fail rollback([]{ rollback_transaction(); });
+std::experimental::scope_success commit([]{ commit_transaction(); });
+fetch('/api/data').then(response => response.json())
+localStorage.setItem('key', 'value')
+document.querySelector('.class').addEventListener('click', handler)
+JSON.parse('{"name": "John"}')
+Math.random() * 100
+Array.from(new Set([1,2,3,2,1]))
+Object.entries(obj).forEach(([key, value]) => {})
+`Template string ${variable} here`
+?.optional?.chaining?.method()
+?? nullish ?? 'default'
+...spreadOperator
+{...obj, newProp: 'value'}
+[first, ...rest] = array
+async function* asyncGenerator() { yield await promise }
+import { module } from './file.js'
+export default function() {}
+process.env.NODE_ENV
+require('module')
+fs.readFileSync('file.txt', 'utf8')
+console.time('label'); console.timeEnd('label')
+Buffer.from('hello', 'utf8')
+new URL('https://example.com')
+new Map().set('key', 'value')
+new Set([1,2,3]).has(2)
+Promise.allSettled(promises)
+Object.freeze(obj)
+Object.seal(obj)
+Proxy(target, handler)
+Reflect.get(target, property)
+Symbol.iterator
+BigInt(9007199254740991)
+Intl.DateTimeFormat('en-US').format(date)
+navigator.geolocation.getCurrentPosition(success)
+window.addEventListener('beforeunload', handler)
+document.createRange().createContextualFragment(html)
+element.animate([{opacity: 0}, {opacity: 1}], 1000)
+new IntersectionObserver(callback, options)
+new MutationObserver(callback).observe(target, config)
+new ResizeObserver(entries => {}).observe(element)
+performance.mark('start'); performance.measure('duration', 'start')
+new AbortController().signal
+fetch(url, {signal: abortController.signal})
+new Worker('worker.js')
+postMessage(data, origin)
+window.open('', '_blank')
+history.pushState(state, title, url)
+sessionStorage.getItem('sessionData')
+crypto.subtle.digest('SHA-256', data)
+new Blob([data], {type: 'text/plain'})
+new FileReader().readAsText(file)
+FormData.append('field', value)
+URLSearchParams('?a=1&b=2').get('a')
+new Headers({'Content-Type': 'application/json'})
+Request('https://api.com', {method: 'POST'})
+Response.json(data, {status: 201})
+new Event('customEvent')
+CustomEvent('detail', {detail: data})
+element.dispatchEvent(event)
+element.closest('.parent')
+element.matches(':hover')
+element.insertAdjacentHTML('beforeend', html)
+element.scrollIntoView({behavior: 'smooth'})
+element.getBoundingClientRect()
+window.getComputedStyle(element)
+document.createDocumentFragment()
+document.createTreeWalker(root, NodeFilter.SHOW_TEXT)
+new XMLSerializer().serializeToString(document)
+DOMParser().parseFromString(xml, 'text/xml')
+new XPathEvaluator().evaluate('//div', document)
+new RegExp('pattern', 'gi').test(string)
+string.replaceAll('old', 'new')
+string.normalize('NFC')
+string.codePointAt(0)
+String.fromCodePoint(9731)
+Array(10).fill(0).map((_, i) => i)
+Array.from({length: 5}, (_, i) => i * i)
+[1,2,3].find(x => x > 1)
+[1,2,3].findIndex(x => x === 2)
+[1,2,3].some(x => x % 2 === 0)
+[1,2,3].every(x => x > 0)
+[1,2,3].reduce((acc, curr) => acc + curr, 0)
+[1,2,3].reduceRight((acc, curr) => [curr, ...acc], [])
+[1,2,3].flatMap(x => [x, x*2])
+Object.fromEntries([['a', 1], ['b', 2]])
+Object.groupBy(items, item => item.category)
+Object.hasOwn(obj, 'property')
+import.meta.url
+globalThis.setTimeout(() => {}, 1000)
+structuredClone(deepObject)
+queueMicrotask(() => console.log('microtask'))
+Atomics.add(sharedArray, index, value)
+WebAssembly.instantiate(wasmBytes, imports)
+new SharedArrayBuffer(1024)
+new WeakMap().set(obj, 'value')
+new WeakSet().add(obj)
+new FinalizationRegistry(heldValue => {})
+new Proxy(target, { get: (obj, prop) => obj[prop] })
+Reflect.construct(Constructor, args)
+Symbol.for('global.symbol')
+Symbol.keyFor(symbol)
+BigInt.asIntN(32, bigint)
+BigInt.asUintN(32, bigint)
+Intl.NumberFormat('de-DE').format(1234.56)
+Intl.ListFormat('en').format(['a', 'b', 'c'])
+Intl.RelativeTimeFormat('en').format(-1, 'day')
+Intl.PluralRules('en').select(1)
+navigator.clipboard.writeText('text')
+navigator.mediaDevices.getUserMedia({video: true})
+navigator.serviceWorker.register('sw.js')
+window.matchMedia('(prefers-color-scheme: dark)')
+document.startViewTransition(() => updateDOM())
+CSS.supports('display', 'grid')
+new CSSStyleSheet().replaceSync('body { color: red; }')
+element.attachShadow({mode: 'open'})
+element.slot = 'slot-name'
+element.toggleAttribute('hidden')
+element.checkVisibility()
+element.requestFullscreen()
+element.requestPointerLock()
+document.exitFullscreen()
+document.elementFromPoint(x, y)
+document.elementsFromPoint(x, y)
+document.createExpression(xpath, resolver)
+document.evaluate('//div', document, null, XPathResult.ANY_TYPE)
+new Range().setStart(node, offset)
+Selection().addRange(range)
+window.getSelection().toString()
+document.designMode = 'on'
+document.execCommand('bold')
+DataTransfer().setData('text/plain', 'data')
+DragEvent('dragstart', {dataTransfer: dataTransfer})
+ClipboardEvent('paste', {clipboardData: dataTransfer})
+PageTransitionEvent('pageshow', {persisted: true})
+PopStateEvent('popstate', {state: history.state})
+HashChangeEvent('hashchange', {oldURL: old, newURL: new})
+StorageEvent('storage', {key: 'key', newValue: 'value'})
+MessageEvent('message', {data: message, origin: origin})
+ErrorEvent('error', {message: 'Error message', filename: 'script.js'})
+PromiseEvent('promise', {promise: fetchPromise})
+CustomElementRegistry.define('my-element', class extends HTMLElement {})
+#include <stdio.h>
+#define MAX_SIZE 100
+int main(int argc, char *argv[]) {}
+printf("Value: %d\n", x);
+scanf("%d", &number);
+int arr[10] = {0};
+struct Point { int x; int y; };
+typedef struct Node { int data; struct Node* next; } Node;
+FILE *fp = fopen("file.txt", "r");
+fclose(fp);
+malloc(sizeof(int) * 10);
+free(ptr);
+int *ptr = (int*)malloc(100 * sizeof(int));
+realloc(ptr, new_size);
+memcpy(dest, src, size);
+memset(buffer, 0, sizeof(buffer));
+strcpy(dest, src);
+strcat(str1, str2);
+strlen(string);
+strcmp(str1, str2);
+strtok(string, " ");
+sprintf(buffer, "Number: %d", num);
+sscanf(input, "%d %s", &num, str);
+fprintf(stderr, "Error: %s\n", error_msg);
+fgets(buffer, sizeof(buffer), stdin);
+fputs(string, stdout);
+getchar();
+putchar(c);
+sizeof(variable);
+offsetof(struct_type, member)
+_Alignas(16) char aligned_buffer[64];
+_Alignof(double)
+_Generic(x, int: "int", double: "double", default: "unknown")
+_Static_assert(sizeof(int) == 4, "int must be 4 bytes")
+__attribute__((packed))
+__declspec(dllexport) void function() {}
+volatile int *status_register;
+register int counter;
+restrict int *ptr;
+const int immutable = 42;
+static int persistent_var = 0;
+extern int global_variable;
+inline int fast_function(int x) { return x * x; }
+_Noreturn void fatal_error() { exit(1); }
+union Data { int i; float f; char str[20]; };
+enum Color { RED, GREEN, BLUE };
+goto cleanup;
+switch(value) { case 1: break; default: break; }
+do { /* code */ } while (condition);
+for (int i = 0; i < count; i++) {}
+while (*ptr != '\0') { ptr++; }
+if (condition && another_condition) {}
+int result = (a > b) ? a : b;
+, (comma operator)
+#error "Compilation stopped"
+#pragma pack(1)
+#line 100 "filename.c"
+#warning "Potential issue"
+#undef MACRO_NAME
+## (token pasting)
+# (stringizing)
+__FILE__
+__LINE__
+__DATE__
+__TIME__
+__func__
+__VA_ARGS__
+va_list args;
+va_start(args, format);
+va_arg(args, int);
+va_end(args);
+setjmp(env);
+longjmp(env, 1);
+signal(SIGINT, handler);
+raise(SIGTERM);
+atexit(cleanup_function);
+abort();
+exit(EXIT_SUCCESS);
+qsort(array, n, sizeof(int), compare_func);
+bsearch(key, array, n, sizeof(int), compare_func);
+abs(-10);
+labs(-100L);
+div_t result = div(10, 3);
+rand();
+srand(time(NULL));
+ceil(3.14);
+floor(3.14);
+round(3.5);
+sqrt(25.0);
+pow(2.0, 3.0);
+exp(1.0);
+log(10.0);
+sin(angle);
+cos(angle);
+tan(angle);
+asin(0.5);
+acos(0.5);
+atan(1.0);
+atan2(y, x);
+sinh(x);
+cosh(x);
+tanh(x);
+isalpha(c);
+isdigit(c);
+isalnum(c);
+isprint(c);
+toupper(c);
+tolower(c);
+isxdigit(c);
+isgraph(c);
+clock_t start = clock();
+time_t now = time(NULL);
+struct tm *timeinfo = localtime(&now);
+strftime(buffer, sizeof(buffer), "%Y-%m-%d", timeinfo);
+difftime(end, start);
+setlocale(LC_ALL, "en_US.UTF-8");
+localeconv();
+errno = 0;
+perror("Error occurred");
+clearerr(stream);
+feof(stream);
+ferror(stream);
+rewind(stream);
+fseek(stream, offset, SEEK_SET);
+ftell(stream);
+fgetpos(stream, &position);
+fsetpos(stream, &position);
+ungetc(c, stream);
+remove("file.txt");
+rename("old.txt", "new.txt");
+tmpfile();
+tmpnam(buffer);
+setvbuf(stream, buffer, _IOFBF, sizeof(buffer));
+fflush(stream);
+fwide(stream, 0);
+getw(stream);
+putw(value, stream);
+fread(buffer, sizeof(int), count, stream);
+fwrite(buffer, sizeof(int), count, stream);
+feof(stream);
+fileno(stream);
+isatty(fd);
+ttyname(fd);
+lseek(fd, offset, SEEK_SET);
+read(fd, buffer, size);
+write(fd, buffer, size);
+close(fd);
+dup(fd);
+dup2(old_fd, new_fd);
+pipe(fds);
+fcntl(fd, F_SETFL, flags);
+ioctl(fd, request, arg);
+stat("file", &file_stat);
+fstat(fd, &file_stat);
+lstat("symlink", &file_stat);
+chmod("file", 0644);
+fchmod(fd, 0644);
+chown("file", uid, gid);
+fchown(fd, uid, gid);
+link("old", "new");
+symlink("target", "link");
+unlink("file");
+rmdir("directory");
+mkdir("directory", 0755);
+opendir(".");
+readdir(dir);
+closedir(dir);
+rewinddir(dir);
+telldir(dir);
+seekdir(dir, pos);
+getcwd(buffer, size);
+chdir("/path");
+getpid();
+getppid();
+getuid();
+geteuid();
+getgid();
+getegid();
+setsid();
+getpgid(pid);
+setpgid(pid, pgid);
+getpgrp();
+fork();
+execve("/bin/ls", args, env);
+wait(&status);
+waitpid(pid, &status, options);
+kill(pid, SIGTERM);
+pause();
+alarm(seconds);
+sleep(seconds);
+usleep(microseconds);
+nanosecondsleep(&req, &rem);
+getenv("PATH");
+setenv("VAR", "value", 1);
+unsetenv("VAR");
+putenv("VAR=value");
+clearenv();
+system("ls -l");
+popen("command", "r");
+pclose(stream);
+dlopen("library.so", RTLD_LAZY);
+dlsym(handle, "function");
+dlclose(handle);
+dlerror();
+pthread_create(&thread, NULL, start_routine, arg);
+pthread_join(thread, &retval);
+pthread_detach(thread);
+pthread_exit(retval);
+pthread_cancel(thread);
+pthread_mutex_init(&mutex, NULL);
+pthread_mutex_lock(&mutex);
+pthread_mutex_unlock(&mutex);
+pthread_mutex_destroy(&mutex);
+pthread_cond_init(&cond, NULL);
+pthread_cond_wait(&cond, &mutex);
+pthread_cond_signal(&cond);
+pthread_cond_broadcast(&cond);
+pthread_cond_destroy(&cond);
+pthread_rwlock_init(&rwlock, NULL);
+pthread_rwlock_rdlock(&rwlock);
+pthread_rwlock_wrlock(&rwlock);
+pthread_rwlock_unlock(&rwlock);
+pthread_rwlock_destroy(&rwlock);
+sem_init(&sem, 0, 1);
+sem_wait(&sem);
+sem_post(&sem);
+sem_destroy(&sem);
+shm_open("/shm_name", O_CREAT | O_RDWR, 0666);
+ftruncate(shm_fd, size);
+mmap(NULL, size, PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
+munmap(addr, size);
+shm_unlink("/shm_name");
+mkfifo("/tmp/myfifo", 0666);
+open("/tmp/myfifo", O_RDONLY);
+msgget(key, IPC_CREAT | 0666);
+msgsnd(msgid, &msg, sizeof(msg), 0);
+msgrcv(msgid, &msg, sizeof(msg), msgtype, 0);
+semget(key, 1, IPC_CREAT | 0666);
+semctl(semid, 0, SETVAL, 1);
+semop(semid, &sops, 1);
+shmget(key, size, IPC_CREAT | 0666);
+shmat(shmid, NULL, 0);
+shmdt(addr);
+shmctl(shmid, IPC_RMID, NULL);
+inet_pton(AF_INET, "192.168.1.1", &addr);
+inet_ntop(AF_INET, &addr, buffer, sizeof(buffer));
+gethostbyname("example.com");
+getaddrinfo("example.com", "http", &hints, &res);
+socket(AF_INET, SOCK_STREAM, 0);
+bind(sockfd, (struct sockaddr*)&addr, sizeof(addr));
+listen(sockfd, backlog);
+accept(sockfd, (struct sockaddr*)&addr, &addrlen);
+connect(sockfd, (struct sockaddr*)&server_addr, sizeof(server_addr));
+send(sockfd, buffer, len, flags);
+recv(sockfd, buffer, sizeof(buffer), flags);
+select(nfds, &readfds, &writefds, &exceptfds, &timeout);
+poll(fds, nfds, timeout);
+epoll_create1(0);
+epoll_ctl(epollfd, EPOLL_CTL_ADD, fd, &event);
+epoll_wait(epollfd, events, maxevents, timeout);
+getsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &optval, &optlen);
+setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &optval, optlen);
+fcntl(sockfd, F_SETFL, O_NONBLOCK);
+getsockname(sockfd, (struct sockaddr*)&addr, &addrlen);
+getpeername(sockfd, (struct sockaddr*)&addr, &addrlen);
+shutdown(sockfd, SHUT_RDWR);
+close(sockfd);
+htonl(hostlong);
+htons(hostshort);
+ntohl(netlong);
+ntohs(netshort);
+inet_addr("192.168.1.1");
+signal(SIGPIPE, SIG_IGN);
+sigaction(SIGINT, &act, NULL);
+sigemptyset(&set);
+sigaddset(&set, SIGINT);
+sigprocmask(SIG_BLOCK, &set, NULL);
+sigwait(&set, &sig);
+raise(SIGUSR1);
+killpg(pgrp, SIGTERM);
+sigqueue(pid, sig, value);
+sigsuspend(&mask);
+sigaltstack(&ss, &oss);
+siginterrupt(SIGINT, 1);
+sigpending(&set);
+sigreturn(scp);
+sigsetjmp(env, savesigs);
+siglongjmp(env, val);
+getcontext(&ctx);
+setcontext(&ctx);
+swapcontext(&oldctx, &newctx);
+makecontext(&ctx, func, 0);
+syscall(SYS_gettid);
+brk(end_data_segment);
+sbrk(increment);
+mlock(addr, len);
+munlock(addr, len);
+mprotect(addr, len, PROT_READ);
+msync(addr, len, MS_SYNC);
+madvise(addr, len, MADV_SEQUENTIAL);
+mincore(addr, len, vec);
+remap_file_pages(addr, size, prot, pgoff, flags);
+mremap(old_address, old_size, new_size, flags);
+sync();
+fsync(fd);
+fdatasync(fd);
+truncate("file", length);
+ftruncate(fd, length);
+fallocate(fd, 0, offset, len);
+readahead(fd, offset, count);
+vmsplice(fd, iov, nr_segs, flags);
+splice(fd_in, off_in, fd_out, off_out, len, flags);
+tee(fd_in, fd_out, len, flags);
+sendfile(out_fd, in_fd, offset, count);
+copy_file_range(fd_in, off_in, fd_out, off_out, len, flags);
+mount("source", "target", "filesystem", flags, data);
+umount("target");
+umount2("target", MNT_FORCE);
+swapon("swapfile", 0);
+swapoff("swapfile");
+quotactl(QCMD(Q_QUOTAON, USRQUOTA), "device", id, "path");
+ioctl(fd, BLKBSZGET, &sector_size);
+ioctl(fd, HDIO_GETGEO, &geo);
+perf_event_open(&attr, pid, cpu, group_fd, flags);
+ptrace(PTRACE_ATTACH, pid, NULL, NULL);
+personality(ADDR_NO_RANDOMIZE);
+prctl(PR_SET_NAME, "threadname");
+arch_prctl(ARCH_SET_FS, fs_base);
+seccomp(SECCOMP_SET_MODE_STRICT, 0, NULL);
+capget(&header, data);
+capset(&header, data);
+setuid(uid);
+setgid(gid);
+seteuid(euid);
+setegid(egid);
+setreuid(ruid, euid);
+setregid(rgid, egid);
+setresuid(ruid, euid, suid);
+setresgid(rgid, egid, sgid);
+getresuid(&ruid, &euid, &suid);
+getresgid(&rgid, &egid, &sgid);
+setfsuid(uid);
+setfsgid(gid);
+getgroups(size, list);
+setgroups(size, list);
+initgroups("user", gid);
+crypt("password", "salt");
+getpass("Enter password: ");
+getspnam("username");
+crypt_r("password", "salt", &data);
+getpwnam("username");
+getpwuid(uid);
+getgrnam("group");
+getgrgid(gid);
+getpwent();
+setpwent();
+endpwent();
+getgrent();
+setgrent();
+endgrent();
+getspent();
+setspent();
+endspent();
+getutent();
+setutent();
+endutent();
+pututline(&utmp);
+login(&utmp);
+logout(const char *ut_line);
+logwtmp(const char *ut_line, const char *ut_name, const char *ut_host);
+openlog("program", LOG_PID, LOG_USER);
+syslog(LOG_INFO, "Message: %s", str);
+closelog();
+vsyslog(LOG_ERR, format, args);
+setlogmask(LOG_UPTO(LOG_INFO));
+print(f"Formatted: {variable}")
+[x**2 for x in range(10) if x % 2 == 0]
+{key: value for key, value in iterable}
+{x for x in iterable if condition}
+(lambda x: x + 1)(5)
+map(lambda x: x * 2, [1, 2, 3])
+filter(lambda x: x > 0, [-1, 0, 1, 2])
+reduce(lambda acc, x: acc + x, [1, 2, 3, 4])
+zip(list1, list2, list3)
+enumerate(['a', 'b', 'c'])
+reversed([1, 2, 3])
+sorted([3, 1, 2], key=lambda x: x, reverse=True)
+any([False, True, False])
+all([True, True, False])
+sum([1, 2, 3, 4])
+max([1, 5, 2, 8])
+min([1, 5, 2, 8])
+abs(-5.5)
+round(3.14159, 2)
+divmod(10, 3)
+pow(2, 3)
+len([1, 2, 3, 4, 5])
+range(0, 10, 2)
+slice(1, 5, 2)
+isinstance(obj, MyClass)
+issubclass(ChildClass, ParentClass)
+hasattr(obj, 'attribute')
+getattr(obj, 'attribute', default)
+setattr(obj, 'attribute', value)
+delattr(obj, 'attribute')
+@property
+def name(self): return self._name
+@name.setter
+def name(self, value): self._name = value
+@classmethod
+def from_string(cls, string): return cls(string)
+@staticmethod
+def helper_method(): pass
+@abstractmethod
+def must_implement(self): pass
+@dataclass
+class Point: x: int; y: int
+@functools.lru_cache(maxsize=128)
+def expensive_function(x): return x * x
+@contextlib.contextmanager
+def managed_resource(): yield resource
+async def fetch_data(): return await response.json()
+async with aiohttp.ClientSession() as session: pass
+async for item in async_iterable: process(item)
+await asyncio.sleep(1)
+asyncio.run(main())
+asyncio.create_task(coroutine())
+asyncio.gather(*coroutines)
+asyncio.wait_for(coroutine, timeout=10)
+asyncio.shield(coroutine)
+asyncio.TimeoutError()
+asyncio.CancelledError()
+with concurrent.futures.ThreadPoolExecutor() as executor: pass
+with concurrent.futures.ProcessPoolExecutor() as executor: pass
+executor.submit(function, arg1, arg2)
+future.result(timeout=10)
+future.add_done_callback(callback)
+future.cancel()
+threading.Thread(target=worker).start()
+threading.Lock().acquire()
+threading.RLock().release()
+threading.Condition().wait()
+threading.Semaphore(5).acquire()
+threading.Event().set()
+threading.Timer(5.0, function).start()
+threading.local().value = 42
+multiprocessing.Process(target=worker).start()
+multiprocessing.Queue().put(item)
+multiprocessing.Pipe()
+multiprocessing.Value('i', 0)
+multiprocessing.Array('d', [0.0, 1.0])
+multiprocessing.Manager().dict()
+multiprocessing.Pool(4).map(func, items)
+multiprocessing.shared_memory.SharedMemory(name='shm')
+queue.Queue().get_nowait()
+queue.LifoQueue()
+queue.PriorityQueue()
+queue.SimpleQueue()
+collections.deque().appendleft(item)
+collections.Counter('abracadabra')
+collections.defaultdict(list)
+collections.OrderedDict()
+collections.ChainMap(dict1, dict2)
+collections.namedtuple('Point', ['x', 'y'])
+collections.UserDict()
+collections.UserList()
+collections.UserString()
+itertools.chain(list1, list2)
+itertools.cycle([1, 2, 3])
+itertools.repeat(5, times=3)
+itertools.count(start=0, step=1)
+itertools.islice(iterable, start, stop, step)
+itertools.tee(iterable, n=2)
+itertools.starmap(func, iterable)
+itertools.filterfalse(predicate, iterable)
+itertools.takewhile(predicate, iterable)
+itertools.dropwhile(predicate, iterable)
+itertools.groupby(iterable, key=key)
+itertools.combinations('ABCD', 2)
+itertools.permutations('ABCD', 2)
+itertools.product('AB', 'CD')
+itertools.combinations_with_replacement('ABC', 2)
+functools.partial(func, arg1, arg2)
+functools.reduce(func, iterable, initial)
+functools.wraps(func)
+functools.singledispatch
+functools.cached_property
+operator.itemgetter(1)(items)
+operator.attrgetter('name')(obj)
+operator.methodcaller('upper')('hello')
+operator.add(1, 2)
+operator.mul(3, 4)
+contextlib.suppress(FileNotFoundError)
+contextlib.redirect_stdout(StringIO())
+contextlib.redirect_stderr(StringIO())
+contextlib.ExitStack()
+pathlib.Path('file.txt').read_text()
+pathlib.Path('/etc').glob('*.conf')
+pathlib.Path('dir').mkdir(parents=True, exist_ok=True)
+pathlib.Path('file').write_text('content')
+pathlib.Path('link').symlink_to('target')
+pathlib.Path('file').unlink()
+pathlib.Path('dir').rmdir()
+pathlib.PurePath('a/b/c').parent
+pathlib.PurePath('a/b/c').name
+pathlib.PurePath('a/b/c').suffix
+pathlib.PurePath('a/b/c').stem
+pathlib.PurePath('a/b/c').with_suffix('.txt')
+os.getcwd()
+os.chdir('/path')
+os.listdir('.')
+os.walk('/directory')
+os.makedirs('path/to/dir', exist_ok=True)
+os.remove('file.txt')
+os.rename('old', 'new')
+os.stat('file.txt')
+os.path.exists('/path')
+os.path.isfile('file.txt')
+os.path.isdir('directory')
+os.path.join('a', 'b', 'c')
+os.path.split('/path/to/file')
+os.path.splitext('file.txt')
+os.path.basename('/path/to/file')
+os.path.dirname('/path/to/file')
+os.path.getsize('file.txt')
+os.path.getmtime('file.txt')
+shutil.copy('src', 'dst')
+shutil.copy2('src', 'dst')
+shutil.copytree('src', 'dst')
+shutil.move('src', 'dst')
+shutil.rmtree('directory')
+shutil.make_archive('archive', 'zip', 'directory')
+shutil.unpack_archive('archive.zip')
+shutil.disk_usage('/')
+shutil.which('python')
+glob.glob('*.py')
+fnmatch.fnmatch('file.txt', '*.txt')
+linecache.getline('file.txt', 5)
+tempfile.NamedTemporaryFile(delete=False)
+tempfile.TemporaryDirectory()
+tempfile.mkstemp()
+tempfile.mkdtemp()
+tempfile.gettempdir()
+sys.argv
+sys.path.append('/custom/path')
+sys.modules.keys()
+sys.getsizeof(obj)
+sys.getrecursionlimit()
+sys.setrecursionlimit(2000)
+sys.exc_info()
+sys.stdout.write('text')
+sys.stderr.write('error')
+sys.stdin.read()
+sys.platform
+sys.version
+sys.version_info
+sys.byteorder
+sys.getdefaultencoding()
+sys.getfilesystemencoding()
+sys.api_version
+sys.flags
+sys.getswitchinterval()
+sys.setswitchinterval(0.005)
+sys._current_frames()
+sys._getframe(0)
+sys.tracebacklimit = 10
+sys.settrace(tracefunc)
+sys.setprofile(profilefunc)
+sys.breakpointhook()
+sys.unraisablehook()
+sys.excepthook(type, value, traceback)
+sys.last_type
+sys.last_value
+sys.last_traceback
+sys.thread_info
+sys.hash_info
+sys.float_info
+sys.int_info
+sys.maxsize
+sys.maxunicode
+sys.ps1
+sys.ps2
+sys.dont_write_bytecode = True
+sys.warnoptions
+sys._xoptions
+sys.__stdin__
+sys.__stdout__
+sys.__stderr__
+os.environ.get('PATH')
+os.environ['NEW_VAR'] = 'value'
+os.getenv('HOME', '/default')
+os.putenv('VAR', 'value')
+os.unsetenv('VAR')
+os.getpid()
+os.getppid()
+os.getuid()
+os.getgid()
+os.geteuid()
+os.getegid()
+os.getgroups()
+os.setuid(uid)
+os.setgid(gid)
+os.seteuid(euid)
+os.setegid(egid)
+os.setreuid(ruid, euid)
+os.setregid(rgid, egid)
+os.setresuid(ruid, euid, suid)
+os.setresgid(rgid, egid, sgid)
+os.getresuid()
+os.getresgid()
+os.initgroups('user', gid)
+os.getlogin()
+os.getpgid(pid)
+os.setpgid(pid, pgid)
+os.getpgrp()
+os.setsid()
+os.getsid(pid)
+os.kill(pid, signal.SIGTERM)
+os.killpg(pgid, signal.SIGKILL)
+os.wait()
+os.waitpid(pid, options)
+os.WIFEXITED(status)
+os.WEXITSTATUS(status)
+os.WIFSIGNALED(status)
+os.WTERMSIG(status)
+os.WIFSTOPPED(status)
+os.WSTOPSIG(status)
+os.WIFCONTINUED(status)
+os.system('ls -l')
+os.popen('command').read()
+os.spawnl(mode, path, arg0, arg1, ...)
+os.execv(path, args)
+os.execl(path, arg0, arg1, ...)
+os.execve(path, args, env)
+os.execle(path, arg0, arg1, ..., env)
+os.fork()
+os.pipe()
+os.dup(fd)
+os.dup2(old_fd, new_fd)
+os.close(fd)
+os.read(fd, n)
+os.write(fd, data)
+os.lseek(fd, pos, whence)
+os.fsync(fd)
+os.fdatasync(fd)
+os.truncate(path, length)
+os.ftruncate(fd, length)
+os.statvfs(path)
+os.fstatvfs(fd)
+os.major(device)
+os.minor(device)
+os.makedev(major, minor)
+os.pathconf(path, name)
+os.fpathconf(fd, name)
+os.sync()
+os.ttyname(fd)
+os.isatty(fd)
+os.link(src, dst)
+os.symlink(src, dst)
+os.readlink(path)
+os.unlink(path)
+os.rmdir(path)
+os.removedirs(path)
+os.renames(old, new)
+os.replace(src, dst)
+os.listdir(path)
+os.scandir(path)
+os.walk(top, topdown=True, onerror=None, followlinks=False)
+os.access(path, os.R_OK | os.W_OK | os.X_OK)
+os.chmod(path, 0o755)
+os.chown(path, uid, gid)
+os.lchown(path, uid, gid)
+os.fchmod(fd, mode)
+os.fchown(fd, uid, gid)
+os.umask(0o022)
+os.getxattr(path, attribute)
+os.setxattr(path, attribute, value)
+os.listxattr(path)
+os.removexattr(path, attribute)
+os.sendfile(out_fd, in_fd, offset, count)
+os.sched_setaffinity(pid, mask)
+os.sched_getaffinity(pid)
+os.sched_setscheduler(pid, policy, param)
+os.sched_getscheduler(pid)
+os.sched_setparam(pid, param)
+os.sched_getparam(pid)
+os.sched_rr_get_interval(pid)
+os.sched_yield()
+os.sched_setaffinity(0, {0, 1, 2})
+os.sched_getaffinity(0)
+os.nice(increment)
+os.getpriority(which, who)
+os.setpriority(which, who, priority)
+os.getloadavg()
+os.cpu_count()
+os.sysconf(name)
+os.confstr(name)
+os.pathsep
+os.sep
+os.altsep
+os.extsep
+os.defpath
+os.devnull
+os.curdir
+os.pardir
+os.linesep
+fmt.Println("Hello, World!")
+var x int = 10
+y := 20
+const Pi = 3.14159
+if err != nil { return err }
+for i := 0; i < 10; i++ { }
+for key, value := range map { }
+switch value { case 1: return }
+defer file.Close()
+go func() { }()
+ch <- value
+received := <-ch
+make(chan int)
+make(chan int, 10)
+close(ch)
+select { case msg := <-ch: }
+func add(a, b int) int { return a + b }
+func() { }()
+func(name string) { fmt.Println(name) }("John")
+func variadic(nums ...int) { }
+pointer := &variable
+deref := *pointer
+new(int)
+array := [5]int{1,2,3,4,5}
+slice := []int{1,2,3}
+slice = append(slice, 4)
+copy(dest, src)
+m := make(map[string]int)
+m["key"] = 42
+delete(m, "key")
+value, exists := m["key"]
+type Person struct { Name string; Age int }
+p := Person{Name: "Alice", Age: 30}
+p := &Person{Name: "Bob", Age: 25}
+interface { Method() string }
+err := errors.New("error message")
+panic("something went wrong")
+recover()
+type Stringer interface { String() string }
+io.Reader.Read(b []byte) (n int, err error)
+json.Marshal(data)
+json.Unmarshal(data, &result)
+strconv.Atoi("123")
+strconv.Itoa(123)
+strings.Split("a,b,c", ",")
+strings.Join([]string{"a","b"}, ",")
+strings.Contains("hello", "ell")
+strings.HasPrefix("hello", "he")
+strings.TrimSpace("  hello  ")
+bytes.Buffer.WriteString("hello")
+regexp.MustCompile(`pattern`)
+time.Now()
+time.Sleep(2 * time.Second)
+ticker := time.NewTicker(1 * time.Second)
+timer := time.NewTimer(5 * time.Second)
+context.WithCancel(context.Background())
+ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+http.Get("http://example.com")
+http.ListenAndServe(":8080", nil)
+http.HandleFunc("/", handler)
+w.WriteHeader(http.StatusOK)
+json.NewEncoder(w).Encode(data)
+template.ParseFiles("template.html")
+template.Execute(w, data)
+database/sql.Open("postgres", "connection string")
+db.Query("SELECT * FROM users")
+rows.Scan(&name, &age)
+stmt, err := db.Prepare("INSERT INTO users VALUES(?, ?)")
+exec.Exec("John", 30)
+tx, err := db.Begin()
+tx.Commit()
+tx.Rollback()
+sync.Mutex.Lock()
+sync.RWMutex.RLock()
+sync.WaitGroup.Add(1)
+sync.WaitGroup.Done()
+sync.WaitGroup.Wait()
+sync.Once.Do(func() { })
+sync.Cond.Wait()
+sync.Cond.Signal()
+sync.Cond.Broadcast()
+sync.Pool.Get()
+sync.Pool.Put(obj)
+atomic.AddInt32(&counter, 1)
+atomic.LoadInt32(&counter)
+atomic.StoreInt32(&counter, 0)
+atomic.CompareAndSwapInt32(&counter, old, new)
+runtime.GOMAXPROCS(4)
+runtime.Gosched()
+runtime.NumGoroutine()
+runtime.GC()
+reflect.TypeOf(value)
+reflect.ValueOf(value).Interface()
+v.MethodByName("Method").Call([]reflect.Value{})
+unsafe.Pointer(&x)
+unsafe.Sizeof(x)
+unsafe.Offsetof(s.Field)
+unsafe.Alignof(x)
+os.Open("file.txt")
+os.Create("file.txt")
+file.Read(b []byte)
+file.WriteString("text")
+ioutil.ReadFile("file.txt")
+ioutil.WriteFile("file.txt", data, 0644)
+os.Stat("file.txt")
+filepath.Join("dir", "file.txt")
+filepath.Walk(".", func(path string, info os.FileInfo, err error) error { return nil })
+flag.String("name", "default", "description")
+flag.Parse()
+log.Println("message")
+log.Fatal("fatal error")
+log.SetFlags(log.LstdFlags | log.Lshortfile)
+bufio.NewReader(file)
+scanner := bufio.NewScanner(file)
+for scanner.Scan() { line := scanner.Text() }
+writer := bufio.NewWriter(file)
+writer.Flush()
+gzip.NewWriter(file)
+zip.NewWriter(file)
+tar.NewWriter(file)
+csv.NewReader(file)
+csv.NewWriter(file)
+xml.Marshal(data)
+xml.Unmarshal(data, &result)
+yaml.Marshal(data)
+yaml.Unmarshal(data, &result)
+toml.Marshal(data)
+toml.Unmarshal(data, &result)
+base64.StdEncoding.EncodeToString([]byte("data"))
+hex.DecodeString("48656c6c6f")
+crypto/rand.Reader.Read(b []byte)
+sha256.Sum256([]byte("data"))
+hmac.New(sha256.New, key)
+cipher.NewGCM(block)
+tls.LoadX509KeyPair("cert.pem", "key.pem")
+x509.ParseCertificate(certBytes)
+rsa.GenerateKey(rand.Reader, 2048)
+ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+ed25519.NewKeyFromSeed(seed)
+ssh.ParsePrivateKey(keyBytes)
+ssh.Dial("tcp", "host:22", config)
+ssh.NewClientConn(conn, "host:22", config)
+ssh.Session.Run("ls")
+sftp.NewClient(sshClient)
+grpc.Dial("localhost:50051", grpc.WithInsecure())
+pb.NewServiceClient(conn)
+stream, err := client.Method(context.Background(), request)
+stream.Recv()
+stream.Send(request)
+stream.CloseSend()
+grpc.Server.Serve(lis)
+pb.RegisterServiceServer(grpcServer, &server{})
+context.WithValue(ctx, key, value)
+metadata.New(map[string]string{"key": "value"})
+interceptor := grpc.UnaryInterceptor(myInterceptor)
+grpc.WithChainUnaryInterceptor(interceptors...)
+grpc.WithTransportCredentials(creds)
+grpc.WithPerRPCCredentials(creds)
+balancer.Pick(info)
+resolver.Builder.Build(target, clientConn, opts)
+conn, err := net.Dial("tcp", "host:port")
+listener, err := net.Listen("tcp", ":8080")
+conn, err := listener.Accept()
+udpConn, err := net.ListenUDP("udp", addr)
+packetConn, err := net.ListenPacket("udp", ":9090")
+ipConn, err := net.DialIP("ip4:icmp", nil, dst)
+conn.SetDeadline(time.Now().Add(10 * time.Second))
+conn.SetReadDeadline(time.Now().Add(5 * time.Second))
+conn.SetWriteDeadline(time.Now().Add(5 * time.Second))
+pipeReader, pipeWriter := io.Pipe()
+io.Copy(dst, src)
+io.MultiWriter(w1, w2, w3)
+io.TeeReader(reader, writer)
+ioutil.Discard.Write(data)
+os.Stdout.Write([]byte("hello"))
+os.Stderr.Write([]byte("error"))
+strings.NewReader("text")
+bytes.NewReader([]byte("data"))
+bytes.NewBuffer([]byte("initial"))
+gob.NewEncoder(writer).Encode(value)
+gob.NewDecoder(reader).Decode(&value)
+binary.Write(writer, binary.LittleEndian, value)
+binary.Read(reader, binary.BigEndian, &value)
+flate.NewWriter(writer, level)
+lzw.NewWriter(writer, order)
+image.Decode(reader)
+image.Encode(writer, img, format)
+color.RGBA{R: 255, G: 0, B: 0, A: 255}
+draw.Draw(dst, rect, src, point, op)
+font.DrawString("text", face, x, y)
+png.Encode(writer, img)
+jpeg.Encode(writer, img, &options)
+gif.EncodeAll(writer, &gif.GIF{})
+image/draw.FloydSteinberg.Draw(dst, rect, src, point)
+runtime.SetFinalizer(obj, finalizerFunc)
+runtime.KeepAlive(obj)
+runtime.SetBlockProfileRate(1)
+runtime.SetMutexProfileFraction(1)
+pprof.StartCPUProfile(f)
+pprof.StopCPUProfile()
+pprof.WriteHeapProfile(f)
+pprof.Lookup("goroutine").WriteTo(f, 1)
+trace.Start(f)
+trace.Stop()
+go test -v ./...
+testing.T.Run("testname", func(t *testing.T) { })
+testing.B.ResetTimer()
+testing.B.ReportAllocs()
+quick.Check(f, nil)
+iotest.DataErrReader(reader)
+httptest.NewServer(handler)
+httptest.NewRecorder()
+httptest.NewRequest("GET", "/", nil)
+testify/assert.Equal(t, expected, actual)
+testify/require.NoError(t, err)
+testify/suite.Run(t, new(MyTestSuite))
+gomock.NewController(t)
+mock.EXPECT().Method().Return(result)
+mock.EXPECT().MethodWithArgs(arg).Times(2)
+benchstat old.txt new.txt
+race.Detect()
+go build -race
+go vet ./...
+golint ./...
+staticcheck ./...
+errcheck ./...
+go mod init module
+go mod tidy
+go mod download
+go get package@version
+go list -m all
+go work init
+go work use ./module
+go generate ./...
+go tool cover -html=coverage.out
+go tool pprof profile.out
+go tool trace trace.out
+go doc package
+go fmt ./...
+go fix ./...
+go version -m binary
+go env GOPATH
+go clean -cache
+go run main.go
+go install ./cmd/tool
+go build -o output main.go
+go test -coverprofile=coverage.out
+go test -bench=.
+go test -benchmem
+go test -race
+go test -short
+go test -timeout 30s
+go test -run TestName
+go test -v -count=1
+cgo.CString("string")
+C.free(unsafe.Pointer(cstr))
+C.malloc(size)
+C.callback = C.callback_t(goCallback)
+C.GoString(cstr)
+C.GoBytes(carray, length)
+syscall.Syscall(trap, a1, a2, a3)
+syscall.RawSyscall(trap, a1, a2, a3)
+syscall.ByteSliceFromString("string")
+syscall.UTF16FromString("string")
+syscall.UTF16ToString(utf16)
+plugin.Open("plugin.so")
+symbol, err := plugin.Lookup("Symbol")
+build.Default.GOPATH
+build.Import("path", "", build.FindOnly)
+parser.ParseFile(fset, "file.go", src, parser.ParseComments)
+ast.Inspect(node, func(n ast.Node) bool { return true })
+types.Info.Types[expr]
+printer.Fprint(writer, fset, node)
+format.Source(src)
+text/template.Must(template.New("").Parse("template"))
+html/template.Must(template.New("").Parse("{{.}}"))
+template.FuncMap{"func": myFunc}
+bufio.NewReadWriter(reader, writer)
+container/list.New().PushBack(value)
+container/ring.New(10).Next()
+container/heap.Init(h)
+sort.Slice(slice, func(i, j int) bool { return slice[i] < slice[j] })
+sort.Stable(slice)
+expvar.NewInt("counter").Set(42)
+expvar.Publish("name", variable)
+expvar.Do(func(kv expvar.KeyValue) { })
+debug.FreeOSMemory()
+debug.SetGCPercent(100)
+debug.SetMaxStack(64 * 1024)
+debug.SetMaxThreads(10000)
+debug.PrintStack()
+debug.WriteHeapDump(fd)
+debug.ReadBuildInfo()
+crypto/tls.Dial("tcp", "host:443", config)
+crypto/tls.LoadX509KeyPair("cert.pem", "key.pem")
+crypto/x509.ParseCertificate(der)
+crypto/x509.CreateCertificate(rand.Reader, template, parent, pub, priv)
+pem.Encode(writer, block)
+asn1.Marshal(value)
+asn1.Unmarshal(der, &value)
+base32.StdEncoding.EncodeToString(data)
+base64.URLEncoding.EncodeToString(data)
+hex.Dump(data)
+binary.Varint(buf)
+binary.PutUvarint(buf, uint64(value))
+csv.Reader.ReadAll()
+csv.Writer.WriteAll(records)
+gob.Register(MyType{})
+json.Compact(dst, src)
+json.Indent(dst, src, "", "  ")
+json.Valid(data)
+xml.EscapeText(writer, []byte("text"))
+crc32.ChecksumIEEE(data)
+fnv.New64().Write(data)
+maphash.MakeSeed()
+mime.ParseMediaType("text/html; charset=utf-8")
+mime.AddExtensionType(".md", "text/markdown")
+httputil.DumpRequest(req, true)
+httputil.DumpResponse(resp, true)
+httputil.NewSingleHostReverseProxy(target)
+pprof.Index(rw, req)
+pprof.Profile(rw, req)
+pprof.Trace(rw, req)
+cookiejar.New(nil)
+httptest.NewTLSServer(handler)
+httptest.NewUnstartedServer(handler)
+httptrace.WithClientTrace(ctx, trace)
+mail.ParseAddress("user@example.com")
+smtp.SendMail("host:25", auth, from, to, msg)
+textproto.Reader.ReadMIMEHeader()
+url.Parse("http://example.com/path?query=value")
+url.QueryEscape("query value")
+url.PathEscape("/path with spaces")
+exec.Command("ls", "-la").Output()
+exec.CommandContext(ctx, "cmd", "arg").Run()
+exec.LookPath("git")
+signal.Notify(sigchan, syscall.SIGINT, syscall.SIGTERM)
+user.Current()
+user.Lookup("username")
+user.LookupGroup("groupname")
+filepath.Match("*.go", "file.go")
+filepath.Glob("*.go")
+filepath.Abs("relative/path")
+filepath.EvalSymlinks("link")
+filepath.VolumeName("C:/path")
+syntax.Parse("pattern", syntax.Perl)
+syntax.Compile(parsed)
+unicode.IsLetter(r)
+unicode.IsDigit(r)
+unicode.IsSpace(r)
+unicode.ToUpper(r)
+unicode.ToLower(r)
+unicode.ToTitle(r)
+unicode.SimpleFold(r)
+unicode.UTF16.Encode([]rune("text"))
+utf8.DecodeRuneInString("text")
+utf8.RuneCountInString("text")
+utf8.ValidString("text")
+SELECT * FROM users;
+INSERT INTO table (col1, col2) VALUES (val1, val2);
+UPDATE table SET column = value WHERE condition;
+DELETE FROM table WHERE condition;
+CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(100));
+DROP TABLE users;
+ALTER TABLE users ADD COLUMN email VARCHAR(255);
+ALTER TABLE users DROP COLUMN email;
+CREATE INDEX idx_name ON users(name);
+DROP INDEX idx_name;
+SELECT COUNT(*) FROM users;
+SELECT AVG(price) FROM products;
+SELECT SUM(quantity) FROM orders;
+SELECT MAX(salary) FROM employees;
+SELECT MIN(price) FROM products;
+SELECT column FROM table WHERE condition;
+SELECT * FROM table ORDER BY column DESC;
+SELECT * FROM table ORDER BY column ASC;
+SELECT * FROM table LIMIT 10;
+SELECT * FROM table OFFSET 5;
+SELECT DISTINCT column FROM table;
+SELECT column AS alias FROM table;
+SELECT * FROM table1 JOIN table2 ON table1.id = table2.table1_id;
+SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.table1_id;
+SELECT * FROM table1 LEFT JOIN table2 ON table1.id = table2.table1_id;
+SELECT * FROM table1 RIGHT JOIN table2 ON table1.id = table2.table1_id;
+SELECT * FROM table1 FULL OUTER JOIN table2 ON table1.id = table2.table1_id;
+SELECT * FROM table1 CROSS JOIN table2;
+SELECT * FROM table WHERE column LIKE '%pattern%';
+SELECT * FROM table WHERE column IN (value1, value2, value3);
+SELECT * FROM table WHERE column BETWEEN value1 AND value2;
+SELECT * FROM table WHERE column IS NULL;
+SELECT * FROM table WHERE column IS NOT NULL;
+SELECT * FROM table WHERE condition1 AND condition2;
+SELECT * FROM table WHERE condition1 OR condition2;
+SELECT * FROM table WHERE NOT condition;
+SELECT column, COUNT(*) FROM table GROUP BY column;
+SELECT column, AVG(value) FROM table GROUP BY column HAVING AVG(value) > 100;
+SELECT * FROM table WHERE column = (SELECT MAX(column) FROM table);
+SELECT * FROM table1 WHERE EXISTS (SELECT 1 FROM table2 WHERE table1.id = table2.table1_id);
+INSERT INTO table SELECT * FROM other_table;
+UPDATE table SET column = (SELECT value FROM other_table WHERE condition);
+DELETE FROM table WHERE column IN (SELECT column FROM other_table WHERE condition);
+CREATE TABLE new_table AS SELECT * FROM old_table;
+CREATE VIEW view_name AS SELECT column1, column2 FROM table WHERE condition;
+DROP VIEW view_name;
+CREATE TEMPORARY TABLE temp_table (id INT, name VARCHAR(100));
+CREATE TABLE IF NOT EXISTS users (id INT PRIMARY KEY);
+DROP TABLE IF EXISTS users;
+TRUNCATE TABLE table_name;
+COMMIT;
+ROLLBACK;
+BEGIN TRANSACTION;
+SAVEPOINT savepoint_name;
+ROLLBACK TO SAVEPOINT savepoint_name;
+RELEASE SAVEPOINT savepoint_name;
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+GRANT SELECT, INSERT ON table TO user;
+REVOKE INSERT ON table FROM user;
+CREATE USER username IDENTIFIED BY 'password';
+DROP USER username;
+ALTER USER username SET PASSWORD 'newpassword';
+CREATE ROLE role_name;
+GRANT role_name TO username;
+CREATE DATABASE db_name;
+DROP DATABASE db_name;
+USE database_name;
+SHOW TABLES;
+DESCRIBE table_name;
+EXPLAIN SELECT * FROM table WHERE condition;
+SHOW INDEX FROM table_name;
+SHOW CREATE TABLE table_name;
+SELECT @@version;
+SELECT DATABASE();
+SELECT USER();
+SELECT NOW();
+SELECT CURDATE();
+SELECT CURTIME();
+SELECT DATE_ADD(NOW(), INTERVAL 1 DAY);
+SELECT DATE_SUB(NOW(), INTERVAL 1 HOUR);
+SELECT DATEDIFF(date1, date2);
+SELECT TIMESTAMPDIFF(MINUTE, start_time, end_time);
+SELECT DATE_FORMAT(NOW(), '%Y-%m-%d %H:%i:%s');
+SELECT CONCAT(first_name, ' ', last_name) AS full_name FROM users;
+SELECT UPPER(name) FROM users;
+SELECT LOWER(email) FROM users;
+SELECT SUBSTRING(column, 1, 5) FROM table;
+SELECT LENGTH(column) FROM table;
+SELECT REPLACE(column, 'old', 'new') FROM table;
+SELECT TRIM(column) FROM table;
+SELECT ROUND(column, 2) FROM table;
+SELECT CEILING(column) FROM table;
+SELECT FLOOR(column) FROM table;
+SELECT ABS(column) FROM table;
+SELECT POWER(column, 2) FROM table;
+SELECT SQRT(column) FROM table;
+SELECT RAND();
+SELECT COALESCE(column, 'default') FROM table;
+SELECT NULLIF(column1, column2) FROM table;
+SELECT CASE WHEN condition THEN value1 ELSE value2 END FROM table;
+SELECT IF(condition, value1, value2) FROM table;
+CREATE PROCEDURE procedure_name() BEGIN SELECT * FROM table; END;
+CALL procedure_name();
+DROP PROCEDURE procedure_name;
+CREATE FUNCTION function_name(param INT) RETURNS INT BEGIN RETURN param * 2; END;
+SELECT function_name(5);
+DROP FUNCTION function_name;
+DELIMITER //
+CREATE TRIGGER trigger_name BEFORE INSERT ON table FOR EACH ROW BEGIN SET NEW.column = UPPER(NEW.column); END//
+DELIMITER ;
+DROP TRIGGER trigger_name;
+CREATE EVENT event_name ON SCHEDULE EVERY 1 HOUR DO UPDATE table SET column = value;
+DROP EVENT event_name;
+SHOW PROCESSLIST;
+KILL process_id;
+SELECT * FROM information_schema.tables;
+SELECT * FROM information_schema.columns WHERE table_name = 'users';
+SELECT * FROM information_schema.key_column_usage;
+LOAD DATA INFILE '/path/to/file.csv' INTO TABLE table_name FIELDS TERMINATED BY ',';
+SELECT * FROM table INTO OUTFILE '/path/to/file.csv' FIELDS TERMINATED BY ',';
+BACKUP DATABASE db_name TO DISK = '/path/to/backup.bak';
+RESTORE DATABASE db_name FROM DISK = '/path/to/backup.bak';
+CHECKSUM TABLE table_name;
+OPTIMIZE TABLE table_name;
+ANALYZE TABLE table_name;
+REPAIR TABLE table_name;
+FLUSH TABLES;
+FLUSH PRIVILEGES;
+RESET QUERY CACHE;
+SELECT GET_LOCK('lock_name', 10);
+SELECT RELEASE_LOCK('lock_name');
+SELECT * FROM table FOR UPDATE;
+SELECT * FROM table LOCK IN SHARE MODE;
+SET @variable = 1;
+SELECT @variable;
+PREPARE stmt FROM 'SELECT * FROM table WHERE id = ?';
+EXECUTE stmt USING @id;
+DEALLOCATE PREPARE stmt;
+CREATE SEQUENCE seq_name START WITH 1 INCREMENT BY 1;
+SELECT NEXT VALUE FOR seq_name;
+CREATE TYPE custom_type AS ENUM ('value1', 'value2', 'value3');
+CREATE DOMAIN email_type AS VARCHAR(255) CHECK (VALUE LIKE '%@%.%');
+CREATE ASSERTION check_constraint CHECK (condition);
+CREATE COLLATION case_insensitive FROM other_collation CASE INSENSITIVE;
+SELECT * FROM table MATCH (column) AGAINST ('search term');
+SELECT * FROM table WHERE column @@ 'search term';
+SELECT * FROM table WHERE CONTAINS(column, 'search term');
+SELECT * FROM table WHERE FREETEXT(column, 'search term');
+SELECT * FROM JSON_TABLE(json_col, '$[*]' COLUMNS (id INT PATH '$.id', name VARCHAR(100) PATH '$.name'));
+SELECT JSON_EXTRACT(json_col, '$.property') FROM table;
+SELECT JSON_OBJECT('key', value) FROM table;
+SELECT JSON_ARRAY(value1, value2, value3) FROM table;
+UPDATE table SET json_col = JSON_SET(json_col, '$.property', 'new_value');
+SELECT * FROM table WHERE JSON_CONTAINS(json_col, '"value"', '$.array');
+SELECT JSON_KEYS(json_col) FROM table;
+SELECT JSON_LENGTH(json_col) FROM table;
+CREATE SPATIAL INDEX idx_location ON table(location_column);
+SELECT * FROM table WHERE ST_Contains(geometry1, geometry2);
+SELECT ST_Distance(point1, point2) FROM table;
+SELECT ST_AsText(geometry) FROM table;
+SELECT ST_GeomFromText('POINT(1 1)');
+SELECT * FROM table PARTITION (partition_name);
+CREATE TABLE partitioned_table (id INT, date_column DATE) PARTITION BY RANGE (YEAR(date_column));
+CREATE TABLE partition_name PARTITION OF partitioned_table FOR VALUES FROM (2020) TO (2021);
+ALTER TABLE partitioned_table ADD PARTITION partition_name VALUES LESS THAN (2022);
+SELECT * FROM table SAMPLE (10);
+SELECT * FROM table TABLESAMPLE SYSTEM (10);
+WITH cte_name AS (SELECT * FROM table1) SELECT * FROM cte_name;
+WITH RECURSIVE cte_name AS (SELECT ... UNION ALL SELECT ...) SELECT * FROM cte_name;
+SELECT * FROM table PIVOT (AVG(value) FOR category IN ('A', 'B', 'C'));
+SELECT * FROM table UNPIVOT (value FOR category IN (col1, col2, col3));
+MERGE INTO target_table USING source_table ON condition WHEN MATCHED THEN UPDATE SET column = value WHEN NOT MATCHED THEN INSERT (col1, col2) VALUES (val1, val2);
+SELECT * FROM table WHERE column SIMILAR TO 'pattern';
+SELECT * FROM table WHERE column ~ 'regex_pattern';
+SELECT * FROM table WHERE column !~ 'regex_pattern';
+SELECT * FROM table WHERE REGEXP_LIKE(column, 'pattern');
+SELECT BIT_AND(column) FROM table;
+SELECT BIT_OR(column) FROM table;
+SELECT BIT_XOR(column) FROM table;
+SELECT GROUP_CONCAT(column SEPARATOR ', ') FROM table;
+SELECT STRING_AGG(column, ', ') FROM table;
+SELECT ARRAY_AGG(column) FROM table;
+SELECT JSON_AGG(column) FROM table;
+SELECT XMLAGG(XMLELEMENT("item", column)) FROM table;
+SELECT * FROM table WHERE column @@ to_tsquery('english', 'search term');
+SELECT to_tsvector('english', column) FROM table;
+SELECT ts_rank_cd(tsvector_column, tsquery_column) FROM table;
+SELECT setweight(tsvector_column, 'A') FROM table;
+CREATE TEXT SEARCH CONFIGURATION english_copy (COPY = english);
+CREATE TEXT SEARCH DICTIONARY custom_dict (TEMPLATE = simple);
+CREATE AGGREGATE custom_agg (BASETYPE = int, SFUNC = func, STYPE = int);
+CREATE OPERATOR CLASS custom_op_class DEFAULT FOR TYPE int USING btree AS OPERATOR 1 <;
+CREATE CAST (source_type AS target_type) WITH FUNCTION cast_function;
+CREATE RULE rule_name AS ON event TO table DO ALSO command;
+CREATE FOREIGN TABLE foreign_table (id INT, name VARCHAR) SERVER foreign_server;
+CREATE SERVER foreign_server FOREIGN DATA WRAPPER postgres_fdw OPTIONS (host 'localhost', dbname 'foreign_db');
+CREATE USER MAPPING FOR current_user SERVER foreign_server OPTIONS (user 'foreign_user', password 'secret');
+IMPORT FOREIGN SCHEMA remote_schema FROM SERVER foreign_server INTO local_schema;
+SELECT * FROM dblink('connection_string', 'SELECT * FROM remote_table') AS t(id INT, name VARCHAR);
+CREATE PUBLICATION publication_name FOR TABLE table1, table2;
+CREATE SUBSCRIPTION subscription_name CONNECTION 'connection_string' PUBLICATION publication_name;
+CREATE MATERIALIZED VIEW mv_name AS SELECT * FROM table WITH DATA;
+REFRESH MATERIALIZED VIEW mv_name;
+REFRESH MATERIALIZED VIEW CONCURRENTLY mv_name;
+CREATE ACCESS METHOD custom_method TYPE INDEX HANDLER handler_function;
+CREATE OPERATOR FAMILY custom_family USING index_method;
+CREATE STATISTICS stats_name ON column1, column2 FROM table;
+SELECT * FROM table WHERE column && ARRAY['value1', 'value2'];
+SELECT * FROM table WHERE column @> ARRAY['value'];
+SELECT ARRAY[1,2,3] || ARRAY[4,5,6];
+SELECT unnest(ARRAY[1,2,3]);
+SELECT * FROM table WHERE hstore_column ? 'key';
+SELECT hstore_column -> 'key' FROM table;
+SELECT hstore_column || hstore('new_key', 'new_value') FROM table;
+SELECT * FROM table WHERE ltree_column ~ '*.substring.*';
+SELECT ltree_column || 'new_node' FROM table;
+SELECT * FROM table WHERE net_column >>= inet '192.168.1.0/24';
+SELECT net_column + 1 FROM table;
+SELECT * FROM table WHERE range_column && int4range(10, 20);
+SELECT lower(range_column), upper(range_column) FROM table;
+SELECT * FROM table WHERE uuid_column = uuid_generate_v4();
+SELECT uuid_generate_v1();
+CREATE EXTENSION extension_name;
+DROP EXTENSION extension_name;
+CREATE COLLATION case_insensitive (provider = icu, locale = 'und@colStrength=secondary');
+CREATE TRANSFORM FOR type_name LANGUAGE lang_name (FROM SQL WITH FUNCTION from_sql, TO SQL WITH FUNCTION to_sql);
+CREATE FOREIGN DATA WRAPPER wrapper_name HANDLER handler_function VALIDATOR validator_function;
+CREATE EVENT TRIGGER trigger_name ON event EXECUTE FUNCTION function_name();
+CREATE POLICY policy_name ON table_name FOR ALL TO role_name USING (condition);
+ALTER TABLE table_name ENABLE ROW LEVEL SECURITY;
+CREATE SCHEMA IF NOT EXISTS schema_name;
+SET search_path TO schema_name, public;
+CREATE TABLESPACE tablespace_name LOCATION '/path/to/tablespace';
+CREATE DATABASE db_name TABLESPACE tablespace_name;
+CREATE LANGUAGE plpgsql;
+CREATE TRUSTED PROCEDURAL LANGUAGE plpython3u HANDLER plpython3_call_handler;
+CREATE DOMAIN email_address AS text CHECK (value ~ '^[^@]+@[^@]+.[^@]+$');
+CREATE TYPE complex AS (r float8, i float8);
+CREATE TYPE enum_type AS ENUM ('value1', 'value2');
+CREATE TYPE range_type AS RANGE (subtype = int4);
+CREATE TYPE base_type AS (id int, created_at timestamp);
+CREATE TABLE OF table_type ();
+CREATE OPERATOR #*# (LEFTARG = type1, RIGHTARG = type2, PROCEDURE = function);
+CREATE AGGREGATE aggregate_name (BASETYPE = base_type, SFUNC = sfunc, STYPE = state_type);
+CREATE CONVERSION conversion_name FOR 'UTF8' TO 'LATIN1' FROM iconv;
+CREATE TEXT SEARCH TEMPLATE template_name (INIT = init_function,LEXIZE = lexize_function);
+CREATE TEXT SEARCH PARSER parser_name (START = start_function,GETTOKEN = gettoken_function,END = end_function,LEXTYPES = lextypes_function);
+CREATE TEXT SEARCH DICTIONARY dict_name (TEMPLATE = template, option1 = value1, option2 = value2);
+CREATE ACCESS METHOD access_method TYPE TABLE HANDLER handler_function;
+CREATE USER MAPPING FOR user_name SERVER server_name OPTIONS (user 'remote_user', password 'password');
+CREATE FOREIGN TABLE foreign_table_name (id integer, name text) SERVER server_name;
+CREATE PUBLICATION publication_name FOR ALL TABLES;
+CREATE SUBSCRIPTION subscription_name CONNECTION 'dbname=foreign_db' PUBLICATION publication_name;
+CREATE STATISTICS statistics_name ON column1, column2 FROM table_name;
+CREATE RULE rule_name AS ON INSERT TO table_name DO ALSO NOTHING;
+CREATE TRIGGER trigger_name BEFORE INSERT ON table_name FOR EACH ROW EXECUTE FUNCTION function_name();
+CREATE EVENT TRIGGER event_trigger_name ON ddl_command_start EXECUTE FUNCTION function_name();
+CREATE POLICY policy_name ON table_name USING (user_id = current_user_id());
+ALTER SYSTEM SET parameter_name = 'value';
+SELECT pg_reload_conf();
+SELECT pg_rotate_logfile();
+SELECT pg_terminate_backend(pid);
+SELECT pg_cancel_backend(pid);
+SELECT pg_stat_get_backend_idset();
+SELECT * FROM pg_stat_activity;
+SELECT * FROM pg_stat_database;
+SELECT * FROM pg_stat_all_tables;
+SELECT * FROM pg_stat_user_indexes;
+SELECT * FROM pg_locks;
+SELECT * FROM pg_prepared_xacts;
+VACUUM (VERBOSE, ANALYZE) table_name;
+VACUUM FULL table_name;
+CLUSTER table_name USING index_name;
+REINDEX TABLE table_name;
+REINDEX DATABASE database_name;
+CHECKPOINT;
+SELECT pg_switch_wal();
+SELECT pg_current_wal_lsn();
+SELECT pg_walfile_name(lsn);
+SELECT pg_create_restore_point('point_name');
+SELECT pg_start_backup('label', true);
+SELECT pg_stop_backup();
+SELECT pg_is_in_recovery();
+SELECT pg_last_wal_receive_lsn();
+SELECT pg_last_wal_replay_lsn();
+SELECT pg_wal_replay_pause();
+SELECT pg_wal_replay_resume();
+SELECT * FROM pg_hba_file_rules;
+SELECT * FROM pg_file_settings;
+SELECT * FROM pg_config;
+SELECT name, setting FROM pg_settings WHERE category = 'File Locations';
+SELECT schemaname, tablename FROM pg_tables WHERE tableowner = current_user;
+SELECT * FROM pg_indexes WHERE tablename = 'table_name';
+SELECT * FROM pg_views WHERE viewname = 'view_name';
+SELECT * FROM pg_user;
+SELECT * FROM pg_roles;
+SELECT * FROM pg_group;
+SELECT * FROM pg_shadow;
+SELECT * FROM pg_authid;
+puts "Hello, World!"
+x = 10
+y = 20
+PI = 3.14159
+def add(a, b) a + b end
+class Person; attr_accessor :name, :age; end
+person = Person.new
+person.name = "Alice"
+puts person.name
+[1, 2, 3].each { |x| puts x }
+(1..10).each do |i| puts i end
+hash = { key: "value", another: 42 }
+hash.each { |k, v| puts "#{k}: #{v}" }
+if condition then do_something end
+unless condition then do_something end
+while condition do something end
+until condition do something end
+for item in collection do process(item) end
+case value when 1 then "one" when 2 then "two" else "other" end
+result = condition ? true_value : false_value
+do_something if condition
+do_something unless condition
+do_something while condition
+do_something until condition
+begin risky; rescue => e; handle; end
+begin; ensure; cleanup; end
+raise "Error message"
+throw :symbol
+catch :symbol do something end
+lambda { |x| x * 2 }
+->(x) { x * 2 }
+proc { |x| x * 2 }
+method(:function).call(args)
+[1, 2, 3].map { |x| x * 2 }
+[1, 2, 3].select { |x| x > 1 }
+[1, 2, 3].reject { |x| x <= 1 }
+[1, 2, 3].reduce(0) { |sum, x| sum + x }
+[1, 2, 3].any? { |x| x > 2 }
+[1, 2, 3].all? { |x| x > 0 }
+[1, 2, 3].none? { |x| x > 5 }
+[1, 2, 3].find { |x| x > 1 }
+[1, 2, 3].find_index { |x| x == 2 }
+[1, 2, 3].sort
+[3, 1, 2].sort_by { |x| x }
+[1, 2, 3].reverse
+[1, 2, 3].include?(2)
+[1, 2, 3].min
+[1, 2, 3].max
+[1, 2, 3].sum
+"hello".upcase
+"HELLO".downcase
+"hello".capitalize
+" hello ".strip
+"hello".gsub('l', 'w')
+"hello".sub('l', 'w')
+"hello".split('')
+"hello".chars
+"hello".length
+"hello".empty?
+"hello".start_with?("he")
+"hello".end_with?("lo")
+"hello".include?("ell")
+"hello".index('e')
+"hello".slice(1, 3)
+"hello".reverse
+"hello".to_i
+"123".to_i
+"hello".to_sym
+:hello.to_s
+/pattern/.match("string")
+"string" =~ /pattern/
+"string".scan(/pattern/)
+"string".gsub(/pattern/, 'replacement')
+Time.now
+Time.new(2024, 1, 1)
+Time.now + 3600
+Time.now.strftime("%Y-%m-%d %H:%M:%S")
+Date.today
+DateTime.now
+1.day.from_now
+1.hour.ago
+File.read("file.txt")
+File.write("file.txt", "content")
+File.open("file.txt", "r") { |f| f.read }
+File.exist?("file.txt")
+File.delete("file.txt")
+File.rename("old.txt", "new.txt")
+Dir.entries(".")
+Dir.glob("*.rb")
+Dir.mkdir("new_dir")
+Dir.rmdir("empty_dir")
+require 'library'
+require_relative 'local_file'
+load 'file.rb'
+include ModuleName
+extend ModuleName
+prepend ModuleName
+module MyModule; def method; end; end
+class MyClass < ParentClass; end
+class MyClass; include Enumerable; end
+class MyClass; extend MyModule; end
+class MyClass; prepend MyModule; end
+class MyClass; private; def method; end; end
+class MyClass; protected; def method; end; end
+class MyClass; public; def method; end; end
+class MyClass; alias new_name old_name; end
+class MyClass; undef method_name; end
+class MyClass; define_method(:name) { body } end
+class MyClass; attr_reader :name; end
+class MyClass; attr_writer :name; end
+class MyClass; attr_accessor :name; end
+class MyClass; class << self; def method; end; end; end
+object.instance_variable_set(:@var, value)
+object.instance_variable_get(:@var)
+object.instance_variables
+Object.const_get(:CONSTANT)
+Object.const_set(:NEW_CONST, value)
+Object.const_defined?(:CONSTANT)
+Object.remove_const(:CONSTANT)
+Object.methods
+Object.respond_to?(:method)
+Object.send(:method, args)
+Object.public_send(:method, args)
+Object.define_singleton_method(:name) { body }
+BasicObject.new.method_missing(:name, *args)
+BasicObject.new.respond_to_missing?(:name)
+Kernel.caller
+Kernel.caller_locations
+Kernel.eval("code")
+Kernel.instance_eval("code")
+Kernel.class_eval("code")
+Kernel.binding
+Kernel.local_variables
+Kernel.global_variables
+Kernel.sleep(1)
+Kernel.exit
+Kernel.abort("message")
+Kernel.system("ls -la")
+Kernel.`("ls -la")
+Kernel.exec("command")
+Kernel.fork { code }
+Kernel.spawn("command")
+Kernel.trap("INT") { puts "Interrupted" }
+Kernel.raise StandardError.new("message")
+Kernel.catch(:tag) { throw :tag }
+Kernel.loop { break if condition }
+Kernel.rand(100)
+Kernel.srand(12345)
+Kernel.require('json')
+Kernel.autoload(:MyClass, 'my_class.rb')
+Kernel.at_exit { puts "Exiting" }
+Enumerable.new.each_cons(2) { |pair| }
+Enumerable.new.each_slice(3) { |slice| }
+Enumerable.new.chunk { |x| x.even? }.each { |flag, values| }
+Enumerable.new.cycle(2) { |x| }
+Enumerable.new.drop(2)
+Enumerable.new.drop_while { |x| x < 3 }
+Enumerable.new.take(2)
+Enumerable.new.take_while { |x| x < 3 }
+Enumerable.new.zip([4,5,6])
+Enumerable.new.chain([7,8,9])
+Array.new(3) { |i| i * 2 }
+Array.new(3, "default")
+Array.[](1, 2, 3)
+Array.[](*range)
+[1, 2] + [3, 4]
+[1, 2, 3] - [2]
+[1, 2] * 3
+[1, 2] & [2, 3]
+[1, 2] | [2, 3]
+[1, 2, 3] << 4
+[1, 2, 3].push(4)
+[1, 2, 3].pop
+[1, 2, 3].shift
+[1, 2, 3].unshift(0)
+[1, 2, 3].insert(1, 1.5)
+[1, 2, 3].delete(2)
+[1, 2, 3].delete_at(1)
+[1, 2, 3].compact
+[1, nil, 3].compact!
+[1, 2, 3].flatten
+[1, [2, 3]].flatten!
+[1, 2, 3].join(", ")
+[1, 2, 3].permutation(2) { |p| }
+[1, 2, 3].combination(2) { |c| }
+[1, 2, 3].product([4, 5])
+[1, 2, 3].transpose
+[1, 2, 3].rotate(1)
+[1, 2, 3].rotate!(-1)
+[1, 2, 3].shuffle
+[1, 2, 3].shuffle!
+[1, 2, 3].sample(2)
+[1, 2, 3].uniq
+[1, 2, 2, 3].uniq!
+[1, 2, 3].bsearch { |x| x > 1 }
+[1, 2, 3].bsearch_index { |x| x > 1 }
+[1, 2, 3].dig(0)
+[1, 2, 3].fetch(1, "default")
+[1, 2, 3].values_at(0, 2)
+Hash.new { |h, k| h[k] = [] }
+Hash.[](key: value, another: 42)
+{ key: value }.merge({ other: 43 })
+{ key: value }.merge!({ other: 43 })
+{ key: value }.update({ other: 43 })
+{ key: value }.delete(:key)
+{ key: value }.delete_if { |k, v| v.nil? }
+{ key: value }.keep_if { |k, v| v }
+{ key: value }.select { |k, v| v }
+{ key: value }.reject { |k, v| !v }
+{ key: value }.clear
+{ key: value }.invert
+{ key: value }.flatten
+{ a: 1, b: 2 }.transform_keys { |k| k.to_s }
+{ a: 1, b: 2 }.transform_values { |v| v * 2 }
+{ a: 1, b: 2 }.slice(:a)
+{ a: 1, b: 2 }.except(:b)
+{ a: 1, b: 2 }.dig(:a)
+{ a: 1, b: 2 }.fetch(:c, "default")
+{ a: 1, b: 2 }.fetch_values(:a, :b)
+{ a: 1, b: 2 }.values
+{ a: 1, b: 2 }.keys
+{ a: 1, b: 2 }.each_key { |k| }
+{ a: 1, b: 2 }.each_value { |v| }
+{ a: 1, b: 2 }.key(1)
+{ a: 1, b: 2 }.key?(:a)
+{ a: 1, b: 2 }.value?(1)
+{ a: 1, b: 2 }.empty?
+{ a: 1, b: 2 }.size
+{ a: 1, b: 2 }.to_a
+{ a: 1, b: 2 }.to_h
+{ a: 1, b: 2 }.to_json
+JSON.parse('{"key": "value"}')
+JSON.generate({ key: "value" })
+YAML.load("---\nkey: value\n")
+YAML.dump({ key: "value" })
+CSV.foreach("file.csv") { |row| }
+CSV.read("file.csv")
+CSV.open("file.csv", "w") { |csv| csv << ["a", "b"] }
+URI.parse("http://example.com")
+Net::HTTP.get(URI("http://example.com"))
+Net::HTTP.post(URI("http://example.com"), "data")
+OpenURI.open_uri("http://example.com") { |f| f.read }
+Socket.tcp("example.com", 80) { |sock| }
+TCPServer.new(2000)
+UDPSocket.new.send("data", 0, "host", 2000)
+OpenSSL::SSL::SSLSocket.new(socket)
+OpenSSL::PKey::RSA.generate(2048)
+OpenSSL::X509::Certificate.new
+Digest::SHA256.hexdigest("data")
+Digest::MD5.digest("data")
+Base64.encode64("data")
+Base64.decode64("encoded")
+Zlib::Deflate.deflate("data")
+Zlib::Inflate.inflate(compressed)
+Marshal.dump(object)
+Marshal.load(data)
+Psych.load_file("file.yaml")
+Psych.dump(object, File.open("file.yaml", "w"))
+SecureRandom.hex(16)
+SecureRandom.uuid
+Benchmark.measure { code }
+Benchmark.bm { |x| x.report { code } }
+Benchmark.bmbm { |x| x.report { code } }
+Profiler__.start_profile
+Profiler__.stop_profile
+Profiler__.print_profile($stderr)
+Logger.new($stdout).info("message")
+Logger.new("app.log").error("error")
+Log4r::Logger.new('mylogger')
+Syslog.open("myapp") { |s| s.info("message") }
+Thread.new { code }
+Thread.list
+Thread.current
+Thread.main
+Thread.stop
+Thread.run
+Thread.pass
+Thread.kill(thread)
+Thread.exit
+Thread.abort_on_exception = true
+Mutex.new.synchronize { code }
+ConditionVariable.new.wait(mutex)
+ConditionVariable.new.signal
+ConditionVariable.new.broadcast
+Queue.new.push(item)
+Queue.new.pop
+SizedQueue.new(10)
+Queue.new.empty?
+Queue.new.size
+Queue.new.clear
+Fiber.new { code }.resume
+Fiber.yield
+Fiber.current
+Enumerator.new { |y| y.yield 1 }
+Enumerator.new { |y| loop { y.yield rand(100) } }
+Generator.new { |g| g.yield 1 }
+Ractor.new { code }
+Ractor.current
+Ractor.yield(object)
+Ractor.receive
+Ractor.select(ractor1, ractor2)
+Ractor.make_shareable(object)
+GC.start
+GC.stat
+GC.enable
+GC.disable
+GC.stress = true
+ObjectSpace.each_object { |obj| }
+ObjectSpace._id2ref(object_id)
+ObjectSpace.define_finalizer(object, proc {})
+ObjectSpace.undefine_finalizer(object)
+RubyVM::InstructionSequence.compile("code")
+RubyVM::InstructionSequence.compile_file("file.rb")
+RubyVM::InstructionSequence.disasm(method(:add))
+TracePoint.new(:call) { |tp| }.enable
+set_trace_func(proc { |event, file, line, id, binding, classname| })
+caller(0)
+caller_locations(0)
+Binding.new.local_variable_get(:var)
+Binding.new.local_variable_set(:var, value)
+Binding.new.eval("code")
+Binding.new.source_location
+Method.new(method(:add))
+Method.new.unbind
+Method.new.source_location
+Method.new.parameters
+Proc.new { |x| x * 2 }
+proc { |x| x * 2 }
+lambda { |x| x * 2 }
+->(x) { x * 2 }
+Proc.new.curry.call(1).call(2)
+Proc.new.arity
+Proc.new.parameters
+Proc.new.lambda?
+Proc.new.binding
+Proc.new.source_location
+UnboundMethod.new(MyClass.instance_method(:method))
+UnboundMethod.new.bind(object)
+UnboundMethod.new.source_location
+UnboundMethod.new.parameters
+Symbol.all_symbols
+Symbol.to_proc
+:"string".to_sym
+:"string".intern
+Regexp.new("pattern")
+Regexp.escape("string.with.regex")
+Regexp.union("a", "b", "c")
+Regexp.last_match
+Regexp.last_match(1)
+$~.string
+$~.pre_match
+$~.post_match
+Range.new(1, 10)
+(1..10).cover?(5)
+(1..10).include?(5)
+(1..10).step(2) { |x| }
+(1..10).bsearch { |x| x >= 5 }
+(1..10).min
+(1..10).max
+(1..10).size
+(1..10).to_a
+(1..10).each { |x| }
+(1..10).reverse_each { |x| }
+Rational(3, 4)
+Complex('1+2i')
+BigDecimal("3.14159")
+Matrix[[1,2],[3,4]]
+Vector[1,2,3]
+Set[1,2,3]
+SortedSet[3,1,2]
+OpenStruct.new(name: "John", age: 30)
+Struct.new(:name, :age).new("Alice", 25)
+Data.define(:name, :age).new("Bob", 30)
+Pathname.new("/path/to/file").expand_path
+Pathname.new("file.txt").read
+Pathname.new("dir").children
+Dir.mktmpdir { |dir| }
+Tempfile.new('prefix') { |f| }
+StringIO.new("data").read
+StringIO.new.write("data")
+IO.popen("ls", "r") { |io| io.read }
+IO.select([io1], [io2], [io3], timeout)
+IO.read("file.txt")
+IO.write("file.txt", "data")
+IO.foreach("file.txt") { |line| }
+IO.binread("file.bin")
+IO.binwrite("file.bin", "data")
+IO.copy_stream(src, dst)
+IO.pipe { |r, w| w.write("data"); r.read }
+IO.try_convert(object)
+FileUtils.mkdir_p("path/to/dir")
+FileUtils.cp("src", "dst")
+FileUtils.mv("old", "new")
+FileUtils.rm_rf("dir")
+FileUtils.chmod(0755, "file")
+FileUtils.touch("file")
+Find.find(".") { |path| }
+Dir.glob("**/*.rb")
+Dir["**/*.rb"]
+Dir.chdir("/path") { }
+Dir.home
+Dir.tmpdir
+Etc.getpwuid(0)
+Etc.getgrgid(0)
+Etc.uname
+Etc.sysconf(:SC_CLK_TCK)
+Shellwords.split('command "with spaces"')
+Shellwords.escape('file with spaces')
+Open3.capture2("ls")
+Open3.capture3("ls")
+Open3.pipeline("ls", "grep pattern")
+Open3.popen2("ls") { |i, o| }
+Open3.popen3("ls") { |i, o, e| }
+PTY.spawn("ls") { |r, w, pid| }
+Expect.new(timeout: 1)
+Readline.readline("> ", true)
+Readline.completion_proc = proc { |s| [] }
+Readline.basic_word_break_characters = " \t\n\"\\'`@$><=;|&{("
+Readline.completion_append_character = " "
+Readline.completer_word_break_characters = " \t\n\"\\'`@$><=;|&{("
+Readline.completer_quote_characters = "'\""
+Readline.filename_quote_characters = ""
+Readline.vi_editing_mode
+Readline.emacs_editing_mode
+Abbrev.abbrev(['ruby', 'python'])
+Base64.strict_encode64("data")
+Base64.urlsafe_encode64("data")
+Base64.strict_decode64("encoded")
+Base64.urlsafe_decode64("encoded")
+CGI.escape("string with spaces")
+CGI.unescape("string+with+spaces")
+CGI.escapeHTML("<tag>")
+CGI.unescapeHTML("&lt;tag&gt;")
+CGI.parse("a=1&b=2")
+CGI::Cookie.new('name' => 'value')
+ERB.new("<%= value %>").result(binding)
+ERB.new("template.erb").result
+Haml::Engine.new("%div Hello").render
+Sass::Engine.new("div { color: red }").render
+Less::Parser.new.parse("div { color: red }").to_css
+CoffeeScript.compile("code")
+Uglifier.compile("code")
+Tilt.new("template.erb").render
+Sinatra.new { get('/') { 'Hello' } }
+Rack::Builder.new { run ->(env) { [200, {}, ['Hello']] } }
+Rack::Request.new(env).params
+Rack::Response.new(['body'], 200, {'Header' => 'Value'})
+Rack::Static.new(app, :urls => ["/public"])
+Rack::Session::Cookie.new(app, :secret => 'secret')
+Rails.application.routes.draw { root 'home#index' }
+ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'db.sqlite3')
+ActiveRecord::Base.connection.execute("SELECT * FROM users")
+ActiveRecord::Migration.create_table :users do |t| t.string :name; end
+ActiveRecord::Base.transaction { user.save! }
+ActiveRecord::Base.connection_pool.with_connection { }
+ActiveSupport::TimeZone['UTC'].now
+ActiveSupport::Duration.build(3600)
+I18n.t('hello')
+I18n.locale = :es
+ActionMailer::Base.mail(from: 'a@b.com', to: 'c@d.com', body: 'Hello').deliver
+ActionCable.server.broadcast('channel', data)
+ActiveJob::Base.queue_adapter = :sidekiq
+ActiveStorage::Blob.create_after_upload!(io: file, filename: 'file.txt')
+ActionView::Base.new.render(partial: 'form')
+ActionController::Base.new.render(json: {data: 1})
+ActionDispatch::Request.new(env).params
+ActionDispatch::Response.new(200, {}, ['Body'])
+RSpec.describe MyClass do it 'works' do expect(1).to eq(1) end end
+MiniTest::Unit::TestCase.new('test_name') { assert_equal 1, 1 }
+Capybara.current_session.visit('/')
+Capybara.current_session.find('button').click
+Selenium::WebDriver.for :chrome
+Selenium::WebDriver::Wait.new(timeout: 10).until { element.displayed? }
+Cucumber::Runtime.new.load_programming_language('rb')
+Cucumber::Cli::Main.new(['features']).execute!
+FactoryBot.define { factory :user do name 'John' end }
+Faker::Name.name
+Faker::Internet.email
+Shoulda::Matchers::ActiveRecord::ValidatePresenceOf.new(:name)
+VCR.use_cassette('api_call') { Net::HTTP.get(URI('http://example.com')) }
+WebMock.stub_request(:get, "http://example.com").to_return(body: "response")
+Timecop.freeze(Time.now) { }
+SimpleCov.start
+CodeClimate::TestReporter.start
+RuboCop::CLI.new.run(['--auto-correct'])
+Bundler.require(:default)
+Bundler.setup
+Bundler.with_clean_env { }
+Bundler::Fetcher.new.fetch
+Gem::Specification.new do |s| s.name = 'my_gem' end
+Gem::Installer.new('package.gem').install
+Gem::DependencyInstaller.new.install('gem_name')
+Rake::Task['task_name'].invoke
+Rake::Task.define_task(:task) { }
+Thor::Group.class_eval { desc "description"; def method; end }
+Hanami::Application.new.routes
+Dry::Container.new.register(:service) { Service.new }
+Trailblazer::Operation.(params)
+ROM.container(:sql, 'sqlite::memory') do |config| end
+Sidekiq::Worker.perform_async('arg1', 'arg2')
+Resque.enqueue(Worker, 'arg1', 'arg2')
+Delayed::Job.enqueue(Worker.new)
+Shoryuken::Worker.perform_async('queue', 'message')
+Sneakers::Worker.enqueue('message')
+Puma::Server.new(app).run
+Unicorn::HttpServer.new(app).start
+Passenger::App.new(app).start
+Thin::Server.new('0.0.0.0', 3000, app)
+EventMachine.run { EM.add_timer(1) { EM.stop } }
+Celluloid::Actor[:name].async.method
+Concurrent::Promise.execute { 42 }.value
+Async::Reactor.run { Async { task } }
+FiberScheduler do |task| end
+Ractor.make_shareable([1,2,3])
+Numo::NArray[1,2,3]
+RMagick::ImageList.new("image.jpg")
+MiniMagick::Image.open("image.jpg")
+ChunkyPNG::Image.from_file("image.png")
+RubyPython.start
+PyCall.import('numpy')
+Fiddle::Function.new(addr, [args], ret_type)
+FFI::Library.new { attach_function :name, [:int], :int }
+Curses.init_screen
+Curses.addstr("Hello")
+Curses.refresh
+Curses.close_screen
+TTY::Prompt.new.select("Choose?", %w(Option1 Option2))
+TTY::Table.new([['a','b'],['c','d']])
+Pastel.new.red("Hello")
+Rainbow("text").red
+Colorize.red("text")
+Unicode::Emoji::REGEX
+Addressable::URI.parse("http://example.com")
+HTTParty.get('http://example.com')
+RestClient.get('http://example.com')
+Faraday.get('http://example.com')
+Typhoeus.get('http://example.com')
+Excon.get('http://example.com')
+Mechanize.new.get('http://example.com')
+Nokogiri::HTML(html).css('div')
+Oga.parse_html(html)
+Loofah.fragment(html).scrub!(:prune)
+Sanitize.fragment(html, Sanitize::Config::RELAXED)
+Redcarpet::Markdown.new(renderer, extensions).render("**text**")
+Kramdown::Document.new("text").to_html
+CommonMarker.render_doc("text", :DEFAULT).to_html
+Prawn::Document.generate("file.pdf") { text "Hello" }
+CombinePDF.load("file.pdf").save("new.pdf")
+Rouge::Formatters::HTML.new.format(Rouge::Lexers::Ruby.new.lex("code"))
+Coderay.scan("code", :ruby).div
+Asciidoctor.convert('== Title', to_file: 'output.html')
+Git.open('.').log.first
+Rugged::Repository.new('.')
+rugged_commit = rugged_repo.lookup(oid)
+Jekyll::Site.new(site_config).process
+Middleman::Application.new.do_build
+Nanoc::Core::SiteLoader.new.load
+Huginn::Agent.receive!
+Discourse::Application.routes.recognize_path('/')
+Spree::Product.available
+Solidus::Order.complete
+Refinery::Page.create(title: 'Home')
+Radiant::Page.create(title: 'Home')
+Locomotive::Page.create(title: 'Home')
+Comfy::Cms::Page.create(label: 'Home')
+Alchemy::Page.create(name: 'Home')
+Bridgetown::Site.new(source: ".", destination: "output").process
+Octopress::Site.new.process
+Webby::Builder.new.build
+Nesta::Page.find_by_path('/')
+Statique::Site.new.build
+Scrivito::Workspace.current
+println!("Hello, world!");
+let x: i32 = 10;
+let y = 20;
+const MAX_POINTS: u32 = 100_000;
+static mut COUNTER: u32 = 0;
+fn main() {}
+fn add(a: i32, b: i32) -> i32 { a + b }
+let sum = |a, b| a + b;
+let x = if condition { 1 } else { 0 };
+match value { Some(v) => v, None => 0 }
+while condition { }
+for i in 0..10 { }
+loop { break; }
+let v = vec![1, 2, 3];
+let s = String::from("hello");
+let slice = &s[0..2];
+let owned = s.to_owned();
+let mut v = Vec::new();
+v.push(1);
+v.pop();
+let m = HashMap::new();
+m.insert("key", "value");
+m.get("key");
+let s = Some(5);
+s.unwrap();
+s.expect("error message");
+let r: Result<i32, String> = Ok(5);
+r.unwrap();
+r.map(|v| v * 2);
+let b = Box::new(5);
+let rc = Rc::new(5);
+let arc = Arc::new(5);
+let mutex = Mutex::new(5);
+let guard = mutex.lock().unwrap();
+let rwlock = RwLock::new(5);
+let read_guard = rwlock.read().unwrap();
+let write_guard = rwlock.write().unwrap();
+let cell = Cell::new(5);
+cell.set(10);
+let ref_cell = RefCell::new(5);
+let borrow = ref_cell.borrow();
+let mut borrow_mut = ref_cell.borrow_mut();
+unsafe { unsafe_code(); }
+let raw_ptr = &x as *const i32;
+let mut raw_mut_ptr = &mut x as *mut i32;
+std::mem::size_of::<i32>();
+std::mem::replace(&mut x, 0);
+std::mem::swap(&mut a, &mut b);
+std::ptr::read(ptr);
+std::ptr::write(ptr, value);
+std::sync::atomic::AtomicUsize::new(0);
+atomic.fetch_add(1, Ordering::SeqCst);
+std::thread::spawn(|| {});
+std::thread::sleep(Duration::from_secs(1));
+let handle = thread::spawn(|| {});
+handle.join().unwrap();
+std::sync::mpsc::channel();
+sender.send(value).unwrap();
+receiver.recv().unwrap();
+std::sync::Barrier::new(2);
+std::sync::Condvar::new();
+std::sync::Once::new();
+std::panic::catch_unwind(|| {});
+std::panic::set_hook(Box::new(|_| {}));
+std::process::exit(1);
+std::env::args().collect::<Vec<String>>();
+std::env::var("PATH").unwrap();
+std::fs::read_to_string("file.txt").unwrap();
+std::fs::write("file.txt", "content").unwrap();
+std::fs::File::open("file.txt").unwrap();
+std::io::BufReader::new(file);
+std::io::BufWriter::new(file);
+std::io::stdin().read_line(&mut buffer).unwrap();
+std::io::stdout().write_all(b"hello").unwrap();
+std::net::TcpStream::connect("127.0.0.1:8080").unwrap();
+std::net::TcpListener::bind("127.0.0.1:8080").unwrap();
+listener.accept().unwrap();
+std::net::UdpSocket::bind("127.0.0.1:8080").unwrap();
+socket.send_to(b"hello", "127.0.0.1:8080").unwrap();
+std::path::Path::new("/etc/hosts");
+path.to_str().unwrap();
+path.join("file.txt");
+std::ffi::CString::new("hello").unwrap();
+std::ffi::CStr::from_ptr(ptr);
+std::os::unix::ffi::OsStrExt::as_bytes(os_str);
+std::time::Instant::now();
+instant.elapsed();
+std::time::SystemTime::now();
+std::cmp::min(a, b);
+std::cmp::max(a, b);
+std::cmp::Reverse(5);
+a.partial_cmp(&b).unwrap();
+a.cmp(&b);
+std::default::Default::default();
+std::clone::Clone::clone(&x);
+std::marker::Copy;
+std::marker::Send;
+std::marker::Sync;
+std::marker::PhantomData;
+std::ops::Add::add(a, b);
+std::ops::Deref::deref(&x);
+std::ops::Drop::drop(&mut self);
+std::convert::From::from(value);
+std::convert::Into::into(value);
+std::convert::TryFrom::try_from(value).unwrap();
+std::borrow::Borrow::borrow(&self);
+std::borrow::ToOwned::to_owned(&self);
+std::string::ToString::to_string(&self);
+std::fmt::Display::fmt(&self, f);
+std::fmt::Debug::fmt(&self, f);
+std::fmt::write(&mut string, format_args!("{}", x));
+std::str::from_utf8(bytes).unwrap();
+std::str::from_utf8_unchecked(bytes);
+std::string::String::from_utf8(vec).unwrap();
+std::string::String::from_utf8_lossy(bytes);
+std::vec::Vec::with_capacity(10);
+vec.capacity();
+vec.shrink_to_fit();
+vec.reserve(10);
+vec.truncate(2);
+vec.clear();
+vec.is_empty();
+vec.contains(&5);
+vec.first();
+vec.last();
+vec.get(0);
+vec.get_mut(0);
+vec.split_at(2);
+vec.split_at_mut(2);
+vec.split(|&x| x == 2);
+vec.split_mut(|&x| x == 2);
+vec.splitn(2, |&x| x == 2);
+vec.rsplitn(2, |&x| x == 2);
+vec.windows(2);
+vec.chunks(2);
+vec.chunks_mut(2);
+vec.iter();
+vec.iter_mut();
+vec.into_iter();
+vec.drain(0..2);
+vec.retain(|&x| x > 2);
+vec.dedup();
+vec.extend_from_slice(&[4,5,6]);
+vec.resize(10, 0);
+vec.resize_with(10, Default::default);
+vec.splice(0..2, [7,8].iter().cloned());
+std::collections::VecDeque::new();
+deque.push_front(1);
+deque.push_back(2);
+deque.pop_front();
+deque.pop_back();
+std::collections::LinkedList::new();
+list.push_front(1);
+list.push_back(2);
+list.pop_front();
+list.pop_back();
+std::collections::BinaryHeap::new();
+heap.push(5);
+heap.pop();
+heap.peek();
+std::collections::BTreeMap::new();
+btree_map.insert(1, "a");
+btree_map.get(&1);
+btree_map.range(1..=3);
+btree_map.entry(1).or_insert("b");
+std::collections::BTreeSet::new();
+btree_set.insert(1);
+btree_set.contains(&1);
+btree_set.range(1..=3);
+std::collections::HashMap::new();
+hash_map.insert("key", "value");
+hash_map.get("key");
+hash_map.entry("key").or_insert("default");
+hash_map.remove("key");
+std::collections::HashSet::new();
+hash_set.insert("value");
+hash_set.contains("value");
+hash_set.remove("value");
+std::collections::BinaryHeap::from(vec);
+std::collections::btree_map::Entry::Occupied(entry);
+std::collections::btree_map::Entry::Vacant(entry);
+std::collections::hash_map::RandomState::new();
+std::hash::Hash::hash(&self, state);
+std::hash::BuildHasher::build_hasher(&self);
+std::cmp::Eq;
+std::cmp::PartialEq;
+std::cmp::Ord;
+std::cmp::PartialOrd;
+std::hash::Hash;
+std::default::Default;
+std::clone::Clone;
+std::marker::Copy;
+std::fmt::Debug;
+std::fmt::Display;
+std::str::FromStr;
+std::convert::AsRef;
+std::convert::AsMut;
+std::convert::Into;
+std::convert::From;
+std::borrow::Borrow;
+std::borrow::ToOwned;
+std::ops::Deref;
+std::ops::DerefMut;
+std::ops::Add;
+std::ops::Sub;
+std::ops::Mul;
+std::ops::Div;
+std::ops::Rem;
+std::ops::BitAnd;
+std::ops::BitOr;
+std::ops::BitXor;
+std::ops::Shl;
+std::ops::Shr;
+std::ops::AddAssign;
+std::ops::SubAssign;
+std::ops::MulAssign;
+std::ops::DivAssign;
+std::ops::RemAssign;
+std::ops::BitAndAssign;
+std::ops::BitOrAssign;
+std::ops::BitXorAssign;
+std::ops::ShlAssign;
+std::ops::ShrAssign;
+std::ops::Index;
+std::ops::IndexMut;
+std::ops::Range;
+std::ops::RangeFrom;
+std::ops::RangeTo;
+std::ops::RangeFull;
+std::ops::RangeInclusive;
+std::ops::RangeToInclusive;
+std::ops::Fn;
+std::ops::FnMut;
+std::ops::FnOnce;
+std::iter::Iterator::next(&mut self);
+std::iter::IntoIterator::into_iter(self);
+std::iter::FromIterator::from_iter(iter);
+std::iter::DoubleEndedIterator::next_back(&mut self);
+std::iter::ExactSizeIterator::len(&self);
+std::iter::Extend::extend(&mut self, iter);
+std::iter::empty::<i32>();
+std::iter::once(5);
+std::iter::repeat(5);
+std::iter::repeat_with(|| rand::random::<i32>());
+std::iter::successors(Some(0), |&n| Some(n + 1));
+(0..10).map(|x| x * 2);
+(0..10).filter(|&x| x % 2 == 0);
+(0..10).filter_map(|x| if x % 2 == 0 { Some(x * 2) } else { None });
+(0..10).enumerate();
+(0..10).zip(10..20);
+(0..10).chain(10..20);
+(0..10).cycle();
+(0..10).take(5);
+(0..10).take_while(|&x| x < 5);
+(0..10).skip(5);
+(0..10).skip_while(|&x| x < 5);
+(0..10).fuse();
+(0..10).inspect(|x| println!("{}", x));
+(0..10).by_ref();
+(0..10).collect::<Vec<i32>>();
+(0..10).fold(0, |acc, x| acc + x);
+(0..10).reduce(|acc, x| acc + x);
+(0..10).try_fold(0, |acc, x| Some(acc + x));
+(0..10).all(|x| x < 10);
+(0..10).any(|x| x == 5);
+(0..10).find(|&x| x == 5);
+(0..10).find_map(|x| if x == 5 { Some(x * 2) } else { None });
+(0..10).position(|x| x == 5);
+(0..10).rposition(|x| x == 5);
+(0..10).max();
+(0..10).min();
+(0..10).max_by(|a, b| a.cmp(b));
+(0..10).min_by(|a, b| a.cmp(b));
+(0..10).max_by_key(|&x| x);
+(0..10).min_by_key(|&x| x);
+(0..10).sum::<i32>();
+(0..10).product::<i32>();
+(0..10).count();
+(0..10).last();
+(0..10).nth(5);
+(0..10).nth_back(5);
+std::slice::from_ref(&x);
+std::slice::from_mut(&mut x);
+std::slice::from_raw_parts(ptr, len);
+std::slice::from_raw_parts_mut(ptr, len);
+slice.as_ptr();
+slice.as_mut_ptr();
+slice.as_ref();
+slice.as_mut();
+slice.get(0);
+slice.get_mut(0);
+slice.get_unchecked(0);
+slice.get_unchecked_mut(0);
+slice.first();
+slice.first_mut();
+slice.last();
+slice.last_mut();
+slice.split_first();
+slice.split_first_mut();
+slice.split_last();
+slice.split_last_mut();
+slice.split_at(2);
+slice.split_at_mut(2);
+slice.split(|&x| x == 2);
+slice.split_mut(|&x| x == 2);
+slice.splitn(2, |&x| x == 2);
+slice.splitn_mut(2, |&x| x == 2);
+slice.rsplitn(2, |&x| x == 2);
+slice.rsplitn_mut(2, |&x| x == 2);
+slice.windows(2);
+slice.chunks(2);
+slice.chunks_mut(2);
+slice.chunks_exact(2);
+slice.chunks_exact_mut(2);
+slice.rchunks(2);
+slice.rchunks_mut(2);
+slice.rchunks_exact(2);
+slice.rchunks_exact_mut(2);
+slice.starts_with(&[1,2]);
+slice.ends_with(&[8,9]);
+slice.binary_search(&5);
+slice.binary_search_by(|probe| probe.cmp(&5));
+slice.binary_search_by_key(&5, |&x| x);
+slice.sort();
+slice.sort_by(|a, b| a.cmp(b));
+slice.sort_by_key(|&x| x);
+slice.sort_unstable();
+slice.sort_unstable_by(|a, b| a.cmp(b));
+slice.sort_unstable_by_key(|&x| x);
+slice.reverse();
+slice.rotate_left(1);
+slice.rotate_right(1);
+slice.fill(0);
+slice.copy_from_slice(&[1,2,3]);
+slice.clone_from_slice(&[1,2,3]);
+slice.swap(0, 1);
+slice.contains(&5);
+slice.starts_with(&[1,2]);
+slice.ends_with(&[8,9]);
+slice.is_sorted();
+slice.is_sorted_by(|a, b| a < b);
+slice.is_sorted_by_key(|&x| x);
+std::ascii::escape_default(b'\n');
+std::ascii::AsciiExt::is_ascii(&self);
+std::char::from_u32(65).unwrap();
+std::char::from_digit(10, 16).unwrap();
+std::char::is_alphabetic('a');
+std::char::is_numeric('1');
+std::char::is_whitespace(' ');
+std::char::is_control('\u{0000}');
+std::char::to_uppercase('a');
+std::char::to_lowercase('A');
+std::char::encode_utf8('a', &mut buf);
+std::char::encode_utf16('a');
+std::str::from_utf8_unchecked_mut(bytes);
+std::str::from_utf8_mut(bytes).unwrap();
+std::str::bytes("hello");
+std::str::chars("hello");
+std::str::char_indices("hello");
+std::str::split("a,b,c", ',');
+std::str::split_whitespace("a b c");
+std::str::split_ascii_whitespace("a b c");
+std::str::splitn("a,b,c", 2, ',');
+std::str::rsplitn("a,b,c", 2, ',');
+std::str::matches("hello", 'l');
+std::str::rmatches("hello", 'l');
+std::str::match_indices("hello", 'l');
+std::str::rmatch_indices("hello", 'l');
+std::str::trim(" hello ");
+std::str::trim_start(" hello ");
+std::str::trim_end(" hello ");
+std::str::trim_matches("hello", 'h');
+std::str::trim_start_matches("hello", 'h');
+std::str::trim_end_matches("hello", 'o');
+std::str::parse::<i32>("123").unwrap();
+std::str::from_utf8_unchecked_mut(bytes);
+std::string::String::new();
+string.capacity();
+string.reserve(10);
+string.reserve_exact(10);
+string.shrink_to_fit();
+string.push('a');
+string.push_str("bc");
+string.pop();
+string.remove(0);
+string.insert(0, 'a');
+string.insert_str(0, "bc");
+string.clear();
+string.truncate(2);
+string.split_off(2);
+string.drain(0..2);
+string.replace_range(0..2, "xy");
+string.as_bytes();
+string.as_mut_bytes();
+string.into_bytes();
+string.as_str();
+string.as_mut_str();
+std::string::ToString::to_string(&5);
+std::string::String::from_utf16(&[0x0048, 0x0065]).unwrap();
+std::string::String::from_utf16_lossy(&[0x0048, 0x0065]);
+std::string::String::from_raw_parts(ptr, length, capacity);
+std::string::String::into_boxed_str(self);
+std::boxed::Box::new(5);
+std::boxed::Box::into_raw(boxed);
+std::boxed::Box::from_raw(ptr);
+std::boxed::Box::leak(boxed);
+std::rc::Rc::new(5);
+rc.clone();
+Rc::strong_count(&rc);
+Rc::weak_count(&rc);
+Rc::downgrade(&rc);
+weak.upgrade();
+std::sync::Arc::new(5);
+arc.clone();
+Arc::strong_count(&arc);
+Arc::weak_count(&arc);
+Arc::downgrade(&arc);
+std::cell::Cell::new(5);
+cell.get();
+cell.set(10);
+cell.replace(15);
+cell.swap(&other);
+cell.take();
+std::cell::RefCell::new(5);
+ref_cell.borrow();
+ref_cell.borrow_mut();
+ref_cell.try_borrow().unwrap();
+ref_cell.try_borrow_mut().unwrap();
+RefCell::into_inner(ref_cell);
+RefCell::replace(ref_cell, 10);
+RefCell::swap(&a, &b);
+std::cell::UnsafeCell::new(5);
+unsafe_cell.get();
+std::sync::Mutex::new(5);
+mutex.lock().unwrap();
+mutex.try_lock().unwrap();
+Mutex::into_inner(mutex).unwrap();
+Mutex::get_mut(&mut mutex).unwrap();
+std::sync::RwLock::new(5);
+rwlock.read().unwrap();
+rwlock.write().unwrap();
+rwlock.try_read().unwrap();
+rwlock.try_write().unwrap();
+RwLock::into_inner(rwlock).unwrap();
+RwLock::get_mut(&mut rwlock).unwrap();
+std::sync::Once::new();
+once.call_once(|| {});
+std::sync::OnceState::is_poisoned();
+std::sync::Barrier::new(2);
+barrier.wait();
+std::sync::Condvar::new();
+condvar.wait(guard).unwrap();
+condvar.wait_timeout(guard, Duration::from_secs(1)).unwrap();
+condvar.notify_one();
+condvar.notify_all();
+std::sync::mpsc::channel();
+sender.send(5).unwrap();
+receiver.recv().unwrap();
+receiver.try_recv().unwrap();
+receiver.recv_timeout(Duration::from_secs(1)).unwrap();
+receiver.iter();
+std::sync::mpsc::sync_channel(10);
+sync_sender.send(5).unwrap();
+sync_sender.try_send(5).unwrap();
+std::sync::atomic::AtomicBool::new(false);
+atomic_bool.store(true, Ordering::SeqCst);
+atomic_bool.load(Ordering::SeqCst);
+atomic_bool.swap(false, Ordering::SeqCst);
+atomic_bool.compare_and_swap(false, true, Ordering::SeqCst);
+atomic_bool.compare_exchange(false, true, Ordering::SeqCst, Ordering::SeqCst);
+atomic_bool.fetch_and(true, Ordering::SeqCst);
+atomic_bool.fetch_or(true, Ordering::SeqCst);
+atomic_bool.fetch_xor(true, Ordering::SeqCst);
+std::sync::atomic::AtomicIsize::new(0);
+atomic_isize.fetch_add(1, Ordering::SeqCst);
+atomic_isize.fetch_sub(1, Ordering::SeqCst);
+atomic_isize.fetch_max(10, Ordering::SeqCst);
+atomic_isize.fetch_min(5, Ordering::SeqCst);
+std::sync::atomic::AtomicUsize::new(0);
+atomic_usize.fetch_add(1, Ordering::SeqCst);
+std::sync::atomic::AtomicPtr::new(ptr);
+atomic_ptr.store(new_ptr, Ordering::SeqCst);
+atomic_ptr.load(Ordering::SeqCst);
+atomic_ptr.swap(new_ptr, Ordering::SeqCst);
+atomic_ptr.compare_and_swap(old_ptr, new_ptr, Ordering::SeqCst);
+std::sync::atomic::fence(Ordering::SeqCst);
+std::sync::atomic::compiler_fence(Ordering::SeqCst);
+std::thread::current();
+std::thread::park();
+std::thread::Thread::unpark(&thread);
+std::thread::yield_now();
+std::thread::available_parallelism().unwrap();
+std::thread::scope(|s| { s.spawn(|| {}); });
+std::thread::Builder::new().spawn(|| {}).unwrap();
+std::panic::catch_unwind(|| {}).unwrap();
+std::panic::resume_unwind(Box::new("error"));
+std::panic::take_hook();
+std::panic::update_hook(|_| {});
+std::process::Command::new("ls").arg("-l").output().unwrap();
+std::process::Command::new("echo").stdin(Stdio::piped()).stdout(Stdio::piped()).spawn().unwrap();
+std::process::exit(0);
+std::process::abort();
+std::env::current_dir().unwrap();
+std::env::set_current_dir("/tmp").unwrap();
+std::env::current_exe().unwrap();
+std::env::consts::OS;
+std::env::consts::ARCH;
+std::env::consts::FAMILY;
+std::env::consts::DLL_PREFIX;
+std::env::consts::DLL_SUFFIX;
+std::env::consts::DLL_EXTENSION;
+std::env::consts::EXE_SUFFIX;
+std::env::consts::EXE_EXTENSION;
+std::env::vars();
+std::env::var_os("PATH").unwrap();
+std::env::set_var("KEY", "VALUE");
+std::env::remove_var("KEY");
+std::env::temp_dir();
+std::env::home_dir();
+std::fs::metadata("file.txt").unwrap();
+std::fs::set_permissions("file.txt", Permissions::from_mode(0o755)).unwrap();
+std::fs::canonicalize("file.txt").unwrap();
+std::fs::read_dir(".").unwrap();
+std::fs::create_dir("new_dir").unwrap();
+std::fs::create_dir_all("path/to/dir").unwrap();
+std::fs::remove_dir("empty_dir").unwrap();
+std::fs::remove_dir_all("dir").unwrap();
+std::fs::remove_file("file.txt").unwrap();
+std::fs::rename("old.txt", "new.txt").unwrap();
+std::fs::copy("src.txt", "dst.txt").unwrap();
+std::fs::hard_link("src.txt", "dst.txt").unwrap();
+std::fs::soft_link("src.txt", "dst.txt").unwrap();
+std::fs::read_link("link.txt").unwrap();
+std::fs::DirEntry::file_name(&entry);
+std::fs::DirEntry::metadata(&entry).unwrap();
+std::fs::DirEntry::file_type(&entry).unwrap();
+std::fs::FileType::is_file(&self);
+std::fs::FileType::is_dir(&self);
+std::fs::FileType::is_symlink(&self);
+std::fs::Permissions::readonly(&self);
+std::fs::Permissions::set_readonly(&mut self, false);
+std::io::stdin();
+std::io::stdout();
+std::io::stderr();
+std::io::sink();
+std::io::empty();
+std::io::repeat(0);
+std::io::copy(&mut reader, &mut writer).unwrap();
+std::io::BufReader::new(reader);
+buf_reader.fill_buf().unwrap();
+buf_reader.consume(2);
+std::io::BufWriter::new(writer);
+buf_writer.flush().unwrap();
+std::io::LineWriter::new(writer);
+std::io::Cursor::new(vec);
+cursor.position();
+cursor.set_position(0);
+std::io::SeekFrom::Start(0);
+std::io::SeekFrom::End(0);
+std::io::SeekFrom::Current(0);
+std::io::Error::last_os_error();
+std::io::Error::from_raw_os_error(0);
+std::io::ErrorKind::NotFound;
+std::io::Result::Ok(5);
+std::io::Result::Err(std::io::Error::new(std::io::ErrorKind::Other, "error"));
+std::net::TcpStream::connect_timeout(&addr, Duration::from_secs(5)).unwrap();
+std::net::TcpStream::peer_addr(&self).unwrap();
+std::net::TcpStream::local_addr(&self).unwrap();
+std::net::TcpStream::shutdown(std::net::Shutdown::Both).unwrap();
+std::net::TcpStream::try_clone(&self).unwrap();
+std::net::TcpStream::set_read_timeout(&self, Some(Duration::from_secs(5))).unwrap();
+std::net::TcpStream::set_write_timeout(&self, Some(Duration::from_secs(5))).unwrap();
+std::net::TcpStream::set_nodelay(&self, true).unwrap();
+std::net::TcpStream::set_ttl(&self, 64).unwrap();
+std::net::TcpListener::incoming(&self);
+std::net::TcpListener::local_addr(&self).unwrap();
+std::net::TcpListener::set_ttl(&self, 64).unwrap();
+std::net::UdpSocket::recv_from(&self, &mut buf).unwrap();
+std::net::UdpSocket::send_to(&self, &buf, addr).unwrap();
+std::net::UdpSocket::connect(&self, addr).unwrap();
+std::net::UdpSocket::peer_addr(&self).unwrap();
+std::net::UdpSocket::local_addr(&self).unwrap();
+std::net::UdpSocket::broadcast(&self).unwrap();
+std::net::UdpSocket::set_broadcast(&self, true).unwrap();
+std::net::UdpSocket::multicast_loop_v4(&self).unwrap();
+std::net::UdpSocket::set_multicast_loop_v4(&self, true).unwrap();
+std::net::UdpSocket::multicast_ttl_v4(&self).unwrap();
+std::net::UdpSocket::set_multicast_ttl_v4(&self, 1).unwrap();
+std::net::UdpSocket::join_multicast_v4(&self, multiaddr, interface).unwrap();
+std::net::UdpSocket::leave_multicast_v4(&self, multiaddr, interface).unwrap();
+std::net::IpAddr::V4(Ipv4Addr::new(127, 0, 0, 1));
+std::net::IpAddr::V6(Ipv6Addr::new(0, 0, 0, 0, 0, 0, 0, 1));
+std::net::SocketAddr::V4(SocketAddrV4::new(Ipv4Addr::new(127, 0, 0, 1), 8080));
+std::net::SocketAddr::V6(SocketAddrV6::new(Ipv6Addr::new(0, 0, 0, 0, 0, 0, 0, 1), 8080, 0, 0));
+std::net::ToSocketAddrs::to_socket_addrs("localhost:8080").unwrap();
+std::path::PathBuf::from("/etc/hosts");
+path_buf.push("file.txt");
+path_buf.pop();
+path_buf.set_file_name("new.txt");
+path_buf.set_extension("txt");
+path_buf.as_path();
+std::path::Component::RootDir;
+std::path::Component::CurDir;
+std::path::Component::ParentDir;
+std::path::Component::Normal("file");
+std::path::Component::Prefix(prefix);
+std::ffi::OsString::from("hello");
+os_string.into_string().unwrap();
+std::ffi::OsStr::new("hello");
+os_str.to_str().unwrap();
+std::ffi::CStr::from_bytes_with_nul(b"hello\0").unwrap();
+std::ffi::CString::new("hello").unwrap();
+c_string.into_string().unwrap();
+std::ffi::CString::from_vec_unchecked(vec);
+std::ffi::CString::from_vec_with_nul(vec).unwrap();
+std::ffi::NulError::nul_position(&self);
+std::ffi::IntoStringError::into_string(self);
+std::ffi::FromVecWithNulError::into_vec(self);
+std::os::unix::ffi::OsStrExt::as_bytes(os_str);
+std::os::unix::ffi::OsStringExt::from_vec(vec);
+std::os::windows::ffi::OsStrExt::encode_wide(os_str);
+std::os::windows::ffi::OsStringExt::from_wide(wide);
+std::time::Duration::from_secs(1);
+std::time::Duration::from_millis(1000);
+std::time::Duration::from_micros(1_000_000);
+std::time::Duration::from_nanos(1_000_000_000);
+duration.as_secs();
+duration.subsec_millis();
+duration.subsec_micros();
+duration.subsec_nanos();
+duration.checked_add(other);
+duration.checked_sub(other);
+duration.checked_mul(2);
+duration.checked_div(2);
+std::time::SystemTime::UNIX_EPOCH;
+system_time.duration_since(UNIX_EPOCH).unwrap();
+system_time.elapsed().unwrap();
+system_time.checked_add(Duration::from_secs(1)).unwrap();
+system_time.checked_sub(Duration::from_secs(1)).unwrap();
+std::time::Instant::now();
+instant.checked_add(Duration::from_secs(1)).unwrap();
+instant.checked_sub(Duration::from_secs(1)).unwrap();
+std::time::SystemTimeError::duration(&self);
+echo "Hello, World!"
+ls -la
+cd /path/to/directory
+pwd
+mkdir new_directory
+rm file.txt
+rm -r directory
+cp source.txt destination.txt
+mv old.txt new.txt
+touch new_file.txt
+cat file.txt
+less file.txt
+head -n 10 file.txt
+tail -n 10 file.txt
+grep "pattern" file.txt
+find . -name "*.txt"
+chmod 755 script.sh
+chown user:group file.txt
+ps aux
+kill -9 PID
+killall process_name
+top
+htop
+df -h
+du -sh *
+free -h
+uname -a
+whoami
+sudo command
+su - username
+passwd username
+useradd newuser
+userdel olduser
+groupadd newgroup
+groupdel oldgroup
+tar -czf archive.tar.gz directory/
+tar -xzf archive.tar.gz
+zip archive.zip file1 file2
+unzip archive.zip
+gzip file.txt
+gunzip file.txt.gz
+ssh user@hostname
+scp file.txt user@hostname:/path
+rsync -av source/ destination/
+wget http://example.com/file.txt
+curl -O http://example.com/file.txt
+ping google.com
+traceroute google.com
+netstat -tulpn
+ss -tulpn
+ifconfig
+ip addr show
+route -n
+iptables -L
+ufw status
+systemctl status service_name
+systemctl start service_name
+systemctl stop service_name
+systemctl restart service_name
+journalctl -xe
+crontab -l
+crontab -e
+at now + 1 hour
+date
+cal
+time command
+timeout 10s command
+watch -n 1 command
+alias ll='ls -la'
+unalias ll
+export VARIABLE=value
+unset VARIABLE
+env
+set
+echo $PATH
+echo $HOME
+echo $USER
+history
+!number
+!!
+!string
+ctrl + c
+ctrl + z
+bg
+fg
+jobs
+disown
+nohup command &
+sleep 5
+wait
+exit
+logout
+reboot
+shutdown -h now
+poweroff
+halt
+init 0
+init 6
+man command
+info command
+whatis command
+which command
+whereis command
+type command
+help command
+--help
+read variable
+echo $variable
+read -p "Prompt: " variable
+read -s -p "Password: " password
+printf "Format string" args
+test -f file.txt
+[ -f file.txt ]
+[[ $var == "value" ]]
+(( var > 10 ))
+if [ condition ]; then command; fi
+if [[ condition ]]; then command; elif [[ condition ]]; then command; else command; fi
+case $var in pattern) command;; esac
+for i in 1 2 3; do echo $i; done
+for (( i=0; i<10; i++ )); do echo $i; done
+while [ condition ]; do command; done
+until [ condition ]; do command; done
+select var in list; do command; done
+function name { commands; }
+name() { commands; }
+return value
+exit 1
+trap "command" SIGNAL
+trap "" SIGNAL
+trap - SIGNAL
+getopts "abc:" opt
+shift
+set -e
+set -u
+set -x
+set -o pipefail
+. script.sh
+source script.sh
+exec command
+eval "command"
+command1 | command2
+command1 && command2
+command1 || command2
+command1 ; command2
+command > file.txt
+command >> file.txt
+command < file.txt
+command 2> error.txt
+command &> output.txt
+command > file.txt 2>&1
+command | tee file.txt
+command << EOF
+command <<< "string"
+diff file1.txt file2.txt
+cmp file1.txt file2.txt
+patch file.txt patchfile
+sort file.txt
+uniq file.txt
+cut -d: -f1 file.txt
+paste file1.txt file2.txt
+join file1.txt file2.txt
+comm file1.txt file2.txt
+awk '{print $1}' file.txt
+sed 's/old/new/g' file.txt
+tr 'a-z' 'A-Z' < file.txt
+wc -l file.txt
+split -l 100 file.txt
+xargs -n 1 command
+parallel command ::: arg1 arg2 arg3
+tee file.txt
+sponge file.txt
+column -t file.txt
+nl file.txt
+fmt file.txt
+pr file.txt
+fold -w 80 file.txt
+base64 file.txt
+base64 -d file.txt
+md5sum file.txt
+sha256sum file.txt
+sha512sum file.txt
+b2sum file.txt
+cksum file.txt
+sum file.txt
+crc32 file.txt
+xxd file.txt
+hexdump file.txt
+od -c file.txt
+strings file.txt
+file file.txt
+stat file.txt
+touch -t 202401010000 file.txt
+chattr +i file.txt
+lsattr file.txt
+getfacl file.txt
+setfacl -m u:user:rw file.txt
+mount /dev/sda1 /mnt
+umount /mnt
+mount -t nfs host:/path /mnt
+swapoff -a
+swapon -a
+fdisk -l
+parted -l
+mkfs.ext4 /dev/sda1
+fsck /dev/sda1
+badblocks /dev/sda1
+tune2fs -l /dev/sda1
+debugfs /dev/sda1
+lsof
+lsof -i :80
+fuser -k /path
+strace command
+ltrace command
+dtrace -n 'syscall::open:entry { printf("%s %s", execname, copyinstr(arg0)); }'
+perf record command
+perf report
+gdb -q program
+objdump -d program
+nm program
+readelf -a program
+strings program
+size program
+ldd program
+strip program
+addr2line -e program address
+nm -D library.so
+ar rcs library.a file1.o file2.o
+ranlib library.a
+make
+make install
+make clean
+cmake .
+./configure
+make -j4
+dpkg -i package.deb
+rpm -i package.rpm
+yum install package
+apt-get install package
+pacman -S package
+zypper install package
+emerge package
+snap install package
+flatpak install package
+docker run -it ubuntu
+docker ps
+docker images
+docker build -t image .
+docker-compose up
+docker-compose down
+kubectl get pods
+kubectl apply -f deployment.yaml
+kubectl delete pod name
+kubectl logs pod-name
+kubectl exec -it pod-name -- bash
+kubectl describe pod pod-name
+kubectl get services
+kubectl get deployments
+kubectl scale deployment name --replicas=3
+kubectl rollout status deployment/name
+kubectl rollout undo deployment/name
+kubectl port-forward pod/name 8080:80
+kubectl create secret generic name --from-literal=key=value
+kubectl get configmaps
+kubectl get namespaces
+kubectl create namespace name
+kubectl delete namespace name
+kubectl get nodes
+kubectl describe node node-name
+kubectl top nodes
+kubectl top pods
+kubectl apply -k dir/
+kubectl kustomize dir/
+kubectl get crd
+kubectl get storageclasses
+kubectl get persistentvolumes
+kubectl get persistentvolumeclaims
+kubectl patch deployment name -p '{"spec":{"replicas":2}}'
+kubectl set image deployment/name container=image:tag
+kubectl autoscale deployment name --min=2 --max=10 --cpu-percent=80
+kubectl get horizontalpodautoscalers
+kubectl get jobs
+kubectl get cronjobs
+kubectl create job name --image=busybox -- date
+kubectl create cronjob name --image=busybox --schedule="*/1 * * * *" -- date
+kubectl get daemonsets
+kubectl get statefulsets
+kubectl get replicasets
+kubectl get endpoints
+kubectl get ingress
+kubectl get networkpolicies
+kubectl get podsecuritypolicies
+kubectl get clusterroles
+kubectl get clusterrolebindings
+kubectl get roles
+kubectl get rolebindings
+kubectl auth can-i create pods
+kubectl create serviceaccount name
+kubectl get serviceaccounts
+kubectl create clusterrole name --verb=get,list,watch --resource=pods
+kubectl create clusterrolebinding name --clusterrole=name --serviceaccount=namespace:name
+kubectl create role name --verb=get,list,watch --resource=pods
+kubectl create rolebinding name --role=name --serviceaccount=namespace:name
+kubectl get events
+kubectl get events --sort-by=.metadata.creationTimestamp
+kubectl get events --field-selector type=Warning
+kubectl api-resources
+kubectl api-versions
+kubectl explain pod
+kubectl explain pod.spec
+kubectl explain pod.spec.containers
+kubectl config view
+kubectl config get-contexts
+kubectl config use-context context-name
+kubectl config set-cluster name --server=https://server:6443
+kubectl config set-credentials name --token=token
+kubectl config set-context name --cluster=name --user=name --namespace=default
+kubectl cluster-info
+kubectl version
+kubectl get componentstatuses
+kubectl get cs
+kubectl certificate approve csr-name
+kubectl certificate deny csr-name
+kubectl get certificatesigningrequests
+kubectl get csr
+kubectl create token service-account-name
+kubectl create secret docker-registry name --docker-server=server --docker-username=user --docker-password=pass --docker-email=email
+kubectl create secret tls name --cert=cert.pem --key=key.pem
+kubectl get secret name -o jsonpath='{.data.token}' | base64 --decode
+kubectl create configmap name --from-file=file.txt
+kubectl create configmap name --from-literal=key=value
+kubectl get configmap name -o yaml
+kubectl label pods name key=value
+kubectl annotate pods name key=value
+kubectl taint nodes node-name key=value:NoSchedule
+kubectl taint nodes node-name key:NoSchedule-
+kubectl cordon node-name
+kubectl uncordon node-name
+kubectl drain node-name --ignore-daemonsets --delete-local-data
+kubectl top node node-name
+kubectl top pod pod-name --container=container-name
+kubectl get pods -o wide
+kubectl get pods -o yaml
+kubectl get pods -o json
+kubectl get pods --show-labels
+kubectl get pods --field-selector=status.phase=Running
+kubectl get pods --sort-by=.metadata.creationTimestamp
+kubectl get pods --all-namespaces
+kubectl get pods -A
+kubectl get pods -l app=name
+kubectl get pods -l 'app in (name1, name2)'
+kubectl get pods --selector app=name
+kubectl get pods --watch
+kubectl wait --for=condition=Ready pod/pod-name
+kubectl wait --for=delete pod/pod-name
+kubectl rollout history deployment/name
+kubectl rollout pause deployment/name
+kubectl rollout resume deployment/name
+kubectl rollout restart deployment/name
+kubectl rollout status deployment/name
+kubectl set env deployment/name KEY=value
+kubectl set resources deployment/name --limits=cpu=200m,memory=512Mi --requests=cpu=100m,memory=256Mi
+kubectl expose deployment name --port=80 --target-port=8080 --type=LoadBalancer
+kubectl create deployment name --image=nginx --replicas=3
+kubectl create service nodeport name --tcp=80:80
+kubectl create service clusterip name --tcp=80:80
+kubectl create service loadbalancer name --tcp=80:80
+kubectl create service externalname name --external-name=example.com
+kubectl get endpointslices
+kubectl get leases
+kubectl get priorityclasses
+kubectl get runtimeclasses
+kubectl get volumesnapshots
+kubectl get volumesnapshotclasses
+kubectl get volumesnapshotcontents
+kubectl get csinodes
+kubectl get csidrivers
+kubectl get storageclasses
+kubectl get volumeattachments
+kubectl get persistentvolumes
+kubectl get persistentvolumeclaims
+kubectl get pods --sort-by='.status.containerStatuses[0].restartCount'
+kubectl get pods --sort-by='.status.startTime'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document Title</title>
+</head>
+<body>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<p>Paragraph text</p>
+<br>
+<hr>
+<div>Division element</div>
+<span>Inline span</span>
+<a href="https://example.com">Link</a>
+<img src="image.jpg" alt="Description">
+<ul>
+<li>List item 1</li>
+<li>List item 2</li>
+</ul>
+<ol>
+<li>Ordered item 1</li>
+<li>Ordered item 2</li>
+</ol>
+<table>
+<tr><th>Header 1</th><th>Header 2</th></tr>
+<tr><td>Data 1</td><td>Data 2</td></tr>
+</table>
+<form action="/submit" method="post">
+<input type="text" name="username">
+<input type="password" name="password">
+<input type="email" name="email">
+<input type="number" name="age">
+<input type="date" name="birthdate">
+<input type="checkbox" name="subscribe">
+<input type="radio" name="gender" value="male">
+<input type="radio" name="gender" value="female">
+<select name="country">
+<option value="us">United States</option>
+<option value="ca">Canada</option>
+</select>
+<textarea name="message"></textarea>
+<button type="submit">Submit</button>
+</form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+<fieldset>
+<legend>Personal Info</legend>
+</fieldset>
+<details>
+<summary>More info</summary>
+<p>Details content</p>
+</details>
+<dialog open>Dialog content</dialog>
+<progress value="75" max="100"></progress>
+<meter value="0.6">60%</meter>
+<canvas id="myCanvas" width="200" height="100"></canvas>
+<svg width="100" height="100"><circle cx="50" cy="50" r="40" fill="red" /></svg>
+<audio controls><source src="audio.mp3" type="audio/mpeg"></audio>
+<video controls width="250"><source src="video.mp4" type="video/mp4"></video>
+<iframe src="https://example.com"></iframe>
+<embed src="file.pdf" type="application/pdf">
+<object data="file.swf" type="application/x-shockwave-flash"></object>
+<param name="autoplay" value="true">
+<source src="video.ogg" type="video/ogg">
+<track kind="subtitles" src="subs.vtt" srclang="en">
+<b>Bold text</b>
+<strong>Strong importance</strong>
+<i>Italic text</i>
+<em>Emphasized text</em>
+<mark>Marked text</mark>
+<small>Small text</small>
+<del>Deleted text</del>
+<ins>Inserted text</ins>
+<sub>Subscript</sub>
+<sup>Superscript</sup>
+<code>Code snippet</code>
+<pre>Preformatted text</pre>
+<kbd>Keyboard input</kbd>
+<samp>Sample output</samp>
+<var>Variable</var>
+<abbr title="World Health Organization">WHO</abbr>
+<address>Contact information</address>
+<bdo dir="rtl">Right to left text</bdo>
+<blockquote>Block quotation</blockquote>
+<cite>Citation</cite>
+<q>Short quotation</q>
+<time datetime="2024-01-01">January 1, 2024</time>
+<data value="123">Product code</data>
+<ruby>漢 <rt>hàn</rt></ruby>
+<wbr>
+<nobr>No break text</nobr>
+<base href="https://example.com/">
+<link rel="stylesheet" href="styles.css">
+<style>body { color: red; }</style>
+<script>console.log('Hello');</script>
+<noscript>JavaScript is disabled</noscript>
+<template><div>Template content</div></template>
+<slot name="header"></slot>
+<main>Main content</main>
+<header>Header content</header>
+<footer>Footer content</footer>
+<nav>Navigation links</nav>
+<section>Document section</section>
+<article>Independent article</article>
+<aside>Side content</aside>
+<figure><img src="image.jpg" alt=""><figcaption>Image caption</figcaption></figure>
+<figcaption>Figure caption</figcaption>
+<datalist id="browsers"><option value="Chrome"><option value="Firefox"></datalist>
+<output name="result"></output>
+<keygen name="security">
+<menu type="context"><menuitem label="Action"></menuitem></menu>
+<applet code="Game.class" width="250" height="250"></applet>
+<acronym title="As Soon As Possible">ASAP</acronym>
+<big>Big text</big>
+<center>Centered text</center>
+<dir><li>List item</li></dir>
+<font face="Arial" size="3" color="red">Styled text</font>
+<frame src="page.html">
+<frameset cols="25%,75%"><frame src="frame_a.html"><frame src="frame_b.html"></frameset>
+<noframes>Frames not supported</noframes>
+<isindex prompt="Search">
+<listing>Computer code</listing>
+<plaintext>Plain text</plaintext>
+<s>Strikethrough</s>
+<strike>Strikethrough</strike>
+<tt>Teletype text</tt>
+<u>Underlined text</u>
+<xmp>Example text</xmp>
+<marquee behavior="scroll" direction="left">Scrolling text</marquee>
+<blink>Blinking text</blink>
+<basefont size="4" color="blue">
+<multicol cols="3">Multiple columns</multicol>
+<nextid n="10">
+<spacer type="horizontal" size="10">
+<bgsound src="sound.mid" loop="infinite">
+<comment>Comment text</comment>
+<shadow></shadow>
+<content>Shadow DOM content</content>
+<element name="my-element"></element>
+<command type="command" label="Save">
+<portal src="https://example.com">
+<mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow>
+<msup><mi>x</mi><mn>2</mn></msup>
+<mfrac><mn>1</mn><mn>2</mn></mfrac>
+<msqrt><mn>4</mn></msqrt>
+<mroot><mn>8</mn><mn>3</mn></mroot>
+<mfenced><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfenced>
+<mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>2</mn></mtd></mtr></mtable>
+<maction actiontype="toggle" selection="1"><mn>1</mn><mn>2</mn></maction>
+<menclose notation="circle"><mi>x</mi></menclose>
+<merror><mtext>Error message</mtext></merror>
+<mphantom><mi>x</mi></mphantom>
+<mspace width="1em">
+<ms><mi>sin</mi></ms>
+<mtext>Text content</mtext>
+<annotation encoding="application/x-tex">\sqrt{x}</annotation>
+<annotation-xml encoding="application/xhtml+xml"><div>Content</div></annotation-xml>
+<mprescripts></mprescripts>
+<none></none>
+<maligngroup></maligngroup>
+<malignmark></malignmark>
+<mlabeledtr><mtd>Label</mtd><mtd>Content</mtd></mlabeledtr>
+<mglyph src="symbol.png" alt="symbol">
+<svg width="100" height="100" viewBox="0 0 100 100">
+<circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+<rect x="10" y="10" width="80" height="80" fill="blue" />
+<line x1="0" y1="0" x2="100" y2="100" stroke="red" />
+<polygon points="50,5 20,99 95,39 5,39 80,99" fill="lime"/>
+<polyline points="0,0 30,30 70,50 100,100" stroke="black" fill="none"/>
+<ellipse cx="50" cy="50" rx="40" ry="20" fill="purple"/>
+<path d="M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" stroke="black" fill="transparent"/>
+<text x="50" y="50" font-family="Arial" font-size="20" fill="white">Text</text>
+<tspan x="10" y="20">Tspan text</tspan>
+<textPath href="#path1">Text along path</textPath>
+<clipPath id="clip1"><circle cx="50" cy="50" r="40"/></clipPath>
+<filter id="blur1"><feGaussianBlur stdDeviation="5"/></filter>
+<feBlend mode="multiply" in="SourceGraphic" in2="BackgroundImage"/>
+<feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
+<feComponentTransfer><feFuncR type="linear" slope="2"/></feComponentTransfer>
+<feComposite operator="over" in="SourceGraphic" in2="BackgroundImage"/>
+<feConvolveMatrix kernelMatrix="1 0 -1 2 0 -2 1 0 -1"/>
+<feDiffuseLighting surfaceScale="5" diffuseConstant="1"><feDistantLight azimuth="45" elevation="60"/></feDiffuseLighting>
+<feDisplacementMap scale="10" xChannelSelector="R" yChannelSelector="G"/>
+<feFlood flood-color="green" flood-opacity="0.5"/>
+<feGaussianBlur stdDeviation="3"/>
+<feImage href="image.jpg" x="0" y="0" width="100" height="100"/>
+<feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="BackgroundImage"/></feMerge>
+<feMorphology operator="dilate" radius="2"/>
+<feOffset dx="5" dy="5"/>
+<feSpecularLighting surfaceScale="5" specularConstant="1" specularExponent="10"><fePointLight x="50" y="50" z="100"/></feSpecularLighting>
+<feTile/>
+<feTurbulence baseFrequency="0.05" numOctaves="2"/>
+<feDistantLight azimuth="45" elevation="60"/>
+<fePointLight x="50" y="50" z="100"/>
+<feSpotLight x="50" y="50" z="100" pointsAtX="50" pointsAtY="50" pointsAtZ="0" specularExponent="10"/>
+<animate attributeName="cx" from="50" to="150" dur="2s" repeatCount="indefinite"/>
+<animateMotion path="M0,0 C100,100 200,0 300,100" dur="5s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="3s" repeatCount="indefinite"/>
+<set attributeName="visibility" to="hidden" begin="1s"/>
+<mpath href="#path1"/>
+<discard href="#element1" begin="5s"/>
+<audio src="sound.mp3" preload="auto" loop muted controlsList="nodownload">
+<video poster="poster.jpg" preload="metadata" loop muted playsinline crossorigin="anonymous">
+<track default kind="captions" src="captions.vtt" srclang="en" label="English">
+<source media="(min-width: 800px)" srcset="large.jpg">
+<picture><source media="(min-width: 800px)" srcset="large.jpg"><img src="small.jpg" alt="Description"></picture>
+<map name="imagemap"><area shape="circle" coords="50,50,25" href="page.html" alt="Circle area"></map>
+<form novalidate autocomplete="on" enctype="multipart/form-data" target="_blank">
+<input type="color" name="favcolor">
+<input type="range" name="volume" min="0" max="100">
+<input type="search" name="q" placeholder="Search...">
+<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+<input type="url" name="website">
+<input type="week" name="week">
+<input type="month" name="month">
+<input type="datetime-local" name="meeting-time">
+<input type="time" name="appointment-time">
+<input list="browsers" name="browser">
+<input type="file" name="file" accept=".jpg,.png,.gif" multiple>
+<input type="hidden" name="token" value="abc123">
+<input type="image" src="submit.png" alt="Submit">
+<input type="reset" value="Reset Form">
+<input type="button" value="Click Me" onclick="alert('Hello')">
+<input type="submit" value="Submit Form" formnovalidate>
+<button type="button" disabled>Disabled Button</button>
+<select multiple size="4" name="cars">
+<optgroup label="Swedish Cars"><option value="volvo">Volvo</option><option value="saab">Saab</option></optgroup>
+</select>
+<textarea rows="4" cols="50" maxlength="200" placeholder="Enter text..." readonly></textarea>
+<label><input type="checkbox" name="option1"> Option 1</label>
+<fieldset disabled><legend>Disabled Fieldset</legend></fieldset>
+<output for="x y" name="result">0</output>
+<meter min="0" max="100" low="25" high="75" optimum="80" value="65"></meter>
+<progress max="100" value="70">70%</progress>
+<datalist id="colors"><option value="Red"><option value="Green"><option value="Blue"></datalist>
+<keygen name="key" challenge="challenge string" keytype="RSA">
+<menu type="toolbar"><menuitem type="checkbox" checked>Checkbox</menuitem></menu>
+<dialog open>This is an open dialog window</dialog>
+<details open><summary>Expanded Details</summary><p>Content visible by default</p></details>
+<template><style>p { color: blue; }</style><p>Template content</p></template>
+<slot name="user-name">Default content</slot>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+<script type="module" src="module.js"></script>
+<script nomodule src="fallback.js"></script>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="prerender" href="https://example.com">
+<link rel="alternate" hreflang="es" href="https://es.example.com">
+<link rel="canonical" href="https://example.com/page">
+<meta name="description" content="Page description">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Author Name">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="Open Graph Title">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://example.com">
+<meta property="og:image" content="https://example.com/image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@username">
+<meta http-equiv="refresh" content="30">
+<meta http-equiv="content-security-policy" content="default-src 'self'">
+<base target="_blank">
+<style media="print">body { font-size: 12pt; }</style>
+<style scoped>p { color: red; }</style>
+<noscript><p>Please enable JavaScript for full functionality.</p></noscript>
+<object data="movie.swf" type="application/x-shockwave-flash" width="400" height="300"><param name="movie" value="movie.swf"></object>
+<embed src="video.mp4" type="video/mp4" width="400" height="300">
+<iframe src="https://example.com" width="800" height="600" frameborder="0" allowfullscreen sandbox="allow-scripts"></iframe>
+<portal src="https://example.com" width="400" height="300"></portal>
+<line x1="10" y1="10" x2="90" y2="90" stroke="black" marker-end="url(#arrow)"/>
+</svg>
+<audio crossorigin="anonymous" preload="none"><source src="audio.ogg" type="audio/ogg"><source src="audio.mp3" type="audio/mpeg"></audio>
+<video controls playsinline><source src="video.webm" type="video/webm"><source src="video.mp4" type="video/mp4"></video>
+<track src="chapters.vtt" kind="chapters" srclang="en" label="English Chapters">
+<form onsubmit="return validateForm()" autocomplete="off" novalidate>
+<input type="text" name="username" required minlength="3" maxlength="20" pattern="[A-Za-z0-9]+" title="Alphanumeric characters only">
+<input type="email" name="email" required placeholder="Enter email">
+<input type="password" name="password" required autocomplete="new-password">
+<input type="number" name="quantity" min="1" max="10" step="1">
+<input type="range" name="volume" min="0" max="100" step="5" value="50">
+<input type="date" name="birthday" min="1900-01-01" max="2024-12-31">
+<input type="time" name="alarm" min="06:00" max="22:00" step="900">
+<input type="week" name="vacation">
+<input type="month" name="expiry">
+<input type="datetime-local" name="meeting" min="2024-01-01T00:00" max="2024-12-31T23:59">
+<input type="color" name="background" value="#ff0000">
+<input type="file" name="documents" accept=".pdf,.doc,.docx" multiple>
+<input type="hidden" name="csrf_token" value="abc123def456">
+<input type="submit" value="Save" formnovalidate>
+<input type="reset" value="Clear">
+<input type="button" value="Calculate" onclick="calculate()">
+<input type="image" src="submit.png" alt="Submit Form">
+<button type="submit" formnovalidate>Submit Without Validation</button>
+<button type="reset">Reset Form</button>
+<button type="button" onclick="showAlert()">Show Alert</button>
+<output name="sum" for="a b">0</output>
+<meter value="6" min="0" max="10">6 out of 10</meter>
+<progress value="75" max="100">75%</progress>
+<datalist id="ice-cream-flavors"><option value="Chocolate"><option value="Vanilla"><option value="Strawberry"></datalist>
+<input list="ice-cream-flavors" name="flavor">
+<keygen name="secure" challenge="challenge123">
+<menu type="context" id="contextmenu"><menuitem label="Refresh" onclick="location.reload()"></menuitem></menu>
+<dialog id="mydialog"><p>Dialog content</p><button onclick="document.getElementById('mydialog').close()">Close</button></dialog>
+<details><summary>Click for more info</summary><p>Additional information here</p></details>
+<template id="product-template"><div class="product"><h3></h3><p></p></div></template>
+<slot name="header-content"><h1>Default Header</h1></slot>
+<canvas id="drawing-canvas" width="800" height="600"></canvas>
+<script>document.getElementById('demo').innerHTML = 'Hello JavaScript!';</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Article Headline"}</script>
+<link rel="stylesheet" href="styles.css" media="screen and (min-width: 800px)">
+<style>@import url('print.css') print;</style>
+<noscript><link rel="stylesheet" href="noscript.css"></noscript>
+<object data="data.pdf" type="application/pdf" width="100%" height="500px"><p>Unable to display PDF file. <a href="data.pdf">Download</a> instead.</p></object>
+<embed src="game.swf" type="application/x-shockwave-flash" width="550" height="400">
+<iframe src="embedded.html" width="100%" height="400" loading="lazy" referrerpolicy="no-referrer"></iframe>
+<portal src="https://web.dev" width="360" height="240"></portal>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi>e</mi><mrow><mi>i</mi><mi>π</mi></mrow></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math>
+print("Hello, World!")
+x = 10
+y = 20
+local z = 30
+function add(a, b) return a + b end
+local function multiply(a, b) return a * b end
+if condition then print("true") end
+if condition then print("true") else print("false") end
+if condition then print("true") elseif another then print("another") else print("false") end
+while condition do print("looping") end
+repeat print("once") until condition
+for i = 1, 10 do print(i) end
+for i = 10, 1, -1 do print(i) end
+for k, v in pairs(table) do print(k, v) end
+for i, v in ipairs(array) do print(i, v) end
+local t = {1, 2, 3}
+local t = {name = "John", age = 30}
+local t = {[1] = "first", ["key"] = "value"}
+table.insert(t, "new")
+table.remove(t, 1)
+table.sort(t)
+table.concat(t, ", ")
+table.maxn(t)
+#t
+t[#t + 1] = "new"
+string.sub(s, 1, 5)
+string.len(s)
+string.lower(s)
+string.upper(s)
+string.reverse(s)
+string.rep(s, 3)
+string.format("Name: %s, Age: %d", name, age)
+string.match(s, "pattern")
+string.gmatch(s, "pattern")
+string.gsub(s, "old", "new")
+string.find(s, "pattern")
+string.byte(s, 1)
+string.char(65, 66, 67)
+tonumber("123")
+tostring(123)
+type(variable)
+assert(condition, "error message")
+error("error message")
+pcall(function() error("test") end)
+xpcall(function() error("test") end, debug.traceback)
+coroutine.create(function() print("coroutine") end)
+coroutine.resume(co)
+coroutine.yield()
+coroutine.status(co)
+coroutine.wrap(function() print("wrapped") end)()
+math.abs(-5)
+math.floor(3.7)
+math.ceil(3.2)
+math.max(1, 5, 3)
+math.min(1, 5, 3)
+math.sqrt(25)
+math.pow(2, 3)
+math.exp(1)
+math.log(10)
+math.log10(100)
+math.sin(math.pi/2)
+math.cos(0)
+math.tan(math.pi/4)
+math.asin(0.5)
+math.acos(0.5)
+math.atan(1)
+math.atan2(1, 1)
+math.pi
+math.huge
+math.random()
+math.random(10)
+math.random(5, 15)
+math.randomseed(os.time())
+io.read()
+io.read("*l")
+io.read("*n")
+io.read(5)
+io.write("text")
+io.open("file.txt", "r")
+file:read()
+file:write("data")
+file:close()
+file:seek("set", 0)
+file:flush()
+io.lines("file.txt")
+io.input("file.txt")
+io.output("file.txt")
+os.clock()
+os.date()
+os.date("%Y-%m-%d %H:%M:%S")
+os.time()
+os.difftime(t2, t1)
+os.execute("ls -la")
+os.exit()
+os.getenv("PATH")
+os.remove("file.txt")
+os.rename("old.txt", "new.txt")
+os.tmpname()
+os.setlocale("en_US.UTF-8")
+debug.debug()
+debug.getinfo(func)
+debug.getlocal(level, index)
+debug.getupvalue(func, index)
+debug.setlocal(level, index, value)
+debug.setupvalue(func, index, value)
+debug.traceback()
+debug.sethook(function() end, "crl")
+debug.gethook()
+load("print('Hello')")()
+loadstring("return 42")()
+loadfile("script.lua")
+dofile("script.lua")
+getmetatable(t)
+setmetatable(t, mt)
+rawget(t, k)
+rawset(t, k, v)
+rawequal(a, b)
+rawlen(t)
+next(t, k)
+pairs(t)
+ipairs(t)
+collectgarbage()
+collectgarbage("collect")
+collectgarbage("count")
+collectgarbage("stop")
+collectgarbage("restart")
+package.path = package.path .. ";./?.lua"
+package.cpath = package.cpath .. ";./?.so"
+require("module")
+module("mymodule", package.seeall)
+package.loaded.module = nil
+package.preload.module = function() end
+package.seeall(mt)
+string.dump(function() end)
+select("#", ...)
+select(2, "a", "b", "c")
+arg = {...}
+local a, b, c = ...
+unpack(t)
+table.unpack(t)
+bit32.band(5, 3)
+bit32.bor(5, 3)
+bit32.bxor(5, 3)
+bit32.bnot(5)
+bit32.lshift(5, 2)
+bit32.rshift(5, 2)
+bit32.arshift(-5, 2)
+bit32.btest(5, 1)
+utf8.len("café")
+utf8.char(97, 98, 99)
+utf8.codepoint("abc", 1, 3)
+utf8.offset("café", 3)
+utf8.codes("café")
+math.type(5.0)
+math.tointeger(5.5)
+math.ult(1, 2)
+string.pack("i", 42)
+string.unpack("i", data)
+string.packsize("i")
+table.move(t1, 1, #t1, 1, t2)
+table.pack(1, 2, 3)
+table.create(10, 0)
+coroutine.isyieldable()
+coroutine.close(co)
+debug.getuservalue(u)
+debug.setuservalue(u, value)
+debug.upvalueid(f, n)
+debug.upvaluejoin(f1, n1, f2, n2)
+io.popen("ls", "r")
+file:setvbuf("no")
+file:setvbuf("full", 1024)
+file:setvbuf("line")
+os.execute("sleep 1")
+os.exit(true)
+os.exit(false, true)
+package.searchpath("module", package.path)
+require "module"
+local m = require "module"
+_G.variable = "global"
+_ENV.variable = "local"
+setfenv(1, {})
+getfenv(1)
+local env = {}
+setmetatable(env, {__index = _G})
+setfenv(1, env)
+local co = coroutine.create(function() coroutine.yield(42) end)
+local ok, result = coroutine.resume(co)
+local co = coroutine.wrap(function() return 42 end)
+local result = co()
+local mt = {__add = function(a, b) return a.value + b.value end}
+setmetatable(a, mt)
+local mt = {__sub = function(a, b) return a.value - b.value end}
+local mt = {__mul = function(a, b) return a.value * b.value end}
+local mt = {__div = function(a, b) return a.value / b.value end}
+local mt = {__mod = function(a, b) return a.value % b.value end}
+local mt = {__pow = function(a, b) return a.value ^ b.value end}
+local mt = {__unm = function(a) return -a.value end}
+local mt = {__concat = function(a, b) return a.value .. b.value end}
+local mt = {__len = function(a) return #a.value end}
+local mt = {__eq = function(a, b) return a.value == b.value end}
+local mt = {__lt = function(a, b) return a.value < b.value end}
+local mt = {__le = function(a, b) return a.value <= b.value end}
+local mt = {__index = function(t, k) return t.data[k] end}
+local mt = {__newindex = function(t, k, v) rawset(t.data, k, v) end}
+local mt = {__call = function(t, ...) return t.func(...) end}
+local mt = {__tostring = function(t) return "Table: " .. t.name end}
+local mt = {__metatable = "protected"}
+local proxy = setmetatable({}, {__index = t, __newindex = t})
+local weak_t = setmetatable({}, {__mode = "k"})
+local weak_t = setmetatable({}, {__mode = "v"})
+local weak_t = setmetatable({}, {__mode = "kv"})
+debug.setmetatable(5, mt)
+local f = load("return function() return 42 end")
+local func = f()
+local chunk = loadfile("script.lua", "t", env)
+local co = coroutine.create(function(x) return x * 2 end)
+local ok, result = coroutine.resume(co, 21)
+local co = coroutine.create(function() for i = 1, 3 do coroutine.yield(i) end end)
+for i = 1, 4 do print(coroutine.resume(co)) end
+local co = coroutine.create(function() error("test error") end)
+local ok, err = coroutine.resume(co)
+local function iterator(t) local i = 0 return function() i = i + 1 return t[i] end end
+for v in iterator({1,2,3}) do print(v) end
+local function fib() local a, b = 0, 1 return function() a, b = b, a + b return a end end
+for n in fib() do if n > 100 then break end print(n) end
+local function map(f, t) local result = {} for k, v in pairs(t) do result[k] = f(v) end return result end
+local function filter(f, t) local result = {} for k, v in pairs(t) do if f(v) then result[k] = v end end return result end
+local function reduce(f, t, init) local acc = init for _, v in pairs(t) do acc = f(acc, v) end return acc end
+local function curry(f) return function(x) return function(y) return f(x, y) end end end
+local function memoize(f) local cache = {} return function(x) if cache[x] then return cache[x] end cache[x] = f(x) return cache[x] end end
+local function compose(f, g) return function(x) return f(g(x)) end end
+local function partial(f, ...) local args = {...} return function(...) return f(unpack(args), ...) end end
+local function bind(f, obj) return function(...) return f(obj, ...) end end
+local function pipeline(...) local funcs = {...} return function(x) for _, f in ipairs(funcs) do x = f(x) end return x end end
+local function trampoline(f) while type(f) == "function" do f = f() end return f end
+local function make_counter() local count = 0 return function() count = count + 1 return count end end
+local counter = make_counter()
+local function make_adder(x) return function(y) return x + y end end
+local add5 = make_adder(5)
+local function make_stack() local stack = {} return {push = function(x) table.insert(stack, x) end, pop = function() return table.remove(stack) end} end
+local stack = make_stack()
+local function make_account(balance) return {withdraw = function(amount) balance = balance - amount return balance end, deposit = function(amount) balance = balance + amount return balance end} end
+local account = make_account(100)
+local function make_class(super) local class = {} class.__index = class setmetatable(class, super) function class:new(...) local obj = setmetatable({}, class) if obj.initialize then obj:initialize(...) end return obj end return class end
+local Animal = make_class() function Animal:initialize(name) self.name = name end function Animal:speak() return self.name .. " makes a sound" end
+local Dog = make_class(Animal) function Dog:speak() return self.name .. " barks" end
+local dog = Dog:new("Rex")
+local function make_singleton() local instance local class = {} function class:new() if not instance then instance = setmetatable({}, {__index = class}) end return instance end return class end
+local Singleton = make_singleton()
+local function make_observer() local listeners = {} return {subscribe = function(event, callback) listeners[event] = listeners[event] or {} table.insert(listeners[event], callback) end, emit = function(event, ...) for _, callback in ipairs(listeners[event] or {}) do callback(...) end end} end
+local observer = make_observer()
+local function make_promise() local result, resolved, callbacks local promise = {} function promise:then(callback) if resolved then callback(result) else table.insert(callbacks, callback) end return self end function promise:resolve(value) if not resolved then result = value resolved = true for _, callback in ipairs(callbacks) do callback(value) end end end return promise end
+local promise = make_promise()
+local function make_lazy(f) local value, computed local function get() if not computed then value = f() computed = true end return value end return get end
+local lazy_value = make_lazy(function() return expensive_computation() end)
+local function make_range(start, stop, step) local i = start - (step or 1) return function() i = i + (step or 1) if i <= stop then return i end end end
+for i in make_range(1, 5) do print(i) end
+local function make_enum(...) local enum = {} for i, v in ipairs({...}) do enum[v] = i enum[i] = v end return enum end
+local colors = make_enum("red", "green", "blue")
+local function make_flag(...) local flag = {} for i, v in ipairs({...}) do flag[v] = 2^(i-1) end return flag end
+local permissions = make_flag("read", "write", "execute")
+local function make_vector(x, y) return {x = x, y = y, __add = function(a, b) return make_vector(a.x + b.x, a.y + b.y) end} end
+local v1 = make_vector(1, 2) local v2 = make_vector(3, 4) local v3 = v1 + v2
+local function make_matrix(rows, cols) local m = {} for i = 1, rows do m[i] = {} for j = 1, cols do m[i][j] = 0 end end return m end
+local function matrix_multiply(a, b) local result = make_matrix(#a, #b[1]) for i = 1, #a do for j = 1, #b[1] do for k = 1, #b do result[i][j] = result[i][j] + a[i][k] * b[k][j] end end end return result end
+local function make_tree() return {insert = function(self, value) -- implementation end, search = function(self, value) -- implementation end} end
+local tree = make_tree()
+local function make_graph() local graph = {nodes = {}, edges = {}} function graph:add_node(id) self.nodes[id] = true end function graph:add_edge(from, to, weight) self.edges[from] = self.edges[from] or {} self.edges[from][to] = weight end return graph end
+local graph = make_graph()
+local function bfs(graph, start) local visited = {} local queue = {start} visited[start] = true while #queue > 0 do local node = table.remove(queue, 1) print(node) for neighbor in pairs(graph.edges[node] or {}) do if not visited[neighbor] then visited[neighbor] = true table.insert(queue, neighbor) end end end end
+local function dfs(graph, start) local visited = {} local function visit(node) if visited[node] then return end visited[node] = true print(node) for neighbor in pairs(graph.edges[node] or {}) do visit(neighbor) end end visit(start) end
+local function dijkstra(graph, start) local distances = {} local previous = {} local unvisited = {} for node in pairs(graph.nodes) do distances[node] = math.huge previous[node] = nil unvisited[node] = true end distances[start] = 0 while next(unvisited) do local current = nil for node in pairs(unvisited) do if not current or distances[node] < distances[current] then current = node end end if distances[current] == math.huge then break end unvisited[current] = nil for neighbor, weight in pairs(graph.edges[current] or {}) do local alt = distances[current] + weight if alt < distances[neighbor] then distances[neighbor] = alt previous[neighbor] = current end end end return distances, previous end
+local function make_lru_cache(max_size) local cache = {} local order = {} return {get = function(key) if cache[key] then for i, k in ipairs(order) do if k == key then table.remove(order, i) table.insert(order, 1, key) break end end return cache[key] end end, set = function(key, value) if cache[key] then cache[key] = value for i, k in ipairs(order) do if k == key then table.remove(order, i) table.insert(order, 1, key) break end end else if #order >= max_size then local old_key = table.remove(order) cache[old_key] = nil end cache[key] = value table.insert(order, 1, key) end end} end
+local cache = make_lru_cache(100)
+local function make_priority_queue() local heap = {} local function parent(i) return math.floor(i/2) end local function left(i) return 2*i end local function right(i) return 2*i+1 end local function heapify(i) local l = left(i) local r = right(i) local smallest = i if l <= #heap and heap[l] < heap[smallest] then smallest = l end if r <= #heap and heap[r] < heap[smallest] then smallest = r end if smallest ~= i then heap[i], heap[smallest] = heap[smallest], heap[i] heapify(smallest) end end return {push = function(value) table.insert(heap, value) local i = #heap while i > 1 and heap[parent(i)] > heap[i] do heap[i], heap[parent(i)] = heap[parent(i)], heap[i] i = parent(i) end end, pop = function() if #heap == 0 then return nil end local min = heap[1] heap[1] = heap[#heap] table.remove(heap) heapify(1) return min end} end
+local pq = make_priority_queue()
+local function make_disjoint_set() local parent = {} local rank = {} return {make_set = function(x) parent[x] = x rank[x] = 0 end, find = function(x) if parent[x] ~= x then parent[x] = find(parent[x]) end return parent[x] end, union = function(x, y) local root_x = find(x) local root_y = find(y) if root_x == root_y then return end if rank[root_x] < rank[root_y] then parent[root_x] = root_y elseif rank[root_x] > rank[root_y] then parent[root_y] = root_x else parent[root_y] = root_x rank[root_x] = rank[root_x] + 1 end end} end
+local dset = make_disjoint_set()
+local function make_trie() local trie = {} return {insert = function(word) local node = trie for i = 1, #word do local char = word:sub(i, i) node[char] = node[char] or {} node = node[char] end node.is_word = true end, search = function(word) local node = trie for i = 1, #word do local char = word:sub(i, i) if not node[char] then return false end node = node[char] end return node.is_word == true end} end
+local trie = make_trie()
+local function make_bloom_filter(size, hash_count) local filter = {} local function hash(str, seed) local h = seed for i = 1, #str do h = (h * 31 + str:byte(i)) % size end return h end return {add = function(item) for i = 1, hash_count do local index = hash(item, i) + 1 filter[index] = true end end, contains = function(item) for i = 1, hash_count do local index = hash(item, i) + 1 if not filter[index] then return false end end return true end} end
+local bloom = make_bloom_filter(1000, 3)
+local function make_ring_buffer(size) local buffer = {} local head = 1 local tail = 1 local count = 0 return {push = function(value) buffer[tail] = value tail = (tail % size) + 1 if count == size then head = (head % size) + 1 else count = count + 1 end end, pop = function() if count == 0 then return nil end local value = buffer[head] buffer[head] = nil head = (head % size) + 1 count = count - 1 return value end} end
+local ring = make_ring_buffer(10)
+local function make_circular_list(size) local list = {} local index = 1 return {append = function(value) list[index] = value index = (index % size) + 1 end, get_all = function() return list end} end
+local circular = make_circular_list(5)
+local function make_rate_limiter(limit, window) local requests = {} return {check = function() local now = os.time() local count = 0 for i = #requests, 1, -1 do if requests[i] > now - window then count = count + 1 else table.remove(requests, i) end end if count < limit then table.insert(requests, now) return true end return false end} end
+local limiter = make_rate_limiter(10, 60)
+local function make_throttle(delay) local last = 0 return function(fn) return function(...) local now = os.time() if now - last >= delay then last = now return fn(...) end end end end
+local throttle = make_throttle(1)
+local function make_debounce(delay) local timer return function(fn) return function(...) if timer then timer:close() end timer = os.start_timer(delay, function() fn(...) end) end end end
+local debounce = make_debounce(0.5)
+local function make_retry(max_attempts, delay) return function(fn) return function(...) local attempts = 0 while attempts < max_attempts do local ok, result = pcall(fn, ...) if ok then return result end attempts = attempts + 1 if attempts < max_attempts then os.execute("sleep " .. delay) end end error("Max retry attempts exceeded") end end end
+local retry = make_retry(3, 1)
+local function make_timeout(timeout) return function(fn) return function(...) local co = coroutine.create(fn) local start = os.time() while coroutine.status(co) ~= "dead" do if os.time() - start > timeout then error("Timeout exceeded") end coroutine.resume(co, ...) end end end end
+local timeout = make_timeout(5)
+local function make_async(fn) return function(...) local co = coroutine.create(fn) return function() return coroutine.resume(co, ...) end end end
+local async_func = make_async(function(x) coroutine.yield(x * 2) return x * 3 end)
+local function make_pipeline(...) local funcs = {...} return function(x) for i = 1, #funcs do x = funcs[i](x) end return x end end
+local process = make_pipeline(string.upper, string.reverse)
+local function make_middleware() local middlewares = {} return {use = function(fn) table.insert(middlewares, fn) end, run = function(context) local function dispatch(i) if i <= #middlewares then return middlewares[i](context, function() return dispatch(i + 1) end) end end return dispatch(1) end} end
+local middleware = make_middleware()
+local function make_event_emitter() local events = {} return {on = function(event, handler) events[event] = events[event] or {} table.insert(events[event], handler) end, emit = function(event, ...) for _, handler in ipairs(events[event] or {}) do handler(...) end end, off = function(event, handler) if events[event] then for i, h in ipairs(events[event]) do if h == handler then table.remove(events[event], i) break end end end end} end
+local emitter = make_event_emitter()
+local function make_state_machine(states) local current = states.initial return {transition = function(event) local next_state = states.transitions[current][event] if next_state then current = next_state if states.actions[current] then states.actions[current]() end return true end return false end, state = function() return current end} end
+local fsm = make_state_machine{initial = "idle", transitions = {idle = {start = "running"}, running = {stop = "idle"}}, actions = {running = function() print("Running!") end}}
+local function make_pubsub() local channels = {} return {subscribe = function(channel, callback) channels[channel] = channels[channel] or {} table.insert(channels[channel], callback) end, publish = function(channel, message) for _, callback in ipairs(channels[channel] or {}) do callback(message) end end, unsubscribe = function(channel, callback) if channels[channel] then for i, cb in ipairs(channels[channel]) do if cb == callback then table.remove(channels[channel], i) break end end end end} end
+local pubsub = make_pubsub()
+local function make_worker_pool(size) local workers = {} local queue = {} local function worker() while true do local task = coroutine.yield() if task then task() end end end for i = 1, size do workers[i] = coroutine.create(worker) coroutine.resume(workers[i]) end return {submit = function(task) table.insert(queue, task) for i = 1, size do if coroutine.status(workers[i]) == "suspended" then coroutine.resume(workers[i], table.remove(queue, 1)) break end end end} end
+local pool = make_worker_pool(4)
+local function make_circuit_breaker(failure_threshold, reset_timeout) local failures = 0 local last_failure = 0 local state = "closed" return {call = function(fn) if state == "open" then if os.time() - last_failure > reset_timeout then state = "half-open" else error("Circuit breaker is open") end end local ok, result = pcall(fn) if ok then if state == "half-open" then state = "closed" failures = 0 end return result else failures = failures + 1 last_failure = os.time() if failures >= failure_threshold then state = "open" end error(result) end end} end
+local breaker = make_circuit_breaker(5, 60)
+local function make_bulkhead(max_concurrent) local semaphore = max_concurrent return {acquire = function() while semaphore <= 0 do coroutine.yield() end semaphore = semaphore - 1 end, release = function() semaphore = semaphore + 1 end} end
+local bulkhead = make_bulkhead(3)
+local function make_cache_with_ttl(ttl) local cache = {} return {get = function(key) local item = cache[key] if item and os.time() < item.expires then return item.value end cache[key] = nil return nil end, set = function(key, value) cache[key] = {value = value, expires = os.time() + ttl} end} end
+local ttl_cache = make_cache_with_ttl(60)
+local function make_lazy_cache(fn, ttl) local cache = {} return function(key) local item = cache[key] if item and os.time() < item.expires then return item.value end local value = fn(key) cache[key] = {value = value, expires = os.time() + ttl} return value end end
+local lazy_cached = make_lazy_cache(function(x) return x * 2 end, 60)
+local function make_validation_schema(rules) return function(data) for field, rule in pairs(rules) do if rule.required and data[field] == nil then return false, field .. " is required" end if data[field] and rule.type and type(data[field]) ~= rule.type then return false, field .. " must be " .. rule.type end if data[field] and rule.validator and not rule.validator(data[field]) then return false, field .. " is invalid" end end return true end end
+local validate = make_validation_schema{name = {required = true, type = "string"}, age = {type = "number", validator = function(x) return x >= 0 end}}
+local function make_template_engine(template) return function(data) return (template:gsub("{{(%w+)}}", function(key) return tostring(data[key] or "") end)) end end
+local render = make_template_engine("Hello, {{name}}!")
+<?php
+echo "Hello, World!";
+$variable = "value";
+define("CONSTANT", "value");
+const ANOTHER_CONST = "value";
+function functionName($param) { return $param; }
+class MyClass { public $property; }
+$obj = new MyClass();
+if ($condition) { }
+if ($condition) { } else { }
+if ($condition) { } elseif ($another) { } else { }
+switch ($value) { case 1: break; default: }
+while ($condition) { }
+do { } while ($condition);
+for ($i = 0; $i < 10; $i++) { }
+foreach ($array as $value) { }
+foreach ($array as $key => $value) { }
+$array = array(1, 2, 3);
+$array = [1, 2, 3];
+$assoc = ["key" => "value"];
+array_push($array, "new");
+array_pop($array);
+array_shift($array);
+array_unshift($array, "new");
+count($array);
+sizeof($array);
+in_array("value", $array);
+array_key_exists("key", $array);
+array_merge($array1, $array2);
+array_slice($array, 0, 2);
+array_splice($array, 0, 1);
+array_map(function($x) { return $x * 2; }, $array);
+array_filter($array, function($x) { return $x > 2; });
+array_reduce($array, function($carry, $item) { return $carry + $item; });
+array_search("value", $array);
+array_reverse($array);
+sort($array);
+rsort($array);
+asort($assoc);
+ksort($assoc);
+arsort($assoc);
+krsort($assoc);
+usort($array, function($a, $b) { return $a <=> $b; });
+list($a, $b) = $array;
+[$a, $b] = $array;
+explode(",", "a,b,c");
+implode(",", $array);
+strlen("string");
+strpos("string", "t");
+str_replace("old", "new", "string");
+substr("string", 0, 3);
+trim(" string ");
+ltrim(" string ");
+rtrim(" string ");
+strtolower("STRING");
+strtoupper("string");
+ucfirst("string");
+ucwords("string");
+strrev("string");
+str_repeat("a", 3);
+str_pad("string", 10, " ");
+str_split("string", 2);
+chr(65);
+ord("A");
+sprintf("Format: %s %d", "string", 42);
+printf("Format: %s %d", "string", 42);
+sscanf("string 42", "%s %d", $str, $num);
+preg_match("/pattern/", "string");
+preg_match_all("/pattern/", "string", $matches);
+preg_replace("/pattern/", "replacement", "string");
+preg_split("/pattern/", "string");
+htmlspecialchars("<tag>");
+htmlentities("<tag>");
+strip_tags("<p>text</p>");
+urlencode("string with spaces");
+urldecode("string+with+spaces");
+base64_encode("data");
+base64_decode("encoded");
+json_encode($data);
+json_decode($json, true);
+serialize($data);
+unserialize($serialized);
+md5("string");
+sha1("string");
+hash("sha256", "string");
+password_hash("password", PASSWORD_DEFAULT);
+password_verify("password", $hash);
+crypt("password", "salt");
+openssl_encrypt($data, "AES-256-CBC", $key);
+openssl_decrypt($encrypted, "AES-256-CBC", $key);
+random_bytes(32);
+random_int(1, 100);
+mt_rand(1, 100);
+rand(1, 100);
+floor(3.7);
+ceil(3.2);
+round(3.5);
+abs(-5);
+max(1, 5, 3);
+min(1, 5, 3);
+pow(2, 3);
+sqrt(25);
+log(10);
+exp(1);
+pi();
+sin(0);
+cos(0);
+tan(0);
+deg2rad(180);
+rad2deg(M_PI);
+is_int($var);
+is_float($var);
+is_string($var);
+is_array($var);
+is_object($var);
+is_null($var);
+is_bool($var);
+is_resource($var);
+is_callable($var);
+isset($var);
+empty($var);
+unset($var);
+gettype($var);
+settype($var, "string");
+intval($var);
+floatval($var);
+strval($var);
+boolval($var);
+$var = (int)$other;
+$var = (string)$other;
+$var = (array)$other;
+$var = (object)$other;
+$var = (bool)$other;
+$var = (float)$other;
+clone $object;
+instanceof MyClass;
+__construct();
+__destruct();
+__get($name);
+__set($name, $value);
+__isset($name);
+__unset($name);
+__call($name, $arguments);
+__callStatic($name, $arguments);
+__toString();
+__invoke();
+__clone();
+__debugInfo();
+__sleep();
+__wakeup();
+__serialize();
+__unserialize();
+public $property;
+protected $property;
+private $property;
+public function method() { }
+protected function method() { }
+private function method() { }
+static $property;
+static function method() { }
+self::method();
+parent::method();
+static::method();
+abstract class AbstractClass { }
+interface MyInterface { }
+class MyClass implements MyInterface { }
+trait MyTrait { }
+class MyClass { use MyTrait; }
+final class MyClass { }
+final function method() { }
+namespace MyNamespace;
+use MyNamespace\MyClass;
+use MyNamespace\MyClass as Alias;
+require "file.php";
+require_once "file.php";
+include "file.php";
+include_once "file.php";
+__DIR__;
+__FILE__;
+__LINE__;
+__FUNCTION__;
+__CLASS__;
+__METHOD__;
+__NAMESPACE__;
+__TRAIT__;
+function __autoload($class) { }
+spl_autoload_register(function($class) { });
+class_exists("MyClass");
+interface_exists("MyInterface");
+trait_exists("MyTrait");
+method_exists($object, "method");
+property_exists($object, "property");
+get_class($object);
+get_parent_class($object);
+get_class_methods($object);
+get_class_vars($object);
+get_object_vars($object);
+get_declared_classes();
+get_declared_interfaces();
+get_declared_traits();
+get_defined_functions();
+get_defined_vars();
+get_included_files();
+get_required_files();
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+ini_get("display_errors");
+set_error_handler(function($errno, $errstr) { });
+restore_error_handler();
+set_exception_handler(function($exception) { });
+restore_exception_handler();
+trigger_error("Error message");
+user_error("Error message");
+try { } catch (Exception $e) { }
+try { } catch (Exception $e) { } finally { }
+throw new Exception("Error message");
+Exception::getMessage();
+Exception::getCode();
+Exception::getFile();
+Exception::getLine();
+Exception::getTrace();
+Exception::getTraceAsString();
+ErrorException::getSeverity();
+DateTime::createFromFormat("Y-m-d", "2024-01-01");
+$date = new DateTime();
+$date->format("Y-m-d H:i:s");
+$date->modify("+1 day");
+$date->setDate(2024, 1, 1);
+$date->setTime(12, 0, 0);
+$date->getTimestamp();
+date("Y-m-d H:i:s");
+time();
+strtotime("next Monday");
+mktime(12, 0, 0, 1, 1, 2024);
+date_default_timezone_set("UTC");
+date_default_timezone_get();
+DateTimeZone::listIdentifiers();
+$interval = new DateInterval("P1D");
+$period = new DatePeriod($start, $interval, $end);
+$diff = $date1->diff($date2);
+gmdate("Y-m-d H:i:s");
+microtime(true);
+hrtime(true);
+unlink("file.txt");
+copy("source.txt", "dest.txt");
+rename("old.txt", "new.txt");
+file_exists("file.txt");
+is_file("file.txt");
+is_dir("directory");
+is_readable("file.txt");
+is_writable("file.txt");
+is_executable("file.txt");
+file_get_contents("file.txt");
+file_put_contents("file.txt", "data");
+file("file.txt");
+fopen("file.txt", "r");
+fclose($handle);
+fread($handle, 1024);
+fwrite($handle, "data");
+fgets($handle);
+fgetcsv($handle);
+fputcsv($handle, $data);
+feof($handle);
+ftell($handle);
+fseek($handle, 0);
+rewind($handle);
+flock($handle, LOCK_EX);
+filesize("file.txt");
+filemtime("file.txt");
+filectime("file.txt");
+fileatime("file.txt");
+fileperms("file.txt");
+chmod("file.txt", 0644);
+chown("file.txt", "user");
+chgrp("file.txt", "group");
+touch("file.txt");
+mkdir("directory", 0755);
+rmdir("directory");
+scandir("directory");
+glob("*.php");
+basename("/path/to/file.txt");
+dirname("/path/to/file.txt");
+pathinfo("/path/to/file.txt");
+realpath("file.txt");
+tempnam("/tmp", "prefix");
+tmpfile();
+readfile("file.txt");
+parse_ini_file("config.ini");
+move_uploaded_file($tmp_name, $destination);
+$_FILES["file"]["name"];
+$_FILES["file"]["type"];
+$_FILES["file"]["size"];
+$_FILES["file"]["tmp_name"];
+$_FILES["file"]["error"];
+is_uploaded_file($tmp_name);
+header("Content-Type: text/html");
+header("Location: http://example.com");
+setcookie("name", "value", time() + 3600);
+setrawcookie("name", "value", time() + 3600);
+$_COOKIE["name"];
+session_start();
+$_SESSION["key"] = "value";
+session_destroy();
+session_id();
+session_name();
+session_regenerate_id(true);
+session_set_cookie_params(3600);
+session_get_cookie_params();
+session_status();
+session_write_close();
+session_unset();
+ob_start();
+ob_get_contents();
+ob_end_clean();
+ob_end_flush();
+ob_flush();
+ob_clean();
+ob_get_length();
+ob_get_level();
+ob_get_status();
+ob_implicit_flush(true);
+flush();
+filter_var($email, FILTER_VALIDATE_EMAIL);
+filter_var($ip, FILTER_VALIDATE_IP);
+filter_var($url, FILTER_VALIDATE_URL);
+filter_input(INPUT_GET, "var", FILTER_SANITIZE_STRING);
+filter_input_array(INPUT_POST, $filters);
+filter_list();
+filter_has_var(INPUT_GET, "var");
+filter_id("validate_email");
+htmlspecialchars_decode("&lt;tag&gt;");
+html_entity_decode("&lt;tag&gt;");
+get_html_translation_table(HTML_SPECIALCHARS);
+quoted_printable_encode("string");
+quoted_printable_decode("string");
+convert_uuencode("string");
+convert_uudecode("string");
+gzcompress("data");
+gzuncompress($compressed);
+gzencode("data");
+gzdecode($compressed);
+gzdeflate("data");
+gzinflate($compressed);
+base64_encode("data");
+base64_decode("encoded");
+urlencode("string");
+urldecode("string");
+rawurlencode("string");
+rawurldecode("string");
+http_build_query(["key" => "value"]);
+parse_url("http://example.com/path?query=string");
+parse_str("key=value", $output);
+get_headers("http://example.com");
+get_meta_tags("http://example.com");
+http_response_code(200);
+header_remove();
+headers_list();
+headers_sent();
+set_time_limit(30);
+ignore_user_abort(true);
+connection_aborted();
+connection_status();
+sleep(1);
+usleep(1000000);
+time_nanosleep(1, 500000000);
+time_sleep_until(time() + 5);
+pcntl_fork();
+pcntl_waitpid($pid, $status);
+pcntl_wexitstatus($status);
+pcntl_wifexited($status);
+pcntl_wifsignaled($status);
+pcntl_wifstopped($status);
+pcntl_wstopsig($status);
+pcntl_wtermsig($status);
+pcntl_signal(SIGTERM, function($signo) { });
+pcntl_signal_dispatch();
+pcntl_alarm(5);
+pcntl_exec("/bin/ls", ["-la"]);
+pcntl_getpriority();
+pcntl_setpriority(10);
+posix_getpid();
+posix_getppid();
+posix_getuid();
+posix_geteuid();
+posix_getgid();
+posix_getegid();
+posix_getgroups();
+posix_getlogin();
+posix_uname();
+posix_times();
+posix_ctermid();
+posix_ttyname(STDIN);
+posix_isatty(STDIN);
+posix_getcwd();
+posix_mkfifo("/tmp/fifo", 0644);
+posix_access("file.txt", POSIX_R_OK);
+posix_kill($pid, SIGTERM);
+shmop_open($key, "c", 0644, 100);
+shmop_read($shm, 0, 100);
+shmop_write($shm, "data", 0);
+shmop_delete($shm);
+shmop_close($shm);
+sem_get($key);
+sem_acquire($sem);
+sem_release($sem);
+sem_remove($sem);
+msg_get_queue($key);
+msg_send($queue, 1, "message");
+msg_receive($queue, 0, $type, 1024, $message);
+msg_stat_queue($queue);
+msg_remove_queue($queue);
+ftok(__FILE__, "A");
+socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+socket_bind($socket, "127.0.0.1", 8080);
+socket_listen($socket);
+socket_accept($socket);
+socket_connect($socket, "127.0.0.1", 8080);
+socket_read($socket, 1024);
+socket_write($socket, "data");
+socket_close($socket);
+socket_select($read, $write, $except, $tv_sec);
+socket_set_option($socket, SOL_SOCKET, SO_REUSEADDR, 1);
+socket_get_option($socket, SOL_SOCKET, SO_ERROR);
+socket_last_error($socket);
+socket_strerror($error);
+stream_socket_server("tcp://127.0.0.1:8080", $errno, $errstr);
+stream_socket_accept($server);
+stream_socket_client("tcp://127.0.0.1:8080", $errno, $errstr);
+stream_set_blocking($stream, false);
+stream_set_timeout($stream, 5);
+stream_get_meta_data($stream);
+stream_get_contents($stream);
+stream_copy_to_stream($source, $dest);
+stream_filter_append($stream, "string.toupper");
+stream_context_create(["http" => ["method" => "GET"]]);
+stream_context_get_options($context);
+stream_context_set_option($context, "http", "method", "POST");
+stream_get_wrappers();
+stream_wrapper_register("myprotocol", "MyStreamWrapper");
+curl_init();
+curl_setopt($ch, CURLOPT_URL, "http://example.com");
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_exec($ch);
+curl_getinfo($ch);
+curl_error($ch);
+curl_close($ch);
+curl_multi_init();
+curl_multi_add_handle($mh, $ch);
+curl_multi_exec($mh, $running);
+curl_multi_getcontent($ch);
+curl_multi_remove_handle($mh, $ch);
+curl_multi_close($mh);
+fsockopen("tcp://127.0.0.1", 8080, $errno, $errstr, 30);
+pfsockopen("tcp://127.0.0.1", 8080, $errno, $errstr, 30);
+getprotobyname("tcp");
+getservbyname("http", "tcp");
+gethostbyname("example.com");
+gethostbynamel("example.com");
+gethostbyaddr("192.168.1.1");
+getmxrr("example.com", $mxhosts);
+checkdnsrr("example.com", "MX");
+dns_get_record("example.com", DNS_A);
+inet_pton("192.168.1.1");
+inet_ntop($in_addr);
+long2ip(3232235777);
+ip2long("192.168.1.1");
+PDO::__construct("mysql:host=localhost;dbname=test", $user, $pass);
+$pdo->prepare("SELECT * FROM users WHERE id = ?");
+$stmt->execute([$id]);
+$stmt->fetch(PDO::FETCH_ASSOC);
+$stmt->fetchAll(PDO::FETCH_ASSOC);
+$stmt->bindValue(1, $value);
+$stmt->bindParam(1, $var);
+$stmt->rowCount();
+$stmt->columnCount();
+$stmt->getColumnMeta(0);
+$pdo->lastInsertId();
+$pdo->beginTransaction();
+$pdo->commit();
+$pdo->rollBack();
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$pdo->getAttribute(PDO::ATTR_DRIVER_NAME);
+$pdo->query("SELECT * FROM users");
+$pdo->exec("DELETE FROM users WHERE id = 1");
+$pdo->quote("string");
+PDO::getAvailableDrivers();
+mysqli_connect("localhost", $user, $pass, $db);
+mysqli_query($link, "SELECT * FROM users");
+mysqli_fetch_assoc($result);
+mysqli_fetch_array($result, MYSQLI_ASSOC);
+mysqli_fetch_row($result);
+mysqli_fetch_object($result);
+mysqli_num_rows($result);
+mysqli_affected_rows($link);
+mysqli_insert_id($link);
+mysqli_error($link);
+mysqli_errno($link);
+mysqli_real_escape_string($link, $string);
+mysqli_prepare($link, "SELECT * FROM users WHERE id = ?");
+mysqli_stmt_bind_param($stmt, "i", $id);
+mysqli_stmt_execute($stmt);
+mysqli_stmt_get_result($stmt);
+mysqli_stmt_close($stmt);
+mysqli_multi_query($link, "SELECT 1; SELECT 2");
+mysqli_next_result($link);
+mysqli_ping($link);
+mysqli_close($link);
+mysqlnd_uh_set_statement_proxy(new MyStatementProxy());
+oci_connect($user, $pass, "localhost/XE");
+oci_parse($conn, "SELECT * FROM users");
+oci_execute($stmt);
+oci_fetch_assoc($stmt);
+oci_fetch_all($stmt, $results);
+oci_bind_by_name($stmt, ":id", $id);
+oci_new_descriptor($conn, OCI_D_LOB);
+oci_lob_write($lob, "data");
+oci_lob_read($lob, 4096);
+oci_commit($conn);
+oci_rollback($conn);
+oci_close($conn);
+pg_connect("host=localhost dbname=test user=postgres");
+pg_query($conn, "SELECT * FROM users");
+pg_fetch_assoc($result);
+pg_fetch_all($result);
+pg_prepare($conn, "my_query", "SELECT * FROM users WHERE id = $1");
+pg_execute($conn, "my_query", [$id]);
+pg_escape_string($conn, $string);
+pg_escape_bytea($conn, $data);
+pg_unescape_bytea($data);
+pg_copy_from($conn, "users", $rows);
+pg_copy_to($conn, "users");
+pg_lo_open($conn, $oid, "r");
+pg_lo_read($lob, 4096);
+pg_lo_write($lob, "data");
+pg_lo_close($lob);
+pg_transaction_status($conn);
+pg_connection_status($conn);
+pg_close($conn);
+sqlite_open("test.db");
+sqlite_query($db, "SELECT * FROM users");
+sqlite_fetch_array($result, SQLITE_ASSOC);
+sqlite_exec($db, "CREATE TABLE users (id INTEGER PRIMARY KEY)");
+sqlite_last_insert_rowid($db);
+sqlite_changes($db);
+sqlite_escape_string($string);
+sqlite_close($db);
+Memcached::addServer("localhost", 11211);
+$memcached->set("key", "value", 3600);
+$memcached->get("key");
+$memcached->delete("key");
+$memcached->increment("counter", 1);
+$memcached->decrement("counter", 1);
+$memcached->getMulti(["key1", "key2"]);
+$memcached->setMulti(["key1" => "val1", "key2" => "val2"], 3600);
+$memcached->add("key", "value", 3600);
+$memcached->replace("key", "new_value", 3600);
+$memcached->append("key", "_appended");
+$memcached->prepend("key", "prepended_");
+$memcached->getResultCode();
+$memcached->getResultMessage();
+Redis::connect("127.0.0.1", 6379);
+$redis->set("key", "value");
+$redis->get("key");
+$redis->del("key");
+$redis->exists("key");
+$redis->incr("counter");
+$redis->decr("counter");
+$redis->lpush("list", "value");
+$redis->rpush("list", "value");
+$redis->lpop("list");
+$redis->rpop("list");
+$redis->lrange("list", 0, -1);
+$redis->sadd("set", "member");
+$redis->srem("set", "member");
+$redis->smembers("set");
+$redis->zadd("sorted_set", 1, "member");
+$redis->zrange("sorted_set", 0, -1);
+$redis->hset("hash", "field", "value");
+$redis->hget("hash", "field");
+$redis->hgetall("hash");
+$redis->expire("key", 3600);
+$redis->ttl("key");
+$redis->flushAll();
+$redis->publish("channel", "message");
+$redis->subscribe(["channel"], function($redis, $channel, $message) { });
+APCIterator::__construct("user");
+apc_store("key", "value", 3600);
+apc_fetch("key");
+apc_delete("key");
+apc_exists("key");
+apc_inc("counter", 1);
+apc_dec("counter", 1);
+apc_clear_cache();
+apc_clear_cache("user");
+apc_cache_info();
+apc_sma_info();
+opcache_get_status();
+opcache_get_configuration();
+opcache_reset();
+opcache_invalidate("file.php", true);
+XCache::set("key", "value", 3600);
+XCache::get("key");
+XCache::unset("key");
+XCache::isset("key");
+XCache::inc("counter", 1);
+XCache::dec("counter", 1);
+XCache::auth($user, $pass);
+XCache::clearCache();
+XCache::coverager_start();
+XCache::coverager_stop();
+XCache::coverager_get();
+ZendOPcache::getStatus();
+ZendOPcache::getConfiguration();
+ZendOPcache::compileFile("file.php");
+ZendOPcache::invalidate("file.php");
+Zend::optimizerVersion();
+Zend::version();
+Zend::loaderEnabled();
+Zend::loaderVersion();
+Zend::running();
+Zend::uniqueId();
+Zend::getCwd();
+Zend::setCwd("/path");
+Zend::debugZval("variable");
+Zend::isBinary("string");
+Zend::hash("alg", "data");
+Zend::crc32("data");
+ReflectionClass::__construct("MyClass");
+$reflection->getMethods();
+$reflection->getProperties();
+$reflection->getConstants();
+$reflection->getInterfaces();
+$reflection->getParentClass();
+$reflection->newInstance();
+$reflection->newInstanceArgs($args);
+$reflection->isInstantiable();
+$reflection->isSubclassOf("ParentClass");
+ReflectionMethod::__construct("MyClass", "method");
+$method->isPublic();
+$method->isProtected();
+$method->isPrivate();
+$method->isStatic();
+$method->isAbstract();
+$method->isFinal();
+$method->getParameters();
+$method->invoke($object, $args);
+$method->invokeArgs($object, $args);
+ReflectionProperty::__construct("MyClass", "property");
+$property->isPublic();
+$property->isProtected();
+$property->isPrivate();
+$property->isStatic();
+$property->getValue($object);
+$property->setValue($object, $value);
+ReflectionParameter::__construct(["MyClass", "method"], "param");
+$parameter->getName();
+$parameter->getType();
+$parameter->isOptional();
+$parameter->isDefaultValueAvailable();
+$parameter->getDefaultValue();
+ReflectionFunction::__construct("function_name");
+$function->getParameters();
+$function->invoke($args);
+$function->invokeArgs($args);
+ReflectionExtension::__construct("standard");
+$extension->getVersion();
+$extension->getFunctions();
+$extension->getClasses();
+$extension->getConstants();
+ReflectionZendExtension::__construct("opcache");
+$zend_extension->getVersion();
+$zend_extension->getAuthor();
+$zend_extension->getURL();
+IteratorAggregate::getIterator();
+Iterator::current();
+Iterator::key();
+Iterator::next();
+Iterator::rewind();
+Iterator::valid();
+ArrayAccess::offsetExists($offset);
+ArrayAccess::offsetGet($offset);
+ArrayAccess::offsetSet($offset, $value);
+ArrayAccess::offsetUnset($offset);
+Countable::count();
+Serializable::serialize();
+Serializable::unserialize($data);
+JsonSerializable::jsonSerialize();
+Closure::__construct(function() { });
+$closure->bindTo($newthis, $newscope);
+$closure->call($newthis, $arg1, $arg2);
+Closure::fromCallable("function_name");
+Generator::current();
+Generator::key();
+Generator::next();
+Generator::rewind();
+Generator::valid();
+Generator::send($value);
+Generator::throw($exception);
+Generator::getReturn();
+WeakReference::create($object);
+$weakref->get();
+WeakMap::offsetSet($object, $value);
+$weakmap->offsetGet($object);
+$weakmap->offsetExists($object);
+$weakmap->offsetUnset($object);
+Fiber::__construct(function() { });
+$fiber->start();
+$fiber->resume($value);
+$fiber->throw($exception);
+$fiber->getReturn();
+Fiber::suspend($value);
+Fiber::getCurrent();
+Fiber::isStarted();
+Fiber::isSuspended();
+Fiber::isRunning();
+Fiber::isTerminated();
+Fiber::getFiberId();
+FFI::cdef("int printf(const char *format, ...);", "libc.so.6");
+$ffi->printf("Hello %s\n", "World");
+FFI::addr($ffi_var);
+FFI::sizeof($ffi_var);
+FFI::alignof($ffi_var);
+FFI::memcpy($dest, $src, $size);
+FFI::memset($ptr, $value, $size);
+FFI::string($ptr, $size);
+FFI::cast("int", $value);
+FFI::type("int");
+FFI::arrayType($type, $dims);
+FFI::load("header.h");
+FFI::scope("libc");
+GMP::__construct(123);
+gmp_add($a, $b);
+gmp_sub($a, $b);
+gmp_mul($a, $b);
+gmp_div($a, $b);
+gmp_mod($a, $b);
+gmp_pow($base, $exp);
+gmp_sqrt($a);
+gmp_gcd($a, $b);
+gmp_prob_prime($a);
+gmp_random_range($min, $max);
+gmp_strval($gmp, $base);
+BCMath::scale(10);
+bcadd("1.234", "5.678");
+bcsub("1.234", "5.678");
+bcmul("1.234", "5.678");
+bcdiv("1.234", "5.678");
+bcmod("1.234", "5.678");
+bcpow("1.234", "2");
+bcsqrt("2");
+bccomp("1.234", "5.678");
+bcscale(4);
+Decimal::__construct("1.234");
+$decimal->add("5.678");
+$decimal->sub("5.678");
+$decimal->mul("5.678");
+$decimal->div("5.678");
+$decimal->mod("5.678");
+$decimal->pow("2");
+$decimal->sqrt();
+$decimal->compare("5.678");
+$decimal->toInt();
+$decimal->toFloat();
+$decimal->toString();
+MessageFormatter::__construct("en_US", "{0,number,integer}");
+$formatter->format([42]);
+$formatter->parse("{0,number,integer}");
+MessageFormatter::formatMessage("en_US", "{0,number,integer}", [42]);
+MessageFormatter::parseMessage("en_US", "{0,number,integer}", "42");
+NumberFormatter::__construct("en_US", NumberFormatter::DECIMAL);
+$formatter->format(1234.56);
+$formatter->parse("1,234.56");
+$formatter->setAttribute(NumberFormatter::FRACTION_DIGITS, 2);
+$formatter->getAttribute(NumberFormatter::FRACTION_DIGITS);
+$formatter->setSymbol(NumberFormatter::CURRENCY_SYMBOL, "€");
+$formatter->getSymbol(NumberFormatter::CURRENCY_SYMBOL);
+$formatter->setTextAttribute(NumberFormatter::POSITIVE_PREFIX, "+");
+$formatter->getTextAttribute(NumberFormatter::POSITIVE_PREFIX);
+Locale::getDefault();
+Locale::setDefault("en_US");
+Locale::getPrimaryLanguage("en_US");
+Locale::getRegion("en_US");
+Locale::getDisplayName("en_US", "fr_FR");
+Locale::getDisplayLanguage("en_US", "fr_FR");
+Locale::getDisplayRegion("en_US", "fr_FR");
+Locale::getDisplayScript("en_US", "fr_FR");
+Locale::getDisplayVariant("en_US", "fr_FR");
+Locale::composeLocale(["language" => "en", "region" => "US"]);
+Locale::parseLocale("en_US");
+Locale::getAllVariants("en_US");
+Locale::filterMatches("en_US", "en", false);
+Locale::lookup(["en", "fr"], "en_US", false);
+Locale::canonicalize("en_US");
+Locale::acceptFromHttp("en,fr;q=0.9,de;q=0.8");
+IntlDateFormatter::__construct("en_US", IntlDateFormatter::MEDIUM, IntlDateFormatter::MEDIUM);
+$formatter->format($timestamp);
+$formatter->parse("Jan 1, 2024");
+$formatter->setPattern("yyyy-MM-dd");
+$formatter->getPattern();
+$formatter->getLocale();
+$formatter->getCalendar();
+$formatter->setTimeZone("UTC");
+$formatter->getTimeZone();
+IntlCalendar::createInstance("UTC", "en_US");
+$calendar->setTime($timestamp);
+$calendar->getTime();
+$calendar->set($year, $month, $day);
+$calendar->get($field);
+$calendar->add($field, $amount);
+$calendar->roll($field, $amount);
+$calendar->isSet($field);
+$calendar->clear($field);
+$calendar->isWeekend($date);
+$calendar->getFirstDayOfWeek();
+$calendar->setFirstDayOfWeek($day);
+$calendar->getMinimalDaysInFirstWeek();
+$calendar->setMinimalDaysInFirstWeek($days);
+$calendar->getTimeZone();
+$calendar->setTimeZone($timezone);
+IntlTimeZone::createTimeZone("America/New_York");
+$timezone->getID();
+$timezone->getDisplayName();
+$timezone->getRawOffset();
+$timezone->useDaylightTime();
+$timezone->getDSTSavings();
+IntlGregorianCalendar::__construct($timezone, $locale);
+$calendar->isLeapYear($year);
+$calendar->setGregorianChange($change);
+$calendar->getGregorianChange();
+ResourceBundle::create("en_US", "ICUDATA", false);
+$bundle->get("key");
+$bundle->count();
+$bundle->getErrorCode();
+$bundle->getErrorMessage();
+ResourceBundle::getLocales("");
+Transliterator::create("Any-Latin; Latin-ASCII");
+$transliterator->transliterate("café");
+$transliterator->getErrorCode();
+$transliterator->getErrorMessage();
+Transliterator::createFromRules(":: NFD; :: [:Nonspacing Mark:] Remove; :: NFC;");
+$transliterator->createInverse();
+Spoofchecker::__construct();
+$checker->isSuspicious("string", $reason);
+$checker->areConfusable("string1", "string2");
+$checker->setAllowedLocales("en,fr,de");
+$checker->setChecks(Spoofchecker::SINGLE_SCRIPT);
+Normalizer::normalize("café", Normalizer::FORM_C);
+Normalizer::isNormalized("café", Normalizer::FORM_C);
+UConverter::__construct("UTF-8", "ISO-8859-1");
+$converter->convert("string");
+$converter->getSourceEncoding();
+$converter->getDestinationEncoding();
+$converter->getSourceType();
+$converter->getDestinationType();
+$converter->getSubstChars();
+$converter->setSubstChars("?");
+$converter->getErrorCode();
+$converter->getErrorMessage();
+Collator::__construct("en_US");
+$collator->compare("string1", "string2");
+$collator->sort($array);
+$collator->asort($array);
+$collator->getAttribute(Collator::STRENGTH);
+$collator->setAttribute(Collator::STRENGTH, Collator::PRIMARY);
+$collator->getLocale();
+$collator->getSortKey("string");
+$collator->getErrorCode();
+$collator->getErrorMessage();
+Gender\Gender::__construct();
+$gender->get("John", Gender::USA);
+$gender->country($country);
+Phar::__construct("archive.phar");
+$phar->addFile("file.txt", "internal/path.txt");
+$phar->addFromString("internal/path.txt", "file contents");
+$phar->buildFromDirectory("/path/to/dir");
+$phar->buildFromIterator($iterator);
+$phar->compressFiles(Phar::GZ);
+$phar->decompressFiles();
+$phar->extractTo("/extract/path");
+$phar->setStub($stub);
+$phar->getStub();
+$phar->getMetadata();
+$phar->setMetadata($metadata);
+$phar->hasMetadata();
+$phar->isWritable();
+$phar->isFileFormat(Phar::PHAR);
+$phar->convertToExecutable(Phar::PHAR);
+$phar->convertToData(Phar::TAR);
+$phar->copy("new.phar");
+$phar->count();
+$phar->getAlias();
+$phar->setAlias("newalias");
+$phar->getPath();
+$phar->getVersion();
+$phar->getSupportedSignatures();
+$phar->getSupportedCompression();
+$phar->canCompress(Phar::GZ);
+$phar->canWrite();
+$phar->isCompressed();
+$phar->isValidPharFilename("file.phar");
+$phar->interceptFileFuncs();
+$phar->loadPhar("archive.phar");
+$phar->mapPhar("alias.phar");
+$phar::running();
+$phar::running(false);
+$phar::mount("phar://alias/path", "/real/path");
+$phar::unlinkArchive("archive.phar");
+$phar::webPhar("alias", "web/index.php");
+ZipArchive::__construct();
+$zip->open("archive.zip", ZipArchive::CREATE);
+$zip->addFile("file.txt", "internal/path.txt");
+$zip->addFromString("internal/path.txt", "file contents");
+$zip->extractTo("/extract/path");
+$zip->getNameIndex(0);
+$zip->getFromIndex(0);
+$zip->getFromName("internal/path.txt");
+$zip->deleteIndex(0);
+$zip->deleteName("internal/path.txt");
+$zip->renameIndex(0, "new_name.txt");
+$zip->renameName("old_name.txt", "new_name.txt");
+$zip->setPassword("password");
+$zip->setEncryptionName("file.txt", ZipArchive::EM_AES_256);
+$zip->setEncryptionIndex(0, ZipArchive::EM_AES_256);
+$zip->close();
+$zip->getStatusString();
+$zip->getExternalAttributesIndex(0, $opsys, $attr);
+$zip->setExternalAttributesIndex(0, $opsys, $attr);
+$zip->getExternalAttributesName("file.txt", $opsys, $attr);
+$zip->setExternalAttributesName("file.txt", $opsys, $attr);
+$zip->setArchiveComment("comment");
+$zip->getArchiveComment();
+$zip->setCommentIndex(0, "comment");
+$zip->getCommentIndex(0);
+$zip->setCommentName("file.txt", "comment");
+$zip->getCommentName("file.txt");
+$zip->count();
+$zip->locateName("file.txt");
+$zip::setChunkSize(8192);
+$zip::clearError();
+$zip::getStatusString();
+DirectoryIterator::__construct("/path");
+$iterator->current();
+$iterator->key();
+$iterator->next();
+$iterator->rewind();
+$iterator->valid();
+$iterator->isDot();
+$iterator->isDir();
+$iterator->isFile();
+$iterator->isLink();
+$iterator->getPath();
+$iterator->getFilename();
+$iterator->getPathname();
+$iterator->getSize();
+$iterator->getType();
+$iterator->getMTime();
+$iterator->getCTime();
+$iterator->getATime();
+$iterator->getPerms();
+$iterator->getOwner();
+$iterator->getGroup();
+$iterator->getInode();
+$iterator->getExtension();
+$iterator->getBasename(".txt");
+RecursiveDirectoryIterator::__construct("/path", RecursiveDirectoryIterator::SKIP_DOTS);
+$iterator->getChildren();
+$iterator->hasChildren();
+$iterator->getSubPath();
+$iterator->getSubPathname();
+FilesystemIterator::__construct("/path", FilesystemIterator::KEY_AS_PATHNAME);
+$iterator->current();
+$iterator->key();
+$iterator->next();
+$iterator->rewind();
+$iterator->valid();
+$iterator->getFlags();
+$iterator->setFlags(FilesystemIterator::KEY_AS_FILENAME);
+GlobIterator::__construct("*.php");
+$iterator->count();
+$iterator->getPath();
+$iterator->getFilename();
+$iterator->getPathname();
+RegexIterator::__construct($iterator, "/\.php$/");
+$regex_iterator->getMode();
+$regex_iterator->setMode(RegexIterator::MATCH);
+$regex_iterator->getFlags();
+$regex_iterator->setFlags(RegexIterator::USE_KEY);
+$regex_iterator->getPregFlags();
+$regex_iterator->setPregFlags(PREG_OFFSET_CAPTURE);
+$regex_iterator->getRegex();
+RecursiveRegexIterator::__construct($iterator, "/\.php$/");
+$recursive_regex->getChildren();
+$recursive_regex->hasChildren();
+FilterIterator::__construct($iterator);
+$filter_iterator->accept();
+ParentIterator::__construct($iterator);
+$parent_iterator->accept();
+LimitIterator::__construct($iterator, 0, 10);
+$limit_iterator->seek(5);
+$limit_iterator->getPosition();
+NoRewindIterator::__construct($iterator);
+$no_rewind_iterator->current();
+$no_rewind_iterator->key();
+$no_rewind_iterator->next();
+$no_rewind_iterator->valid();
+InfiniteIterator::__construct($iterator);
+$infinite_iterator->next();
+AppendIterator::__construct();
+$append_iterator->append($iterator);
+$append_iterator->getArrayIterator();
+$append_iterator->getIteratorIndex();
+MultipleIterator::__construct(MultipleIterator::MIT_NEED_ANY);
+$multiple_iterator->attachIterator($iterator, "key");
+$multiple_iterator->detachIterator($iterator);
+$multiple_iterator->containsIterator($iterator);
+$multiple_iterator->countIterators();
+$multiple_iterator->getFlags();
+$multiple_iterator->setFlags(MultipleIterator::MIT_NEED_ALL);
+EmptyIterator::__construct();
+$empty_iterator->current();
+$empty_iterator->key();
+$empty_iterator->next();
+$empty_iterator->rewind();
+$empty_iterator->valid();
+ArrayIterator::__construct($array);
+$array_iterator->append("value");
+$array_iterator->asort();
+$array_iterator->ksort();
+$array_iterator->natsort();
+$array_iterator->natcasesort();
+$array_iterator->uasort($callback);
+$array_iterator->uksort($callback);
+$array_iterator->getArrayCopy();
+$array_iterator->count();
+$array_iterator->seek(5);
+$array_iterator->serialize();
+$array_iterator->unserialize($data);
+RecursiveArrayIterator::__construct($array);
+$recursive_array->hasChildren();
+$recursive_array->getChildren();
+CachingIterator::__construct($iterator, CachingIterator::FULL_CACHE);
+$caching_iterator->getCache();
+$caching_iterator->count();
+$caching_iterator->getFlags();
+$caching_iterator->setFlags(CachingIterator::TOSTRING_USE_KEY);
+$caching_iterator->__toString();
+RecursiveCachingIterator::__construct($iterator, CachingIterator::FULL_CACHE);
+$recursive_caching->hasChildren();
+$recursive_caching->getChildren();
+CallbackFilterIterator::__construct($iterator, function($current, $key, $iterator) { return true; });
+RecursiveCallbackFilterIterator::__construct($iterator, function($current, $key, $iterator) { return true; });
+$recursive_callback->hasChildren();
+$recursive_callback->getChildren();
+SplFileInfo::__construct("file.txt");
+$file_info->getPathname();
+$file_info->getFilename();
+$file_info->getExtension();
+$file_info->getBasename(".txt");
+$file_info->getPath();
+$file_info->getRealPath();
+$file_info->getSize();
+$file_info->getType();
+$file_info->getMTime();
+$file_info->getCTime();
+$file_info->getATime();
+$file_info->getPerms();
+$file_info->getOwner();
+$file_info->getGroup();
+$file_info->getInode();
+$file_info->isDir();
+$file_info->isFile();
+$file_info->isLink();
+$file_info->isReadable();
+$file_info->isWritable();
+$file_info->isExecutable();
+$file_info->openFile("r");
+$file_info->getFileInfo();
+$file_info->getPathInfo();
+SplFileObject::__construct("file.txt", "r");
+$file_object->fgets();
+$file_object->fgetcsv();
+$file_object->fputcsv($fields);
+$file_object->fread(1024);
+$file_object->fwrite("data");
+$file_object->fflush();
+$file_object->ftell();
+$file_object->fseek(0);
+$file_object->rewind();
+$file_object->eof();
+$file_object->valid();
+$file_object->key();
+$file_object->current();
+$file_object->next();
+$file_object->setFlags(SplFileObject::READ_CSV);
+$file_object->getFlags();
+$file_object->setMaxLineLen(1024);
+$file_object->getMaxLineLen();
+$file_object->hasChildren();
+$file_object->getChildren();
+$file_object->seek(5);
+$file_object->getCurrentLine();
+SplTempFileObject::__construct(1024 * 1024);
+$temp_file->fwrite("data");
+$temp_file->rewind();
+$temp_file->fread(1024);
+SplDoublyLinkedList::__construct();
+$list->push("value");
+$list->pop();
+$list->unshift("value");
+$list->shift();
+$list->top();
+$list->bottom();
+$list->add(2, "value");
+$list->getIteratorMode();
+$list->setIteratorMode(SplDoublyLinkedList::IT_MODE_FIFO);
+$list->count();
+$list->isEmpty();
+$list->valid();
+$list->current();
+$list->key();
+$list->next();
+$list->prev();
+$list->rewind();
+$list->offsetExists(2);
+$list->offsetGet(2);
+$list->offsetSet(2, "value");
+$list->offsetUnset(2);
+$list->serialize();
+$list->unserialize($data);
+SplQueue::__construct();
+$queue->enqueue("value");
+$queue->dequeue();
+SplStack::__construct();
+$stack->push("value");
+$stack->pop();
+SplHeap::__construct();
+$heap->insert("value");
+$heap->extract();
+$heap->top();
+$heap->count();
+$heap->isEmpty();
+$heap->valid();
+$heap->current();
+$heap->key();
+$heap->next();
+$heap->rewind();
+$heap->recoverFromCorruption();
+SplMinHeap::__construct();
+$min_heap->compare($a, $b);
+SplMaxHeap::__construct();
+$max_heap->compare($a, $b);
+SplPriorityQueue::__construct();
+$priority_queue->setExtractFlags(SplPriorityQueue::EXTR_DATA);
+$priority_queue->getExtractFlags();
+$priority_queue->compare($priority1, $priority2);
+SplFixedArray::__construct(10);
+$fixed_array->count();
+$fixed_array->getSize();
+$fixed_array->setSize(20);
+$fixed_array->offsetExists(5);
+$fixed_array->offsetGet(5);
+$fixed_array->offsetSet(5, "value");
+$fixed_array->offsetUnset(5);
+$fixed_array->toArray();
+$fixed_array::fromArray([1, 2, 3]);
+SplObjectStorage::__construct();
+$storage->attach($object, "data");
+$storage->detach($object);
+$storage->contains($object);
+$storage->getHash($object);
+$storage->offsetExists($object);
+$storage->offsetGet($object);
+$storage->offsetSet($object, "data");
+$storage->offsetUnset($object);
+$storage->count();
+$storage->rewind();
+$storage->valid();
+$storage->key();
+$storage->current();
+$storage->next();
+$storage->getInfo();
+$storage->setInfo("data");
+$storage->serialize();
+$storage->unserialize($data);
+$storage->addAll($other_storage);
+$storage->removeAll($other_storage);
+$storage->removeAllExcept($other_storage);
+ArrayObject::__construct($array);
+$array_object->append("value");
+$array_object->asort();
+$array_object->ksort();
+$array_object->natsort();
+$array_object->natcasesort();
+$array_object->uasort($callback);
+$array_object->uksort($callback);
+$array_object->getArrayCopy();
+$array_object->count();
+$array_object->getFlags();
+$array_object->setFlags(ArrayObject::ARRAY_AS_PROPS);
+$array_object->getIterator();
+$array_object->getIteratorClass();
+$array_object->setIteratorClass("ArrayIterator");
+$array_object->exchangeArray($new_array);
+$array_object->offsetExists(5);
+$array_object->offsetGet(5);
+$array_object->offsetSet(5, "value");
+$array_object->offsetUnset(5);
+$array_object->serialize();
+$array_object->unserialize($data);
+main = putStrLn "Hello, World!"
+x = 10
+y = 20
+add a b = a + b
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
+fib 0 = 0
+fib 1 = 1
+fib n = fib (n - 1) + fib (n - 2)
+map f [] = []
+map f (x:xs) = f x : map f xs
+filter p [] = []
+filter p (x:xs) = if p x then x : filter p xs else filter p xs
+foldr f z [] = z
+foldr f z (x:xs) = f x (foldr f z xs)
+foldl f z [] = z
+foldl f z (x:xs) = foldl f (f z x) xs
+length [] = 0
+length (x:xs) = 1 + length xs
+reverse [] = []
+reverse (x:xs) = reverse xs ++ [x]
+(++) [] ys = ys
+(++) (x:xs) ys = x : xs ++ ys
+concat xss = foldr (++) [] xss
+head (x:xs) = x
+tail (x:xs) = xs
+last [x] = x
+last (x:xs) = last xs
+init [x] = []
+init (x:xs) = x : init xs
+null [] = True
+null (x:xs) = False
+elem e [] = False
+elem e (x:xs) = e == x || elem e xs
+notElem e xs = not (elem e xs)
+maximum [x] = x
+maximum (x:xs) = max x (maximum xs)
+minimum [x] = x
+minimum (x:xs) = min x (minimum xs)
+sum [] = 0
+sum (x:xs) = x + sum xs
+product [] = 1
+product (x:xs) = x * product xs
+and [] = True
+and (x:xs) = x && and xs
+or [] = False
+or (x:xs) = x || or xs
+any p = or . map p
+all p = and . map p
+take 0 xs = []
+take n (x:xs) = x : take (n-1) xs
+drop 0 xs = xs
+drop n (x:xs) = drop (n-1) xs
+splitAt n xs = (take n xs, drop n xs)
+takeWhile p [] = []
+takeWhile p (x:xs) = if p x then x : takeWhile p xs else []
+dropWhile p [] = []
+dropWhile p (x:xs) = if p x then dropWhile p xs else x:xs
+span p = (takeWhile p, dropWhile p)
+break p = span (not . p)
+lines "" = []
+unwords [] = ""
+unwords [w] = w
+unwords (w:ws) = w ++ ' ' : unwords ws
+zip [] ys = []
+zip xs [] = []
+zip (x:xs) (y:ys) = (x,y) : zip xs ys
+zipWith f [] ys = []
+zipWith f xs [] = []
+zipWith f (x:xs) (y:ys) = f x y : zipWith f xs ys
+unzip [] = ([], [])
+unzip ((x,y):xys) = (x:xs, y:ys) where (xs, ys) = unzip xys
+nub [] = []
+nub (x:xs) = x : nub (filter (/= x) xs)
+delete x [] = []
+delete x (y:ys) = if x == y then ys else y : delete x ys
+(\\\) = foldl (flip delete)
+union xs ys = xs ++ (ys \\\ xs)
+intersect xs ys = filter (`elem` ys) xs
+insert x [] = [x]
+insert x (y:ys) = if x <= y then x:y:ys else y : insert x ys
+isPrefixOf [] ys = True
+isPrefixOf (x:xs) (y:ys) = x == y && isPrefixOf xs ys
+isSuffixOf xs ys = isPrefixOf (reverse xs) (reverse ys)
+isInfixOf needle haystack = any (isPrefixOf needle) (tails haystack)
+tails [] = [[]]
+tails xs@(x:xs') = xs : tails xs'
+sort [] = []
+sort (x:xs) = insert x (sort xs)
+sortBy cmp [] = []
+sortBy cmp (x:xs) = insertBy cmp x (sortBy cmp xs)
+insertBy cmp x [] = [x]
+insertBy cmp x (y:ys) = case cmp x y of GT -> y : insertBy cmp x ys; _ -> x:y:ys
+group [] = []
+group (x:xs) = (x:ys) : group zs where (ys, zs) = span (== x) xs
+inits [] = [[]]
+inits (x:xs) = [] : map (x:) (inits xs)
+permutations [] = [[]]
+subsequences [] = [[]]
+subsequences (x:xs) = subsequences xs ++ map (x:) (subsequences xs)
+iterate f x = x : iterate f (f x)
+repeat x = xs where xs = x:xs
+replicate n x = take n (repeat x)
+cycle [] = error "empty list"
+cycle xs = xs' where xs' = xs ++ xs'
+until p f x = if p x then x else until p f (f x)
+fst (x,y) = x
+snd (x,y) = y
+curry f x y = f (x,y)
+uncurry f (x,y) = f x y
+flip f x y = f y x
+(.) f g x = f (g x)
+id x = x
+const x y = x
+($) f x = f x
+(&) x f = f x
+(<$>) = fmap
+(<*>) f x = f <*> x
+pure x = [x]
+(>>=) m f = concatMap f m
+return x = [x]
+fmap f [] = []
+fmap f (x:xs) = f x : fmap f xs
+join = concat
+liftM f m = m >>= \x -> return (f x)
+ap fs xs = fs <*> xs
+sequence [] = return []
+sequence (m:ms) = do x <- m; xs <- sequence ms; return (x:xs)
+sequence_ [] = return ()
+sequence_ (m:ms) = m >> sequence_ ms
+mapM f = sequence . map f
+mapM_ f = sequence_ . map f
+forever m = m >> forever m
+when p m = if p then m else return ()
+unless p m = when (not p) m
+guard True = return ()
+guard False = mzero
+mzero `mplus` m = m
+m `mplus` mzero = m
+m1 `mplus` m2 = m1 ++ m2
+mzero = []
+data [] a = [] | a : [a]
+get :: State s s
+get = State $ \s -> (s, s)
+put :: s -> State s ()
+put s = State $ \_ -> ((), s)
+modify :: (s -> s) -> State s ()
+modify f = State $ \s -> ((), f s)
+gets :: (s -> a) -> State s a
+gets f = State $ \s -> (f s, s)
+evalState :: State s a -> s -> a
+evalState m s = fst (runState m s)
+execState :: State s a -> s -> s
+execState m s = snd (runState m s)
+data Reader r a = Reader { runReader :: r -> a }
+instance Functor (Reader r) where fmap f (Reader g) = Reader (f . g)
+instance Applicative (Reader r) where pure x = Reader $ \_ -> x; Reader f <*> Reader g = Reader $ \r -> f r (g r)
+instance Monad (Reader r) where return = pure; Reader f >>= k = Reader $ \r -> runReader (k (f r)) r
+ask :: Reader r r
+ask = Reader id
+local :: (r -> r) -> Reader r a -> Reader r a
+local f (Reader g) = Reader (g . f)
+asks :: (r -> a) -> Reader r a
+asks f = Reader f
+data Writer w a = Writer { runWriter :: (a, w) }
+tell :: w -> Writer w ()
+tell w = Writer ((), w)
+listen :: Writer w a -> Writer w (a, w)
+listen (Writer (a, w)) = Writer ((a, w), w)
+pass :: Writer w (a, w -> w) -> Writer w a
+pass (Writer ((a, f), w)) = Writer (a, f w)
+censor :: (w -> w) -> Writer w a -> Writer w a
+censor f (Writer (a, w)) = Writer (a, f w)
+liftIO :: IO a -> RWST r w s IO a
+liftIO io = RWST $ \_ s -> do a <- io; return (a, s, mempty)
+type IO a = RealWorld -> (a, RealWorld)
+putChar :: Char -> IO ()
+putChar c = \world -> ((), putCharWorld c world)
+getChar :: IO Char
+getChar = \world -> let (c, world') = getCharWorld world in (c, world')
+putStr :: String -> IO ()
+putStr = mapM_ putChar
+putStrLn :: String -> IO ()
+putStrLn s = putStr s >> putChar '\n'
+getLine :: IO String
+getLine = do c <- getChar; if c == '\n' then return "" else do cs <- getLine; return (c:cs)
+readFile :: FilePath -> IO String
+readFile name = \world -> readFileWorld name world
+writeFile :: FilePath -> String -> IO ()
+writeFile name s = \world -> writeFileWorld name s world
+appendFile :: FilePath -> String -> IO ()
+appendFile name s = \world -> appendFileWorld name s world
+interact :: (String -> String) -> IO ()
+interact f = do s <- getContents; putStr (f s)
+getContents :: IO String
+getContents = \world -> getContentsWorld world
+readIO :: Read a => String -> IO a
+readIO s = case reads s of [(x, "")] -> return x; _ -> fail "readIO: no parse"
+readLn :: Read a => IO a
+readLn = do s <- getLine; readIO s
+print :: Show a => a -> IO ()
+print = putStrLn . show
+hPutChar :: Handle -> Char -> IO ()
+hPutChar h c = \world -> hPutCharWorld h c world
+hGetChar :: Handle -> IO Char
+hGetChar h = \world -> hGetCharWorld h world
+hPutStr :: Handle -> String -> IO ()
+hPutStr h = mapM_ (hPutChar h)
+hGetLine :: Handle -> IO String
+hGetLine h = do c <- hGetChar h; if c == '\n' then return "" else do cs <- hGetLine h; return (c:cs)
+hGetContents :: Handle -> IO String
+hGetContents h = \world -> hGetContentsWorld h world
+openFile :: FilePath -> IOMode -> IO Handle
+openFile name mode = \world -> openFileWorld name mode world
+hClose :: Handle -> IO ()
+hClose h = \world -> hCloseWorld h world
+stdin :: Handle
+stdin = stdinHandle
+stdout :: Handle
+stdout = stdoutHandle
+stderr :: Handle
+stderr = stderrHandle
+withFile :: FilePath -> IOMode -> (Handle -> IO r) -> IO r
+withFile name mode f = do h <- openFile name mode; result <- f h `finally` hClose h; return result
+bracket :: IO a -> (a -> IO b) -> (a -> IO c) -> IO c
+bracket acquire release use = do a <- acquire; result <- use a `onException` release a; release a; return result
+finally :: IO a -> IO b -> IO a
+finally io cleanup = do a <- io `onException` cleanup; cleanup; return a
+catch :: IO a -> (IOError -> IO a) -> IO a
+catch io handler = \world -> case io world of (a, world') -> (a, world'); (exception, world') -> handler exception world'
+throwIO :: IOError -> IO a
+throwIO e = \world -> (throw e, world)
+ioError :: IOError -> IO a
+ioError = throwIO
+userError :: String -> IOError
+userError = ErrorCall
+isEOF :: IO Bool
+isEOF = \world -> isEOFWorld world
+data IOMode = ReadMode | WriteMode | AppendMode | ReadWriteMode
+data Handle = Handle HandleWorld
+type FilePath = String
+data IOError = IOError String
+class Show a where show :: a -> String
+class Read a where readsPrec :: Int -> ReadS a
+type ReadS a = String -> [(a, String)]
+reads :: Read a => ReadS a
+reads = readsPrec 0
+read :: Read a => String -> a
+read s = case reads s of [(x, "")] -> x; _ -> error "read: no parse"
+class Eq a where (==) :: a -> a -> Bool
+class Eq a => Ord a where compare :: a -> a -> Ordering
+data Ordering = LT | EQ | GT
+(<) :: Ord a => a -> a -> Bool
+x < y = case compare x y of LT -> True; _ -> False
+(<=) :: Ord a => a -> a -> Bool
+x <= y = case compare x y of GT -> False; _ -> True
+(>) :: Ord a => a -> a -> Bool
+x > y = case compare x y of GT -> True; _ -> False
+(>=) :: Ord a => a -> a -> Bool
+x >= y = case compare x y of LT -> False; _ -> True
+max :: Ord a => a -> a -> a
+max x y = if x <= y then y else x
+min :: Ord a => a -> a -> a
+min x y = if x <= y then x else y
+data Maybe a = Nothing | Just a
+data Either a b = Left a | Right b
+data [] a = [] | a : [a]
+data () = () -- unit type
+data (a,b) = (a,b) -- pairs
+data (a,b,c) = (a,b,c) -- triples
+type String = [Char]
+type FilePath = String
+type IO a = RealWorld -> (a, RealWorld)
+type ReadS a = String -> [(a, String)]
+type ShowS = String -> String
+type Word = ... -- unsigned integers
+type Word8 = ... -- 8-bit unsigned
+type Word16 = ... -- 16-bit unsigned
+type Word32 = ... -- 32-bit unsigned
+type Word64 = ... -- 64-bit unsigned
+type Int8 = ... -- 8-bit signed
+type Int16 = ... -- 16-bit signed
+type Int32 = ... -- 32-bit signed
+type Int64 = ... -- 64-bit signed
+type ByteString = ... -- efficient byte strings
+type Text = ... -- efficient Unicode text
+newtype Identity a = Identity { runIdentity :: a }
+newtype Const a b = Const { getConst :: a }
+newtype Reader r a = Reader { runReader :: r -> a }
+newtype Writer w a = Writer { runWriter :: (a, w) }
+newtype State s a = State { runState :: s -> (a, s) }
+newtype Cont r a = Cont { runCont :: (a -> r) -> r }
+data Tree a = Leaf a | Node (Tree a) (Tree a)
+data Maybe a = Nothing | Just a
+data Either a b = Left a | Right b
+data List a = Nil | Cons a (List a)
+data Nat = Zero | Succ Nat
+data Expr = Lit Int | Add Expr Expr | Mul Expr Expr
+data BinTree a = Empty | Node a (BinTree a) (BinTree a)
+data RoseTree a = Node a [RoseTree a]
+data Graph a = Graph [a] (a -> [a])
+data Seq a = Empty | a :< (Seq a) | Seq a :> a
+data Map k v = Tip | Bin k v (Map k v) (Map k v)
+data Set a = Tip | Bin a (Set a) (Set a)
+data Heap a = Empty | Node a (Heap a) (Heap a)
+data Queue a = Queue [a] [a]
+data Stack a = Stack [a]
+data DList a = DL ([a] -> [a])
+data FingerTree a = Empty | Single a | Deep (Digit a) (FingerTree (Node a)) (Digit a)
+data Digit a = One a | Two a a | Three a a a | Four a a a a
+data Node a = Node2 a a | Node3 a a a
+data Zipper a = Zipper [a] a [a]
+data Cofree f a = a :< f (Cofree f a)
+data Free f a = Pure a | Free (f (Free f a))
+data Fix f = Fix (f (Fix f))
+data Void
+data Proxy a = Proxy
+data Tagged s b = Tagged b
+data Const a b = Const a
+data Product f g a = Product (f a) (g a)
+data Sum f g a = InL (f a) | InR (g a)
+data Compose f g a = Compose (f (g a))
+newtype Kleisli m a b = Kleisli { runKleisli :: a -> m b }
+newtype Coyoneda f a = Coyoneda (forall b. (a -> b) -> f b)
+newtype Yoneda f a = Yoneda (forall b. (a -> b) -> f b)
+data Lan g h a = Lan (g b -> a) (h b)
+data Ran g h a = Ran (forall b. (a -> g b) -> h b)
+class Category cat where id :: cat a a; (.) :: cat b c -> cat a b -> cat a c
+class Arrow cat => ArrowLoop cat where loop :: cat (b, d) (c, d) -> cat b c
+class Arrow cat => ArrowApply cat where app :: cat (cat b c, b) c
+newtype ArrowMonad a b = ArrowMonad (a () b)
+class MonadTrans t where lift :: Monad m => m a -> t m a
+class Monad m => MonadIO m where liftIO :: IO a -> m a
+class Monad m => MonadFail m where fail :: String -> m a
+type family Element c :: *
+type family Index c :: *
+class IsString a where fromString :: String -> a
+class Generic a where type Rep a :: * -> *; from :: a -> Rep a x; to :: Rep a x -> a
+class Typeable a where typeOf :: a -> TypeRep
