@@ -174,6 +174,19 @@ void tpv_handle_input(TpvApp* app) {
 
         if (sv_eql(input, SV("/quit")) || sv_eql(input, SV("/exit"))) {
             app->running = false;
+            tpv_free_line(&line);
+            return;
+        }
+        if (sv_eql(input, SV("/stats"))) {
+            puts(BOLD "Stats:" RESET);
+            tpv_show_stats(app, "    ");
+            tpv_free_line(&line);
+            continue;
+        }
+        if (sv_starts_with(input, SV("/"))) {
+            printf(BOLD RED "Unknown command '%.*s'\n" RESET, (int) input.len, input.data);
+            tpv_free_line(&line);
+            continue;
         }
 
         app->entered_words_count++;
