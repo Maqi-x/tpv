@@ -13,6 +13,8 @@ typedef struct TpvLine {
     TimeSpanSec typing_time_per_char;
 } TpvLine;
 
+#define TPV_LINE_NULL ((TpvLine) { 0 })
+
 TpvLine tpv_read_line(const char* prompt, StringView expected_input);
 void tpv_free_line(TpvLine* line);
 

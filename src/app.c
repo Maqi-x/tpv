@@ -51,13 +51,18 @@ TpvLine tpv_read_line(const char* prompt, StringView expected_input) {
         char c;
         while ((c = getchar()) != '\n') {
             if (line.input_len == line.input_cap) {
-                char* old_buf = line.input_buf;
-
-                line.input_cap = line.input_cap == 0 ? LINE_INPUT_BUF_INITIAL_CAPACITY : line.input_cap * 2;
-                line.input_buf = malloc(line.input_cap);
-                if (line.input_buf == NULL) return line;
-
-                memcpy(line.input_buf, old_buf, line.input_len * sizeof(char));
+                size_t new_cap = line.input_cap == 0
+                    ? LINE_INPUT_BUF_INITIAL_CAPACITY
+                    : line.input_cap * 2;
+            
+                char* new_buf = realloc(line.input_buf, new_cap);
+                if (!new_buf) {
+                    free(line.input_buf);
+                    return TPV_LINE_NULL;
+                }
+            
+                line.input_buf = new_buf;
+                line.input_cap = new_cap;
             }
             line.input_buf[line.input_len++] = c;
         }
@@ -66,6 +71,10 @@ TpvLine tpv_read_line(const char* prompt, StringView expected_input) {
     line.typing_time = end - start;
     line.typing_time_per_char = line.typing_time / line.input_len;
     return line;
+}
+
+void tpv_free_line(TpvLine* line) {
+    free(line->input_buf);
 }
 
 void tpv_show_welcome(TpvApp* _app) {
@@ -104,15 +113,15 @@ void tpv_show_stats(TpvApp* app, const char* indent) {
         ? (float) app->correct_count / (app->correct_count + app->incorrect_count) * 100.0
         : 0.0f;
 
-    const char* ratio_precent_color =
-            correct_to_incorect_answers_ratio > 0.5
-            ? GREEN
-            : RED;
+    const char* ratio_percent_color =
+        correct_to_incorect_answers_ratio > 50.0
+        ? GREEN
+        : RED;
 
     printf("%sAverage typing time:                " BOLD "%.1lf seconds" RESET "\n", indent, avg_typing_time);
     printf("%sAverage typing time per character:  " BOLD "%.1lf seconds" RESET "\n", indent, avg_typing_time_per_char);
     printf("%sCorrect to incorrect answers ratio: " BOLD GREEN "%zu" RESET BOLD "/" RESET BOLD RED "%zu" RESET BOLD " (" "%s%.0f%%" RESET ")" "\n",
-                indent, app->correct_count, app->incorrect_count, ratio_precent_color, correct_to_incorect_answers_ratio);
+                indent, app->correct_count, app->incorrect_count, ratio_percent_color, correct_to_incorect_answers_ratio);
 }
 
 bool tpv_input_eql(StringView input, StringView expected, bool ignore_case, bool ignore_punctuations) {
@@ -190,6 +199,8 @@ void tpv_handle_input(TpvApp* app) {
             printf(BOLD GREEN "%s" RESET " Typing time: %.2f\n", tpv_get_random_praise(), line.typing_time);
         }
 
+        tpv_free_line(&line);
+
         if (is_correct) {
             app->correct_count++;
             break;
@@ -200,8 +211,6 @@ void tpv_handle_input(TpvApp* app) {
                 break;
             }
         }
-
-        tpv_free_line(&line);
     }
 }
 
