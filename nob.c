@@ -18,8 +18,11 @@ typedef enum BuildMode {
 } BuildMode;
 
 typedef struct BuildCmdOptions BuildCmdOptions;
+typedef struct RebuildCmdOptions RebuildCmdOptions;
 typedef struct RunCmdOptions RunCmdOptions;
 typedef struct CleanCmdOptions CleanCmdOptions;
+typedef struct RebuildRunCmdOptions RebuildRunCmdOptions;
+typedef struct InstallCmdOptions InstallCmdOptions;
 
 typedef union CmdOptions {
     struct BuildCmdOptions {
@@ -30,11 +33,22 @@ typedef union CmdOptions {
         // const char* additional_compile_flags;
         // const char* additional_link_flags;
     } build;
+    struct CleanCmdOptions {} clean;
+    struct RebuildCmdOptions {
+        BuildCmdOptions build_options;
+        CleanCmdOptions clean_options;
+    } rebuild;
     struct RunCmdOptions {
         BuildCmdOptions build_options;
         const char* run_flags;
     } run;
-    struct CleanCmdOptions {} clean;
+    struct RebuildRunCmdOptions {
+        RebuildCmdOptions rebuild_options;
+        RunCmdOptions run_options;
+    } rebuild_run;
+    struct InstallCmdOptions {
+        BuildCmdOptions build_options;
+    } install;
 } CmdOptions;
 
 // helper
@@ -288,6 +302,13 @@ int clean(CleanCmdOptions* opts) {
     return 0;
 }
 
+int rebuild(RebuildCmdOptions* opts) {
+    CleanCmdOptions clean_options = {};
+    CHECK(clean(&clean_options));
+
+    return build(&opts->build_options);
+}
+
 int run(RunCmdOptions* opts) {
     CHECK(build(&opts->build_options));
 
@@ -295,6 +316,27 @@ int run(RunCmdOptions* opts) {
     nob_cmd_append(&run, get_output_bin_name(&opts->build_options));
     if (!nob_cmd_run(&run, .async = false)) {
         nob_log(NOB_ERROR, "Failed to run %s", get_output_bin_name(&opts->build_options));
+        return 1;
+    }
+
+    return 0;
+}
+
+int rebuild_run(RebuildRunCmdOptions* opts) {
+    CHECK(rebuild(&opts->rebuild_options));
+    return run(&opts->run_options);
+}
+
+int install(InstallCmdOptions* opts) {
+    CHECK(build(&opts->build_options));
+
+    Nob_Cmd cp = {0};
+    nob_cmd_append(&cp, "cp");
+    nob_cmd_append(&cp, get_output_bin_name(&opts->build_options));
+    nob_cmd_append(&cp, "/usr/bin/tpv");
+
+    if (!nob_cmd_run(&cp, .async = false)) {
+        nob_log(NOB_ERROR, "Failed to install %s", get_output_bin_name(&opts->build_options));
         return 1;
     }
 
@@ -330,7 +372,8 @@ bool implies_build_command(const char* command) {
         strcmp(command, "build")       == 0
      || strcmp(command, "rebuild")     == 0
      || strcmp(command, "run")         == 0
-     || strcmp(command, "rebuild-run") == 0;
+     || strcmp(command, "rebuild-run") == 0
+     || strcmp(command, "install")     == 0;
 }
 
 int main(int argc, char** argv) {
@@ -349,7 +392,8 @@ int main(int argc, char** argv) {
                 || strcmp(opt, "rebuild")     == 0
                 || strcmp(opt, "clean")       == 0
                 || strcmp(opt, "run")         == 0
-                || strcmp(opt, "rebuild-run") == 0;
+                || strcmp(opt, "rebuild-run") == 0
+                || strcmp(opt, "install")     == 0;
 
             if (command != NULL) {
                 nob_log(NOB_ERROR, "Unexpected argument: %s", opt);
@@ -404,10 +448,16 @@ int main(int argc, char** argv) {
 
     if (strcmp(command, "build") == 0) {
         return build(&cmd_options.build);
+    } else if (strcmp(command, "rebuild") == 0) {
+        return rebuild(&cmd_options.rebuild);
     } else if (strcmp(command, "run") == 0) {
         return run(&cmd_options.run);
+    } else if (strcmp(command, "rebuild-run") == 0) {
+        return rebuild_run(&cmd_options.rebuild_run);
     } else if (strcmp(command, "clean") == 0) {
         return clean(&cmd_options.clean);
+    } else if (strcmp(command, "install") == 0) {
+        return install(&cmd_options.install);
     } else {
         nob_log(NOB_ERROR, "Unknown command: %s.", command);
         return 1;
