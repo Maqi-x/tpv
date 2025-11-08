@@ -64,7 +64,7 @@ tpv @unknown
 
 ### Quick install
 ```sh
-# TODO
+curl -sSL https://github.com/Maqi-x/tpv/raw/refs/heads/main/quick-install.sh | bash
 ```
 
 ### Build from Source
